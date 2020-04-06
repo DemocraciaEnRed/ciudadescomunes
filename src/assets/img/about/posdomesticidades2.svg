@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xml:space="preserve"
+   enable-background="new 0 0 102.795 102.795"
+   viewBox="0 0 102.795 102.795"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata23"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs21" />
+<g
+   id="g16">
+	<defs
+   id="defs3">
+		<rect
+   height="102.795"
+   width="102.795"
+   y="0"
+   x="0"
+   id="SVGID_1_" />
+	</defs>
+	<clipPath
+   id="SVGID_2_">
+		<use
+   height="100%"
+   width="100%"
+   y="0"
+   x="0"
+   style="overflow:visible"
+   id="use5"
+   overflow="visible"
+   xlink:href="#SVGID_1_" />
+	</clipPath>
+	<g
+   id="g14"
+   clip-path="url(#SVGID_2_)">
+		<path
+   id="circle8"
+   d="M 97.892578 0 A 102.795 102.795 0 0 0 0 102.62109 A 102.795 102.795 0 0 0 0.005859375 102.79492 L 102.79492 102.79492 L 102.79492 0 L 97.892578 0 z "
+   style="fill:#f26522" />
+		<path
+   id="path10"
+   d="M 102.79492 34.091797 C 65.007922 34.091797 34.265625 64.833094 34.265625 102.62109 C 34.265625 102.67938 34.269385 102.73667 34.269531 102.79492 L 102.79492 102.79492 L 102.79492 34.091797 z "
+   style="fill:#f7adcb" />
+		<path
+   id="path12"
+   d="M 102.79492 68.357422 C 83.900922 68.357422 68.529297 83.727094 68.529297 102.62109 C 68.529297 102.67935 68.532911 102.73674 68.533203 102.79492 L 102.79492 102.79492 L 102.79492 68.357422 z "
+   style="fill:#6e559e" />
+	</g>
+</g>
+</svg>

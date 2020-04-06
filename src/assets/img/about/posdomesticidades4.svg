@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 102.795 102.795"
+   enable-background="new 0 0 102.795 102.795"
+   xml:space="preserve"
+   sodipodi:docname="posdomesticidades.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata23"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs21" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1052"
+   id="namedview19"
+   showgrid="false"
+   inkscape:zoom="2.2958316"
+   inkscape:cx="51.397499"
+   inkscape:cy="-23.997673"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g16">
+	<defs
+   id="defs3">
+		<rect
+   id="SVGID_1_"
+   x="0"
+   y="0"
+   width="102.795"
+   height="102.795" />
+	</defs>
+	<clipPath
+   id="SVGID_2_">
+		<use
+   xlink:href="#SVGID_1_"
+   overflow="visible"
+   id="use5"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+	</clipPath>
+	<g
+   clip-path="url(#SVGID_2_)"
+   id="g14">
+		<path
+   style="fill:#f26522"
+   d="M 97.892578 0 A 102.795 102.795 0 0 0 0 102.62109 A 102.795 102.795 0 0 0 0.005859375 102.79492 L 102.79492 102.79492 L 102.79492 0 L 97.892578 0 z "
+   id="circle8" />
+		<path
+   style="fill:#f7adcb"
+   d="M 102.79492 34.091797 C 65.007922 34.091797 34.265625 64.833094 34.265625 102.62109 C 34.265625 102.67938 34.269385 102.73667 34.269531 102.79492 L 102.79492 102.79492 L 102.79492 34.091797 z "
+   id="path10" />
+		<path
+   style="fill:#6e559e"
+   d="M 102.79492 68.357422 C 83.900922 68.357422 68.529297 83.727094 68.529297 102.62109 C 68.529297 102.67935 68.532911 102.73674 68.533203 102.79492 L 102.79492 102.79492 L 102.79492 68.357422 z "
+   id="path12" />
+	</g>
+</g>
+</svg>

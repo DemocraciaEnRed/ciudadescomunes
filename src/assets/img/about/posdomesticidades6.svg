@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 102.8 102.8" version="1.1" viewBox="0 0 102.8 102.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><metadata><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title/></cc:Work></rdf:RDF></metadata>
+
+	<defs>
+		<rect id="SVGID_1_" x="0" y="0" width="102.8" height="102.8"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use overflow="visible" xlink:href="#SVGID_1_"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<path d="m97.893 0a102.8 102.8 0 0 0-97.893 102.62 102.8 102.8 0 0 0 0.0058594 0.17383h102.79v-102.79h-4.9023z" fill="#f26522"/>
+		<path d="m102.79 34.092c-37.787 0-68.529 30.741-68.529 68.529 0 0.05829 0.00376 0.11558 0.003906 0.17383h68.525v-68.703z" fill="#f7adcb"/>
+		<path d="m102.79 68.357c-18.894 0-34.266 15.37-34.266 34.264 0 0.05826 0.003614 0.11565 0.003906 0.17383h34.262v-34.437z" fill="#6e559e"/>
+	</g>
+
+</svg>
