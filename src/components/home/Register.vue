@@ -14,7 +14,7 @@
             <div class="content is-large">
               <p><a href="https://twitter.com/ciudadescomunes" class="has-text-black"><i class="fab fa-twitter"></i> @ciudadescomunes</a></p>
               <p><a href="https://facebook.com/ciudadescomunes" class="has-text-black"><i class="fab fa-facebook"></i> @ciudadescomunes</a></p>
-              <p><a href="https://instagram.com/ciudade.scomunes" class="has-text-black"><i class="fab fa-instagram"></i> @ciudades.comunes</a></p>
+              <p><a href="https://instagram.com/ciudades.comunes" class="has-text-black"><i class="fab fa-instagram"></i> @ciudades.comunes</a></p>
             </div>
           </div>
         </div>
