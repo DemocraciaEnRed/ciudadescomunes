@@ -1,6 +1,6 @@
 {
   "name": "ciudades-comunes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,6 +12,7 @@
     "buefy": "^0.8.15",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
+    "vue-gtag": "^1.6.2",
     "vue-router": "^3.1.5",
     "vue-screen-size": "^1.0.1",
     "vue-svg-loader": "^0.16.0",
