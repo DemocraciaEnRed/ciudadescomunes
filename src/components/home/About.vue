@@ -21,7 +21,7 @@
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <HabitadJusticiaSocialSVG class="the-icon" />
-            <h2 class="title is-4 has-text-black">Hábitad y justicia social</h2>
+            <h2 class="title is-4 has-text-black">Hábitat y justicia social</h2>
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <img src="@/assets/img/about/posdomesticidades.png" class="image is-centered the-icon" alt="">
