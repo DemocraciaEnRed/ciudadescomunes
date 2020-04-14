@@ -23,13 +23,13 @@
                 Inscribite
             </b-navbar-item>
             <b-navbar-item href="https://facebook.com/ciudadescomunes" target="_blank">
-                <i class="fab fa-facebook fa-lg"></i>
+                <i class="fab fa-facebook fa-lg"></i><span class="is-hidden-desktop">&nbsp;Facebook</span>
             </b-navbar-item>
             <b-navbar-item href="https://instagram.com/ciudades.comunes" target="_blank">
-                <i class="fab fa-instagram fa-lg"></i>
+                <i class="fab fa-instagram fa-lg"></i><span class="is-hidden-desktop">&nbsp;Instagram</span>
             </b-navbar-item>
             <b-navbar-item href="https://twitter.com/ciudadescomunes" target="_blank">
-                <i class="fab fa-twitter fa-lg"></i>
+                <i class="fab fa-twitter fa-lg"></i><span class="is-hidden-desktop">&nbsp;Twitter</span>
             </b-navbar-item>
         </template>
     </b-navbar>
