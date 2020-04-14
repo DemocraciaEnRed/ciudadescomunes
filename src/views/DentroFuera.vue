@@ -8,11 +8,11 @@
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/nosotros/Header.vue'
-import About from '@/components/nosotros/About.vue'
+import Header from '@/components/dentrofuera/Header.vue'
+import About from '@/components/dentrofuera/About.vue'
 
 export default {
-  name: 'Nosotros',
+  name: 'DentroFuera',
   components: {
     Header,
     About
