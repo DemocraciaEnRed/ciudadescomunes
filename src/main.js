@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import VueGtag from "vue-gtag";
+import Buefy from 'buefy';
 
 Vue.use(VueGtag, {
   config: { id: "UA-1234567-1" },
@@ -12,6 +13,16 @@ Vue.use(VueGtag, {
   },
   router
 );
+
+
+Vue.use(Buefy, {
+    defaultDialogConfirmText: 'OK',
+    defaultDialogCancelText: 'Cancelar',
+    defaultDayNames: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+    defaultMonthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+    defaultDateFormatter: date => date.toLocaleDateString('es-AR'),
+    defaultIconPack: 'fas',
+  });
 
 Vue.config.productionTip = false
 

@@ -1,0 +1,36 @@
+<template>
+   <b-navbar type="is-primary" fixed-top>
+        <template slot="brand">
+            <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
+                <img
+                    src="/navbar-icon.svg"
+                    alt="Ciudades comunes"
+                >
+            </b-navbar-item>
+        </template>
+
+        <template slot="end">
+            <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
+                Inicio
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ name: 'Nosotros' }">
+                Nosotros
+            </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ name: 'DentroFuera' }">
+                DentroFuera
+            </b-navbar-item>
+            <b-navbar-item href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank">
+                Inscribite
+            </b-navbar-item>
+            <b-navbar-item href="https://facebook.com/ciudadescomunes" target="_blank">
+                <i class="fab fa-facebook fa-lg"></i>
+            </b-navbar-item>
+            <b-navbar-item href="https://instagram.com/ciudades.comunes" target="_blank">
+                <i class="fab fa-instagram fa-lg"></i>
+            </b-navbar-item>
+            <b-navbar-item href="https://twitter.com/ciudadescomunes" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+            </b-navbar-item>
+        </template>
+    </b-navbar>
+</template> 

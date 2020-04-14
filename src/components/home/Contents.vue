@@ -19,7 +19,7 @@
         <CharlasRelampagoSVG class="the-icon"/>
         <h2 class="title is-4">Charlas<br>Relampagos</h2>
       </div>
-      <div class="column is-6-touch is-4-desktop has-text-centered">
+      <div class="column is-6-touch is-4-desktop has-text-centered"> 
         <EspacioComunDigitalSVG class="the-icon"/>
         <h2 class="title is-4">Espacio<br>común digital</h2>
       </div>

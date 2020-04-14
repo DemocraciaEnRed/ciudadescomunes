@@ -1,9 +1,14 @@
 <template>
   <div class="home">
     <intro />
+    <what-is />
     <contents />
+    <context />
+    <questions />
     <about />
+    <topic-mosaic/>
     <register />
+    <support />
   </div>
 </template>
 
@@ -13,6 +18,11 @@ import Intro from '@/components/home/Intro.vue'
 import Contents from '@/components/home/Contents.vue'
 import About from '@/components/home/About.vue'
 import Register from '@/components/home/Register.vue'
+import Questions from '@/components/home/Questions.vue'
+import Context from '@/components/home/Context.vue'
+import TopicMosaic from '@/components/home/TopicMosaic.vue'
+import WhatIs from '@/components/home/WhatIs.vue'
+import Support from '@/components/home/Support.vue'
 
 export default {
   name: 'Home',
@@ -20,7 +30,12 @@ export default {
     Intro,
     Contents,
     About,
-    Register
+    Register,
+    Questions,
+    Context,
+    TopicMosaic,
+    WhatIs,
+    Support
   }
 }
 </script>
