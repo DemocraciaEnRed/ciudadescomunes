@@ -2,8 +2,8 @@
   <div class="hero is-primary is-medium">
     <div class="hero-body">
     <div class="container">
-      <div class="columns">
-        <div class="column is-5">
+      <div class="columns is-variable is-1-mobile is-8-tablet">
+        <div class="column">
           <h1 class="title is-1 is-size-2-touch is-700">
             ¿que es?
           </h1>
@@ -16,7 +16,7 @@
 <b>¿qué estamos aprendiendo, qué preservaremos, que  deberíamos transformar?</b></p>
           </div>
         </div>
-        <div class="column is-offset-1 ">
+        <div class="column">
           <h1 class="title is-1 is-size-2-touch is-700">
             ciudades comunes
           </h1>

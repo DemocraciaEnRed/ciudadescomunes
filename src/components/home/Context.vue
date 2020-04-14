@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-1 is-size-2-touch is-700">contexto COVID-19</h1>
-        <div class="columns">
+        <div class="columns is-variable is-1-mobile is-8-tablet">
           <div class="column">
             <div class="content">
               <p>Un presente de aislamiento físico nos convoca aún más a estar unidos socialmente. Dentro del límite del confinamiento personal, el espacio digital se presenta como un lugar de encuentro ilimitado.</p>

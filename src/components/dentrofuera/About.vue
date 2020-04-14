@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="column is-offset-2 is-5">
-            <h1 class="title is-1 is-size-2-touch">¿como participar?</h1>
+            <h1 class="title is-1 is-size-2-touch">¿cómo participar?</h1>
             <div class="content">
 
             <p>Podés proponer contenidos culturales o podés sumarte como espectador. La convocatoria para inscribirse está abierta <b>hasta el 23 de abril</b></p>
@@ -48,7 +48,7 @@
             <img src="@/assets/img/dentrofuera/cc.svg.png" class="image is-centered logo" alt="">
           </div>
           <div class="column has-text-centered">
-            <p class="is-size-6">con el apoyo de </p>
+            <p class="is-size-6">apoyo difusión</p>
             <img src="@/assets/img/dentrofuera/ba.svg.png" class="image is-centered logo" alt="">
           </div>
           <div class="column has-text-centered">
