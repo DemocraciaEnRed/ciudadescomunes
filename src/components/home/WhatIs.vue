@@ -5,7 +5,7 @@
       <div class="columns is-variable is-1-mobile is-8-tablet">
         <div class="column">
           <h1 class="title is-1 is-size-2-touch is-700">
-            ¿que es?
+            ¿qué es?
           </h1>
           <div class="content">
             <p><b>Ciudades Comunes</b> es un encuentro online para repensar la co-construcción de la ciudad a partir de la actual crisis sanitaria global.</p>

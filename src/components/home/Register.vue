@@ -10,7 +10,7 @@
           <div class="column is-offset-1 has-text-centered-touch">
             <h1 class="title is-2 larger"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank"><u>inscribite</u></a></h1>
             <!-- <h1 class="title is-2 larger is-hidden-touch"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank"><u>inscribite</u></a></h1> -->
-            <h1 class="title is-2 larger has-text-black">Siguenos</h1>
+            <h1 class="title is-2 larger has-text-black">Seguinos</h1>
             <div class="content is-large">
               <p><a href="https://twitter.com/ciudadescomunes" class="has-text-black"><i class="fab fa-twitter"></i> @ciudadescomunes</a></p>
               <p><a href="https://facebook.com/ciudadescomunes" class="has-text-black"><i class="fab fa-facebook"></i> @ciudadescomunes</a></p>

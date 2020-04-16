@@ -6,9 +6,9 @@
       <div class="columns is-centered">
         <div class="column is-8">
 
-<h1 class="title is-1 is-size-2-touch is-700 is-marginless has-text-centered">¿qué estamos aprendiendo?</h1>
-<h1 class="title is-1 is-size-2-touch is-700 is-marginless has-text-centered">¿qué preservaremos?</h1>
-<h1 class="title is-1 is-size-2-touch is-700 is-marginless has-text-centered">¿qué deberíamos transformar?</h1>
+<h1 class="title is-1 is-size-2-tablet is-size-4-mobile is-700 is-marginless has-text-centered">¿qué estamos aprendiendo?</h1>
+<h1 class="title is-1 is-size-2-tablet is-size-4-mobile is-700 is-marginless has-text-centered">¿qué preservaremos?</h1>
+<h1 class="title is-1 is-size-2-tablet is-size-4-mobile is-700 is-marginless has-text-centered">¿qué deberíamos transformar?</h1>
 <br>
 <div class="content has-text-centered">
 

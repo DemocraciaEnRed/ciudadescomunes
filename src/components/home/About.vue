@@ -5,27 +5,27 @@
         <div class="columns is-multiline is-mobile">
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <CiudadInclusivaSVG class="the-icon" />
-            <h2 class="title is-4 has-text-black">Ciudad inclusiva</h2>
+            <h2 class="title is-4 is-size-6-mobile has-text-black">Ciudad inclusiva</h2>
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <GobiernoAbiertoSVG class="the-icon" />
-            <h2 class="title is-4 has-text-black">Gobierno abierto</h2>
+            <h2 class="title is-4 is-size-6-mobile has-text-black">Gobierno abierto</h2>
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <DesarrolloRegenerativoSVG class="the-icon" />
-            <h2 class="title is-4 has-text-black">Desarrollo Regenerativo</h2>
+            <h2 class="title is-4 is-size-6-mobile has-text-black">Desarrollo Regenerativo</h2>
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <LaboratoriosCivicosSVG class="the-icon" />
-            <h2 class="title is-4 has-text-black">Laboratorios cívicos</h2>
+            <h2 class="title is-4 is-size-6-mobile has-text-black">Laboratorios cívicos</h2>
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <HabitadJusticiaSocialSVG class="the-icon" />
-            <h2 class="title is-4 has-text-black">Hábitat y justicia social</h2>
+            <h2 class="title is-4 is-size-6-mobile has-text-black">Hábitat y justicia social</h2>
           </div>
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <img src="@/assets/img/about/posdomesticidades.png" class="image is-centered the-icon" alt="">
-            <h2 class="title is-4 has-text-black">Posdomesticidades</h2>
+            <h2 class="title is-4 is-size-6-mobile has-text-black">Posdomesticidades</h2>
           </div>
         </div>
       </div>
