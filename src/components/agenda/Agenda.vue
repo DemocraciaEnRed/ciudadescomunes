@@ -27,7 +27,7 @@
                     <img src="@/assets/img/agenda/g.png" class="small-icon" alt />GOBIERNO ABIERTO
                   </p>
                   <p class="reference is-size-7-mobile">
-                    <img src="@/assets/img/agenda/p.png" class="small-icon" alt />POSFOMESTICIDADES
+                    <img src="@/assets/img/agenda/p.png" class="small-icon" alt />POSDOMESTICIDADES
                   </p>
                   <p class="reference is-size-7-mobile">
                     <img src="@/assets/img/agenda/l.png" class="small-icon" alt />LABORATORIOS CÍVICOS

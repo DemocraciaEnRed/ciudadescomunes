@@ -550,7 +550,7 @@ export default [
     ]
   },
   {
-    title: 'sabado 25/4',
+    title: 'sábado 25/4',
     starts: zonedTimeToUtc('2020-04-25 09:00:00', 'America/Argentina/Buenos_Aires'),
     agenda: [
        {
