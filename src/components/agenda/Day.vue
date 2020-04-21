@@ -16,6 +16,7 @@
         <h2 class="type-text">{{event.type}}</h2>
         <div v-for="(subEvent,j) in event.schedule" class="subevent" :key="`event-${i}-schedule-${j}`">
           <p class="title-text" v-html="subEvent.title"></p>
+
           <p
             v-for="(who,k) in subEvent.with"
             class="who-text"
@@ -31,9 +32,10 @@
                 alt
               />
             <span v-html="who.name"></span>
-            <span v-if="who.instagram" class="is-size-7">&nbsp;<a :href="`https://instagram.com/${who.instagram}`" target="_blank" class="has-text-link" ><i class="fab fa-instagram fa-fw"></i></a>&nbsp;</span>
-            <span v-if="who.twitter" class="is-size-7">&nbsp;<a :href="`https://twitter.com/${who.twitter}`" target="_blank" class="has-text-link" ><i class="fab fa-twitter fa-fw"></i></a>&nbsp;</span>
-            <span v-if="who.facebook" class="is-size-7">&nbsp;<a :href="`https://facebook.com/${who.facebook}`" target="_blank" class="has-text-link" ><i class="fab fa-facebook-f fa-fw"></i></a>&nbsp;</span>
+            <span v-if="who.instagram" class="is-size-7">&nbsp;<a :href="`https://instagram.com/${who.instagram}`" target="_blank" class="has-text-dark" ><i class="fab fa-instagram fa-fw"></i></a>&nbsp;</span>
+            <span v-if="who.twitter" class="is-size-7">&nbsp;<a :href="`https://twitter.com/${who.twitter}`" target="_blank" class="has-text-dark" ><i class="fab fa-twitter fa-fw"></i></a>&nbsp;</span>
+            <span v-if="who.facebook" class="is-size-7">&nbsp;<a :href="`https://facebook.com/${who.facebook}`" target="_blank" class="has-text-dark" ><i class="fab fa-facebook-f fa-fw"></i></a>&nbsp;</span>
+            <span class="who-org" v-if="who.org">&nbsp;{{who.org}}</span>
           </p>
           <hr class="divide-if-necesary">
         </div>
@@ -53,9 +55,10 @@
                 alt
               />
             <span v-html="who.name"></span>
-            <span v-if="who.instagram" class="is-size-7">&nbsp;<a :href="`https://instagram.com/${who.instagram}`" target="_blank" class="has-text-link" ><i class="fab fa-instagram fa-fw"></i></a>&nbsp;</span>
-            <span v-if="who.twitter" class="is-size-7">&nbsp;<a :href="`https://twitter.com/${who.twitter}`" target="_blank" class="has-text-link" ><i class="fab fa-twitter fa-fw"></i></a>&nbsp;</span>
-            <span v-if="who.facebook" class="is-size-7">&nbsp;<a :href="`https://facebook.com/${who.facebook}`" target="_blank" class="has-text-link" ><i class="fab fa-facebook-f fa-fw"></i></a>&nbsp;</span>
+            <span v-if="who.instagram" class="is-size-7">&nbsp;<a :href="`https://instagram.com/${who.instagram}`" target="_blank" class="has-text-dark" ><i class="fab fa-instagram fa-fw"></i></a>&nbsp;</span>
+            <span v-if="who.twitter" class="is-size-7">&nbsp;<a :href="`https://twitter.com/${who.twitter}`" target="_blank" class="has-text-dark" ><i class="fab fa-twitter fa-fw"></i></a>&nbsp;</span>
+            <span v-if="who.facebook" class="is-size-7">&nbsp;<a :href="`https://facebook.com/${who.facebook}`" target="_blank" class="has-text-dark" ><i class="fab fa-facebook-f fa-fw"></i></a>&nbsp;</span>
+            <span class="who-org" v-if="who.org">&nbsp;{{who.org}}</span>
           </p>
         </div>
            <p
@@ -139,5 +142,16 @@ export default {
 }
 .hashtag-text{
   font-size:0.9rem;
+}
+.who-org{
+  font-size:0.9rem;
+  // white-space: nowrap;
+  color: rgb(100, 100, 100);
+}
+.has-text-custom-link{
+  color: #F26522;
+  &:hover{
+    color: rgb(184, 69, 16)
+  }
 }
 </style>

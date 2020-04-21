@@ -20,8 +20,8 @@ const routes = [
     component: DentroFuera
   },
   {
-    path: '/nosotros',
-    name: 'Nosotros',
+    path: '/quienes-somos',
+    name: 'QuienesSomos',
     component: Nosotros
   },
   {

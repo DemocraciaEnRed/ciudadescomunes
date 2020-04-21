@@ -16,8 +16,8 @@
             <b-navbar-item tag="router-link" :to="{ name: 'Agenda' }">
                 Agenda
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ name: 'Nosotros' }">
-                Nosotros
+            <b-navbar-item tag="router-link" :to="{ name: 'QuienesSomos' }">
+                Quienes somos
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'DentroFuera' }">
                 DentroFuera

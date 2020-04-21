@@ -2,7 +2,7 @@
   <section class="hero is-white is-medium">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title is-1 is-size-2 is-700">nosotros</h1>
+        <h1 class="title is-1 is-size-2 is-700">quienes somos</h1>
         <div class="columns is-variable is-1-mobile is-8-tablet">
           <div class="column">
               <a href="https://civicwise.org/" target="_blank">

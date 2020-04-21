@@ -137,7 +137,7 @@ export default [
       {
         starts: zonedTimeToUtc('2020-04-24 12:00:00', 'America/Argentina/Buenos_Aires'),
         ends: zonedTimeToUtc('2020-04-24 13:00:00', 'America/Argentina/Buenos_Aires'),
-        type: 'Charlas Relampagos',
+        type: 'Charlas Relámpagos',
         icons: ['g','p','l','c'],
         hashtags:[
           '#gobiernoabierto',
@@ -336,7 +336,7 @@ export default [
       {
         starts: zonedTimeToUtc('2020-04-24 15:00:00', 'America/Argentina/Buenos_Aires'),
         ends: zonedTimeToUtc('2020-04-24 16:30:00', 'America/Argentina/Buenos_Aires'),
-        type: 'Dos talleres en simultaneo',
+        type: 'Dos talleres en simultáneo',
         icons: ['p','d'],
         hashtags:[
           '#postdomesticidades',
