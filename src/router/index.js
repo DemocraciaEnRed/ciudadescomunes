@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import DentroFuera from '../views/DentroFuera.vue'
 import Nosotros from '../views/Nosotros.vue'
+import Agenda from '../views/Agenda.vue'
+import Talleres from '../views/Talleres.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,16 @@ const routes = [
     path: '/nosotros',
     name: 'Nosotros',
     component: Nosotros
+  },
+  {
+    path: '/agenda',
+    name: 'Agenda',
+    component: Agenda
+  },
+  {
+    path: '/talleres',
+    name: 'Talleres',
+    component: Talleres
   },
 
 ]
