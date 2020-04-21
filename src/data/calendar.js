@@ -473,7 +473,7 @@ export default [
         type: 'Panel',
         icons: ['h'],
         hashtags:[
-          '#habitadyjusticiasocial',
+          '#habitatyjusticiasocial',
         ],
         schedule: [
           {
@@ -1126,7 +1126,7 @@ export default [
         type: 'Conferencia Keynote',
         icons: ['h'],
         hashtags:[
-          '#habitadyjusticiasocial'
+          '#habitatyjusticiasocial'
         ],
         schedule: [
           {
