@@ -5,6 +5,7 @@
         <div class="columns is-variable is-1-mobile is-8-tablet">
           <div class="column">
         <h1 class="title is-1 is-size-2-touch is-700">agenda</h1>
+        <p class="is-size-7">* El horario se muestra en tú zona horaria: {{Intl.DateTimeFormat().resolvedOptions().timeZone.replace(/\//g,', ').replace(/_/g,' ')}}</p>
           </div>
           <div class="column">
             <div class="columns">
