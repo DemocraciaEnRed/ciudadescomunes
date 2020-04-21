@@ -1177,7 +1177,7 @@ export default [
             title: '',
             with:[
                 {
-                  name: '<i>Activaciones Urbanas</i><br><i class="fas fa-arrow-right"></i>&nbsp;<a href="https://causascomunes.org/dentrofuera" target="_blank">¡Hacé clic y sumate!</a>',
+                  name: '<i>Activaciones Urbanas</i><br><i class="fas fa-arrow-right"></i>&nbsp;<a href="https://ciudadescomunes.org/dentrofuera" target="_blank">¡Hacé clic y sumate!</a>',
                   type: '',
                   org: '',
                   instagram: null,
