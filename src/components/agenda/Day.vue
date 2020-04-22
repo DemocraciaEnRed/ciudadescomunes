@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1 class="title is-1 is-size-2-touch is-700">{{day.title}}</h1>
-    <div class="media" v-for="(event,i) in day.agenda" :key="`agenda${i}`">
+    <div class="media" v-for="(event,i) in day.agenda" :key="`agenda-${i}`">
       <div class="media-left">
         <p class="the-time">{{getTimeEvent(event.starts)}}</p>
         <img
@@ -16,7 +16,6 @@
         <h2 class="type-text">{{event.type}}</h2>
         <div v-for="(subEvent,j) in event.schedule" class="subevent" :key="`event-${i}-schedule-${j}`">
           <p class="title-text" v-html="subEvent.title"></p>
-
           <p
             v-for="(who,k) in subEvent.with"
             class="who-text"
@@ -37,6 +36,11 @@
             <span v-if="who.facebook" class="is-size-7">&nbsp;<a :href="`https://facebook.com/${who.facebook}`" target="_blank" class="has-text-dark" ><i class="fab fa-facebook-f fa-fw"></i></a>&nbsp;</span>
             <span class="who-org" v-if="who.org">&nbsp;{{who.org}}</span>
           </p>
+          <p
+            v-for="(hashtag,h) in subEvent.hashtags"
+            class="hashtag-text"
+            :key="`event-${i}-subevent-${j}-hashtag-${h}`"
+          ><i>{{hashtag}}</i></p>
           <hr class="divide-if-necesary">
         </div>
         <div v-if="event.moderators">
@@ -61,11 +65,11 @@
             <span class="who-org" v-if="who.org">&nbsp;{{who.org}}</span>
           </p>
         </div>
-           <p
-            v-for="(hashtag,l) in event.hashtags"
-            class="hashtag-text"
-            :key="`event-${i}-schedule-${j}-hashtag-${l}`"
-          ><i>{{hashtag}}</i></p>
+          <p
+          v-for="(hashtag,h) in event.hashtags"
+          class="hashtag-text"
+          :key="`event-${i}-hashtag-${h}`"
+        ><i>{{hashtag}}</i></p>
       </div>
     </div>
   </section>

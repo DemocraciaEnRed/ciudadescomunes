@@ -95,7 +95,7 @@ export default [
             title: 'Experimentar en tiempos de Coronavirus',
             with:[
              {
-                name: 'Lorena Ruiz Marcos',
+                name: 'Lorena Ruiz',
                 type: 'Panelista',
                 org: 'Investigadora',
                 instagram: null,
@@ -140,10 +140,7 @@ export default [
         type: 'Charlas Relámpagos',
         icons: ['g','p','l','c'],
         hashtags:[
-          '#gobiernoabierto',
-          '#posdomesticidades',
-          '#laboratorioscívicos',
-          '#ciudadinclusiva',
+          '#ciudadescomunes'
         ],
         schedule: [
           {
@@ -158,7 +155,10 @@ export default [
                 facebook: 'Sumando_arg',
                 mod: false 
               },
-            ]
+            ],
+            hashtags:[
+              '#gobiernoabierto'
+            ],
           },
           {
             title: 'Microcomunidades',
@@ -172,7 +172,10 @@ export default [
                 facebook: 'IRarquitectura',
                 mod: false 
               },
-            ]
+            ],
+             hashtags:[
+              '#posdomesticidades'
+            ],
           },
           {
             title: 'Platohedro',
@@ -186,7 +189,10 @@ export default [
                 facebook: 'platohedro',
                 mod: false 
               },
-            ]
+            ],
+             hashtags:[
+              '#laboratorioscívicos'
+            ],
           },
           {
             title: 'Platos sin Fronteras',
@@ -200,7 +206,10 @@ export default [
                 facebook: 'PlatosSinFronteras.Colombia',
                 mod: false 
               },
-            ]
+            ],
+            hashtags:[
+              '#laboratorioscívicos'
+            ],
           },
           {
             title: 'Fundación Placemaking México',
@@ -214,19 +223,13 @@ export default [
                 facebook: null,
                 mod: false 
               },
-            ]
+            ],
+            hashtags:[
+              '#gobiernoabierto'
+            ],
           },
         ],
         moderators:[
-          {
-            name: 'Melina Scioli',
-            type: 'Moderadora',
-            org: 'Artículo 41',
-            instagram: 'meliscioli',
-            twitter: 'melinda_sc',
-            facebook: null,
-            mod: true 
-          },
           {
             name: 'Juan López Aranguren',
             type: 'Moderador',
@@ -338,10 +341,7 @@ export default [
         ends: zonedTimeToUtc('2020-04-24 16:30:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dos talleres en simultáneo',
         icons: ['p','d'],
-        hashtags:[
-          '#postdomesticidades',
-          '#desarrolloregenerativo'
-        ],
+        hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'Exploraciones para escenarios posdomésticos',
@@ -382,7 +382,10 @@ export default [
                 facebook: 'colectiva.habitaria',
                 mod: false 
               },
-            ]
+            ],
+             hashtags:[
+             '#postdomesticidades',
+            ],
           },
           {
             title: 'El lugar como sistema vivo',
@@ -405,7 +408,10 @@ export default [
                 facebook: null,
                 mod: false 
               },
-            ]
+            ],
+             hashtags:[
+              '#desarrolloregenerativo'
+            ],
           }
         ]
       },
@@ -414,10 +420,7 @@ export default [
         ends: zonedTimeToUtc('2020-04-24 18:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dos talleres en simultaneo',
         icons: ['g'],
-        hashtags:[
-          '#gobiernoabierto',
-          '#fairbnb'
-        ],
+        hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'Herramientas digitales para gobierno abierto',
@@ -440,7 +443,10 @@ export default [
                 facebook: 'democraciaenred',
                 mod: false 
               },
-            ]
+            ],
+            hashtags:[
+              '#gobiernoabierto'
+            ],
           },
           {
             title: 'Fairbnb.coop: Cómo activar la economía circular en tiempos de corona virus',
@@ -448,7 +454,7 @@ export default [
              {
                 name: 'Domenico Di Siena',
                 type: 'Tallerista',
-                org: 'Fairbnb',
+                org: 'Fairbnb.coop',
                 instagram: 'fairbnb.coop',
                 twitter: 'Fairbnb_coop',
                 facebook: 'Fairbnbcoop',
@@ -457,13 +463,16 @@ export default [
               {
                 name: 'Jonathan Reyes',
                 type: 'Tallerista',
-                org: 'Fairbnb',
+                org: 'Fairbnb.coop',
                 instagram: 'fairbnb.coop',
                 twitter: 'Fairbnb_coop',
                 facebook: 'Fairbnbcoop',
                 mod: false 
               },
-            ]
+            ],
+            hashtags:[
+              '#fairbnbcoop'
+            ],
           }
         ]
       },
@@ -584,7 +593,7 @@ export default [
               {
                 name: 'Marcela Mondino',
                 type: 'Panelista',
-                org: 'Gerente Programática, Fundación Avina',
+                org: 'Responsable América Latina Programa Ciudades Sustentables, Fundación Avina',
                 instagram: 'fundacionavina',
                 twitter: 'fundacionAVINA',
                 facebook: null,
@@ -593,7 +602,7 @@ export default [
               {
                 name: 'Tamara Egger',
                 type: 'Panelista',
-                org: 'Big Cities Lab',
+                org: 'BID Cities Lab',
                 instagram: 'bid_ciudades',
                 twitter: 'BID_Ciudades',
                 facebook: null,
@@ -637,8 +646,8 @@ export default [
                {
                   name: 'Guillermo Peñalosa',
                   type: 'Conferencista',
-                  org: '',
-                  instagram: null,
+                  org: '8 80 cities',
+                  instagram: 'penalosagmo',
                   twitter: null,
                   facebook: null,
                   mod: false 
@@ -810,7 +819,7 @@ export default [
               {
                 name: 'Maristella Svampa',
                 type: 'Panelista',
-                org: null,
+                org: 'Socióloga, escritora, investigadora ',
                 instagram: 'maristellasvampa',
                 twitter: 'SvampaM',
                 facebook: 'maristella.svampa',
@@ -829,7 +838,7 @@ export default [
                 name: 'Christopher Anderson',
                 type: 'Panelista',
                 org: 'IPBES',
-                instagram: null,
+                instagram: 'dr.c.b.anderson',
                 twitter: null,
                 facebook: null,
                 mod: false 
@@ -850,13 +859,9 @@ export default [
       {
         starts: zonedTimeToUtc('2020-04-25 15:00:00', 'America/Argentina/Buenos_Aires'),
         ends: zonedTimeToUtc('2020-04-25 16:30:00', 'America/Argentina/Buenos_Aires'),
-        type: 'Dos talleres en simultaneo',
+        type: 'Tres talleres en simultaneo',
         icons: ['h','c'],
-        hashtags:[
-          '#habitatyjusticiasocial',
-          '#placemakinglat',
-          '#ciudadinclusiva'
-        ],
+        hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'Empoderamiento comunitario como herramienta para el cambio en barrios populares',
@@ -888,7 +893,10 @@ export default [
                   facebook: 'ACIJ.ORG',
                   mod: false 
                 },
-            ]
+            ],
+            hashtags:[
+              '#habitatyjusticiasocial',
+            ],
           },
           {
             title: 'Red(d)Red(s)',
@@ -920,7 +928,10 @@ export default [
                   facebook: 'urbanismovivo.buenosaires',
                   mod: false 
                 },
-            ]
+            ],
+            hashtags:[
+              '#placemakinglat'
+            ],
           },
           {
             title: 'Reimaginando Ciudades Comunes. Taller para niñes.',
@@ -970,7 +981,10 @@ export default [
                   facebook: null,
                   mod: false 
                 },
-            ]
+            ],
+            hashtags:[
+              '#ciudadinclusiva'
+            ],
           },
         ]
       },
@@ -979,10 +993,7 @@ export default [
         ends: zonedTimeToUtc('2020-04-25 18:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dos talleres en simultaneo',
         icons: ['l','c'],
-        hashtags:[
-          '#laboratorioscívicos',
-          '#ciudadinclusiva'
-        ],
+        hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'CO.VIDA: Metodologías Digitales para la Cocreación de nuestra vida social urbana',
@@ -1014,7 +1025,10 @@ export default [
                   facebook: 'ongespacioludico',
                   mod: false 
                 },
-            ]
+            ],
+            hashtags:[
+              '#laboratorioscívicos'
+            ],
           },
           {
             title: 'Rebeldía Urbana',
@@ -1064,7 +1078,10 @@ export default [
                   facebook: 'TransLAB.URB',
                   mod: false 
                 },
-            ]
+            ],
+            hashtags:[
+              '#ciudadinclusiva'
+            ],
           }
         ]
       },
@@ -1177,7 +1194,7 @@ export default [
             title: '',
             with:[
                 {
-                  name: '<i>Activaciones Urbanas</i><br><i class="fas fa-arrow-right"></i>&nbsp;<a href="https://ciudadescomunes.org/dentrofuera" target="_blank">¡Hacé clic y sumate!</a>',
+                  name: '<i>Activaciones Urbanas</i><br><i class="fas fa-arrow-right"></i>&nbsp;<a href="https://ciudadescomunes.org/dentrofuera" target="_blank">¡Hacé clic y sumate!</a><br><a href="https://instagram.com/ciudades.comunes"><i class="fab fa-instagram"></i>&nbsp;¡Seguinos en instagram!</a>',
                   type: '',
                   org: '',
                   instagram: null,
