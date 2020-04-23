@@ -256,7 +256,7 @@ export default [
               {
                 name: 'Ana Falú',
                 type: 'Panelista',
-                org: 'CISCSA / CONICET / INVIHAB',
+                org: 'CISCSA / UNC / RED MUJER Y HABITAT -HIC',
                 instagram: 'ana.falu',
                 twitter: null,
                 facebook: 'ana.falu',
@@ -539,9 +539,26 @@ export default [
         ],
         schedule: [
           {
-            title: 'A confirmar',
+            title: 'El impacto de la crisis actual en las decisiones de las ciudades',
             with:[
-             
+              {
+                name: 'Maria Buhigas',
+                type: 'Conferencista',
+                org: 'Regidora del Ayuntamiento de Barcelona',
+                instagram: null,
+                twitter: 'mariabuhigas',
+                facebook: null,
+                mod: false 
+              },
+               {
+                name: 'Agustin Frizzera',
+                type: 'Moderador',
+                org: '',
+                instagram: 'agustinfrizzera',
+                twitter: 'agustinfrizzera',
+                facebook: null,
+                mod: true 
+              },
             ]
           }
         ]
@@ -675,7 +692,7 @@ export default [
         ],
         schedule: [
           {
-            title: 'La resignificación de los espacios de encuentro en época de crisis sanitaria',
+            title: 'Resignificar los espacios de encuentro',
             with: [
               {
                 name: 'Mariana Alegre',
@@ -687,10 +704,10 @@ export default [
                 mod: false 
               },
               {
-                name: 'Belinda Tato',
+                name: 'Antonella Milano',
                 type: 'Panelista',
                 org: 'Ecosistema Urbano',
-                instagram: 'belindatato',
+                instagram: 'ecosistemaurbano',
                 twitter: 'ecosistema',
                 facebook: 'ecosistemaurbano',
                 mod: false 
@@ -791,12 +808,12 @@ export default [
                 mod: false 
               },
               {
-                name: 'Domenico Di Sieña',
+                name: 'Domenico Di Siena',
                 type: 'Moderador',
                 org: 'CivicWise',
                 instagram: 'urbanohumano',
                 twitter: 'urbanohumano',
-                facebook: null,
+                facebook: 'DiSienaDomenico',
                 mod: true 
               },
 
@@ -999,7 +1016,7 @@ export default [
             title: 'CO.VIDA: Metodologías Digitales para la Cocreación de nuestra vida social urbana',
             with: [
                {
-                  name: 'Domenico Di Sieña',
+                  name: 'Domenico Di Siena',
                   type: 'Tallerista',
                   org: 'CivicWise',
                   instagram: 'urbanohumano',
