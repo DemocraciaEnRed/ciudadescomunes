@@ -2,19 +2,19 @@
 export default [
   {
     title: 'viernes 24/4',
-    startsAgenda: new Date(Date.UTC(2020,4,24,12,0,0)),
-    endsAgenda: new Date(Date.UTC(2020,4,25,1,0,0)),
+    startsAgenda: new Date(Date.UTC(2020,3,24,12,0,0)),
+    endsAgenda: new Date(Date.UTC(2020,3,25,1,0,0)),
     agenda: [
       {
-        starts: new Date(Date.UTC(2020,4,24,12,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,12,15,0)),
+        starts: new Date(Date.UTC(2020,3,24,12,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,12,15,0)),
         type: 'Bienvenida',
         icons: [],
         schedule: []
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,12,15,0)),
-        ends: new Date(Date.UTC(2020,4,24,13,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,12,15,0)),
+        ends: new Date(Date.UTC(2020,3,24,13,0,0)),
         type: 'Conferencia Keynote',
         icons: [],
         hashtags:[
@@ -47,8 +47,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,13,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,14,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,13,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,14,0,0)),
         type: 'Conferencia Keynote',
         icons: ['d'],
         hashtags:[
@@ -81,8 +81,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,14,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,15,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,14,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,15,0,0)),
         type: 'Panel',
         icons: ['l'],
         hashtags:[
@@ -133,8 +133,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,15,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,16,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,15,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,16,0,0)),
         type: 'Charlas Relámpagos',
         icons: ['g','p','l','c'],
         hashtags:[
@@ -240,8 +240,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,16,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,17,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,16,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,17,0,0)),
         type: 'Panel',
         icons: ['p'],
         hashtags:[
@@ -292,8 +292,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,17,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,18,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,17,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,18,0,0)),
         type: 'Conferencia Keynote',
         icons: ['c'],
         hashtags:[
@@ -335,8 +335,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,18,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,19,30,0)),
+        starts: new Date(Date.UTC(2020,3,24,18,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,19,30,0)),
         type: 'Dos talleres en simultáneo',
         icons: ['p','d'],
         hashtags:['#ciudadescomunes'],
@@ -414,8 +414,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,19,30,0)),
-        ends: new Date(Date.UTC(2020,4,24,21,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,19,30,0)),
+        ends: new Date(Date.UTC(2020,3,24,21,0,0)),
         type: 'Dos talleres en simultaneo',
         icons: ['g'],
         hashtags:['#ciudadescomunes'],
@@ -475,8 +475,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,21,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,22,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,21,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,22,0,0)),
         type: 'Panel',
         icons: ['h'],
         hashtags:[
@@ -528,8 +528,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,22,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,23,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,22,0,0)),
+        ends: new Date(Date.UTC(2020,3,24,23,0,0)),
         type: 'Conferencia Keynote',
         icons: ['g'],
         hashtags:[
@@ -562,8 +562,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,23,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,0,0,0)),
+        starts: new Date(Date.UTC(2020,3,24,23,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,0,0,0)),
         type: 'Espacio Común',
         icons: [],
         hashtags:[
@@ -575,18 +575,18 @@ export default [
   },
   {
     title: 'sábado 25/4',
-    starts: new Date(Date.UTC(2020,4,25,12,0,0)),
+    starts: new Date(Date.UTC(2020,3,25,12,0,0)),
     agenda: [
        {
-        starts: new Date(Date.UTC(2020,4,25,12,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,12,15,0)),
+        starts: new Date(Date.UTC(2020,3,25,12,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,12,15,0)),
         type: 'Bienvenida',
         icons: [],
         schedule: []
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,12,15,0)),
-        ends: new Date(Date.UTC(2020,4,25,13,15,0)),
+        starts: new Date(Date.UTC(2020,3,25,12,15,0)),
+        ends: new Date(Date.UTC(2020,3,25,13,15,0)),
         type: 'Panel',
         icons: [],
         hashtags:[
@@ -647,8 +647,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,13,15,0)),
-        ends: new Date(Date.UTC(2020,4,25,14,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,13,15,0)),
+        ends: new Date(Date.UTC(2020,3,25,14,0,0)),
         type: 'Conferencia Keynote',
         icons: [],
         hashtags:[
@@ -681,8 +681,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,14,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,15,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,14,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,15,0,0)),
         type: 'Panel',
         icons: ['c'],
         hashtags:[
@@ -751,8 +751,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,15,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,16,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,15,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,16,0,0)),
         type: 'Conferencia Keynote',
         icons: ['p'],
         hashtags:[
@@ -785,8 +785,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,16,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,17,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,16,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,17,0,0)),
         type: 'Conferencia Keynote',
         icons: ['l'],
         hashtags:[
@@ -820,8 +820,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,17,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,18,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,17,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,18,0,0)),
         type: 'Panel',
         icons: ['d'],
         hashtags:[
@@ -863,8 +863,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,18,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,19,30,0)),
+        starts: new Date(Date.UTC(2020,3,25,18,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,19,30,0)),
         type: 'Tres talleres en simultaneo',
         icons: ['h','c'],
         hashtags:['#ciudadescomunes'],
@@ -995,8 +995,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,19,30,0)),
-        ends: new Date(Date.UTC(2020,4,25,21,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,19,30,0)),
+        ends: new Date(Date.UTC(2020,3,25,21,0,0)),
         type: 'Dos talleres en simultaneo',
         icons: ['l','c'],
         hashtags:['#ciudadescomunes'],
@@ -1092,8 +1092,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,21,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,22,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,21,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,22,0,0)),
         type: 'Panel',
         icons: ['g'],
         hashtags:[
@@ -1144,8 +1144,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,22,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,23,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,22,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,23,0,0)),
         type: 'Conferencia Keynote',
         icons: ['h'],
         hashtags:[
@@ -1178,8 +1178,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,23,0,0)),
-        ends: new Date(Date.UTC(2020,4,26,0,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,23,0,0)),
+        ends: new Date(Date.UTC(2020,3,26,0,0,0)),
         type: 'Espacio común',
         icons: [],
         hashtags:[
@@ -1188,8 +1188,8 @@ export default [
         schedule: []
       },
       {
-        starts: new Date(Date.UTC(2020,4,26,0,0,0)),
-        ends: new Date(Date.UTC(2020,4,26,1,0,0)),
+        starts: new Date(Date.UTC(2020,3,26,0,0,0)),
+        ends: new Date(Date.UTC(2020,3,26,1,0,0)),
         type: 'Dentrofuera',
         icons: [],
         hashtags:[

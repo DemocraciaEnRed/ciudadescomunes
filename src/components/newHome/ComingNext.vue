@@ -134,10 +134,10 @@ export default {
   data() {
     return {
       now: new Date(),
-      fridayStarts: new Date(Date.UTC(2020,4,24,3,0,0)),
-      fridayEnds: new Date(Date.UTC(2020,4,25,2,59,59)),
-      saturdayStarts: new Date(Date.UTC(2020,4,25,3,0,0)),
-      saturdayEnds: new Date(Date.UTC(2020,4,26,2,59,59)),
+      fridayStarts: new Date(Date.UTC(2020,3,24,3,0,0)),
+      fridayEnds: new Date(Date.UTC(2020,3,25,2,59,59)),
+      saturdayStarts: new Date(Date.UTC(2020,3,25,3,0,0)),
+      saturdayEnds: new Date(Date.UTC(2020,3,26,2,59,59)),
       intervalId: null,
     }
   },
@@ -185,29 +185,29 @@ export default {
     showWillStart: function(){
       // let desde = zonedTimeToUtc('2020-04-24 00:00:00', 'America/Argentina/Buenos_Aires')
       // if(!this.theDay) return false
-      let hasta = new Date(Date.UTC(2020,4,24,11,0,0))
+      let hasta = new Date(Date.UTC(2020,3,24,11,0,0))
       if(this.now < hasta) return true
       return false
     },
     showWillContinue: function(){
       if(!this.theDay) return false
-      let desde = new Date(Date.UTC(2020,4,25,1,0,0))
-      let hasta = new Date(Date.UTC(2020,4,25,11,0,0))
+      let desde = new Date(Date.UTC(2020,3,25,1,0,0))
+      let hasta = new Date(Date.UTC(2020,3,25,11,0,0))
       if(desde <= this.now && this.now < hasta) return true
       return false
     },
     soonWeWillStart: function(){
       if(!this.theDay) return false
-      let desdeFri = new Date(Date.UTC(2020,4,24,11,0,0))
-      let hastaFri = new Date(Date.UTC(2020,4,24,12,0,0))
-      let desdeSat = new Date(Date.UTC(2020,4,25,11,0,0))
-      let hastaSat = new Date(Date.UTC(2020,4,25,12,0,0))
+      let desdeFri = new Date(Date.UTC(2020,3,24,11,0,0))
+      let hastaFri = new Date(Date.UTC(2020,3,24,12,0,0))
+      let desdeSat = new Date(Date.UTC(2020,3,25,11,0,0))
+      let hastaSat = new Date(Date.UTC(2020,3,25,12,0,0))
       if(desdeFri <= this.now && this.now < hastaFri) return true
       if(desdeSat <= this.now && this.now < hastaSat) return true
       return false
     },
     showEnded: function(){
-      let desde = new Date(Date.UTC(2020,4,26,2,0,0))
+      let desde = new Date(Date.UTC(2020,3,26,2,0,0))
       if(desde < this.now) return true
       return false
     }

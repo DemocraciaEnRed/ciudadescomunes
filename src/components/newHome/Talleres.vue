@@ -143,10 +143,10 @@ export default {
   data() {
     return {
       now: new Date(),
-      fridayStarts: new Date(Date.UTC(2020,4,24,3,0,0)),
-      fridayEnds: new Date(Date.UTC(2020,4,25,2,59,59)),
-      saturdayStarts: new Date(Date.UTC(2020,4,25,3,0,0)),
-      saturdayEnds: new Date(Date.UTC(2020,4,26,2,59,59)),
+      fridayStarts: new Date(Date.UTC(2020,3,24,3,0,0)),
+      fridayEnds: new Date(Date.UTC(2020,3,25,2,59,59)),
+      saturdayStarts: new Date(Date.UTC(2020,3,25,3,0,0)),
+      saturdayEnds: new Date(Date.UTC(2020,3,26,2,59,59)),
       intervalId: null,
       primerBloque: [
         {
@@ -225,26 +225,26 @@ export default {
       );
     },
     showPrimerBloque: function() {
-      let start = new Date(Date.UTC(2020,4,24,17,45,0))
-      let end = new Date(Date.UTC(2020,4,24,19,45,0))
+      let start = new Date(Date.UTC(2020,3,24,17,45,0))
+      let end = new Date(Date.UTC(2020,3,24,19,45,0))
       if (start <= this.now && this.now < end) return true;
       return false;
     },
     showSegundoBloque: function() {
-      let start = new Date(Date.UTC(2020,4,24,19,15,0))
-      let end = new Date(Date.UTC(2020,4,24,21,15,0))
+      let start = new Date(Date.UTC(2020,3,24,19,15,0))
+      let end = new Date(Date.UTC(2020,3,24,21,15,0))
       if (start <= this.now && this.now < end) return true;
       return false;
     },
     showTercerBloque: function() {
-      let start = new Date(Date.UTC(2020,4,25,17,45,0))
-      let end = new Date(Date.UTC(2020,4,25,19,45,0))
+      let start = new Date(Date.UTC(2020,3,25,17,45,0))
+      let end = new Date(Date.UTC(2020,3,25,19,45,0))
       if (start <= this.now && this.now < end) return true;
       return false;
     },
     showCuartoBloque: function() {
-      let start = new Date(Date.UTC(2020,4,25,19,15,0))
-      let end = new Date(Date.UTC(2020,4,25,21,15,0))
+      let start = new Date(Date.UTC(2020,3,25,19,15,0))
+      let end = new Date(Date.UTC(2020,3,25,21,15,0))
       if (start <= this.now && this.now < end) return true;
       return false;
     }
