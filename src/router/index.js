@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
+import NewHome from '../views/NewHome.vue'
 import DentroFuera from '../views/DentroFuera.vue'
 import Nosotros from '../views/Nosotros.vue'
 import Agenda from '../views/Agenda.vue'
+import Exponen from '../views/Exponen.vue'
 import Talleres from '../views/Talleres.vue'
 
 Vue.use(VueRouter)
@@ -12,7 +14,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: NewHome
   },
   {
     path: '/dentrofuera',
@@ -28,6 +30,11 @@ const routes = [
     path: '/agenda',
     name: 'Agenda',
     component: Agenda
+  },
+  {
+    path: '/exponen',
+    name: 'Exponen',
+    component: Exponen
   },
   {
     path: '/talleres',

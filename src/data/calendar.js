@@ -5,7 +5,8 @@ const { zonedTimeToUtc } = require('date-fns-tz')
 export default [
   {
     title: 'viernes 24/4',
-    starts: zonedTimeToUtc('2020-04-24 00:00:00', 'America/Argentina/Buenos_Aires'),
+    startsAgenda: zonedTimeToUtc('2020-04-24 09:00:00', 'America/Argentina/Buenos_Aires'),
+    endsAgenda: zonedTimeToUtc('2020-04-24 22:00:00', 'America/Argentina/Buenos_Aires'),
     agenda: [
       {
         starts: zonedTimeToUtc('2020-04-24 09:00:00', 'America/Argentina/Buenos_Aires'),
@@ -834,15 +835,6 @@ export default [
             title: 'Relaciones entre la crisis sanitaria y la crisis climática y ecológica',
             with: [
               {
-                name: 'Maristella Svampa',
-                type: 'Panelista',
-                org: 'Socióloga, escritora, investigadora ',
-                instagram: 'maristellasvampa',
-                twitter: 'SvampaM',
-                facebook: 'maristella.svampa',
-                mod: false 
-              },
-              {
                 name: 'Eduard Muller',
                 type: 'Panelista',
                 org: 'Rector de la Universidad para la Cooperación Internacional',
@@ -1115,7 +1107,7 @@ export default [
             title: '¿Cambia la forma de gobernar?',
             with: [
               {
-                  name: 'Fabrio Quetglas',
+                  name: 'Fabio Quetglas',
                   type: 'Panelista',
                   org: 'Diputado Nacional Argentino',
                   instagram: 'fabioquetglas',

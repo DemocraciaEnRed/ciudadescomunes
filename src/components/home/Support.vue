@@ -62,7 +62,7 @@
         </div>
         </div>
       <br>
-      <p class="has-text-centered">con el apoyo de</p>
+      <p class="has-text-centered">Ciudades Comunes es posible gracias al apoyo de</p>
       <br>
       <div class="columns is-centered">
         <div class="column is-4">
@@ -73,6 +73,13 @@
           </a>
         </div>
         </div>
+      <p class="has-text-centered">Con el apoyo de</p>
+      <br>
+      <div class="columns is-centered">
+        <div class="column is-8">
+            <img src="/img/otherlogos.png" class="image logo-todes" style="margin: 0 auto;">
+        </div>
+      </div>
     </div>
   </section>
 </template>

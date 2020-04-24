@@ -11,7 +11,7 @@
 
         <template slot="end">
             <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
-                Inicio
+                En vivo
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'Agenda' }">
                 Agenda
