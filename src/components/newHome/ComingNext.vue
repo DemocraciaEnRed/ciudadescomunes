@@ -128,18 +128,16 @@
   </section>
 </template>
 <script>
-const { zonedTimeToUtc } = require('date-fns-tz')
 import calendar from "@/data/calendar";
 
 export default {
   data() {
     return {
       now: new Date(),
-      // now: zonedTimeToUtc('2020-04-26 23:40:00', 'America/Argentina/Buenos_Aires'),
-      fridayStarts: zonedTimeToUtc('2020-04-24 00:00:00', 'America/Argentina/Buenos_Aires'),
-      fridayEnds: zonedTimeToUtc('2020-04-24 23:59:00', 'America/Argentina/Buenos_Aires'),
-      saturdayStarts: zonedTimeToUtc('2020-04-25 00:00:00', 'America/Argentina/Buenos_Aires'),
-      saturdayEnds: zonedTimeToUtc('2020-04-25 23:59:00', 'America/Argentina/Buenos_Aires'),
+      fridayStarts: new Date(Date.UTC(2020,4,24,3,0,0)),
+      fridayEnds: new Date(Date.UTC(2020,4,25,2,59,59)),
+      saturdayStarts: new Date(Date.UTC(2020,4,25,3,0,0)),
+      saturdayEnds: new Date(Date.UTC(2020,4,26,2,59,59)),
       intervalId: null,
     }
   },
@@ -187,29 +185,29 @@ export default {
     showWillStart: function(){
       // let desde = zonedTimeToUtc('2020-04-24 00:00:00', 'America/Argentina/Buenos_Aires')
       // if(!this.theDay) return false
-      let hasta = zonedTimeToUtc('2020-04-24 08:00:00', 'America/Argentina/Buenos_Aires')
+      let hasta = new Date(Date.UTC(2020,4,24,11,0,0))
       if(this.now < hasta) return true
       return false
     },
     showWillContinue: function(){
       if(!this.theDay) return false
-      let desde = zonedTimeToUtc('2020-04-24 22:00:00', 'America/Argentina/Buenos_Aires')
-      let hasta = zonedTimeToUtc('2020-04-25 08:00:00', 'America/Argentina/Buenos_Aires')
+      let desde = new Date(Date.UTC(2020,4,25,1,0,0))
+      let hasta = new Date(Date.UTC(2020,4,25,11,0,0))
       if(desde <= this.now && this.now < hasta) return true
       return false
     },
     soonWeWillStart: function(){
       if(!this.theDay) return false
-      let desdeFri = zonedTimeToUtc('2020-04-24 08:00:00', 'America/Argentina/Buenos_Aires')
-      let hastaFri = zonedTimeToUtc('2020-04-24 09:00:00', 'America/Argentina/Buenos_Aires')
-      let desdeSat = zonedTimeToUtc('2020-04-25 08:00:00', 'America/Argentina/Buenos_Aires')
-      let hastaSat = zonedTimeToUtc('2020-04-25 09:00:00', 'America/Argentina/Buenos_Aires')
+      let desdeFri = new Date(Date.UTC(2020,4,24,11,0,0))
+      let hastaFri = new Date(Date.UTC(2020,4,24,12,0,0))
+      let desdeSat = new Date(Date.UTC(2020,4,25,11,0,0))
+      let hastaSat = new Date(Date.UTC(2020,4,25,12,0,0))
       if(desdeFri <= this.now && this.now < hastaFri) return true
       if(desdeSat <= this.now && this.now < hastaSat) return true
       return false
     },
     showEnded: function(){
-      let desde = zonedTimeToUtc('2020-04-25 23:00:00', 'America/Argentina/Buenos_Aires')
+      let desde = new Date(Date.UTC(2020,4,26,2,0,0))
       if(desde < this.now) return true
       return false
     }

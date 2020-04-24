@@ -1,20 +1,23 @@
 
+const { zonedTimeToUtc } = require('date-fns-tz')
+
+
 export default [
   {
     title: 'viernes 24/4',
-    startsAgenda: new Date(Date.UTC(2020,4,24,12,0,0)),
-    endsAgenda: new Date(Date.UTC(2020,4,25,1,0,0)),
+    startsAgenda: zonedTimeToUtc('2020-04-24 09:00:00', 'America/Argentina/Buenos_Aires'),
+    endsAgenda: zonedTimeToUtc('2020-04-24 22:00:00', 'America/Argentina/Buenos_Aires'),
     agenda: [
       {
-        starts: new Date(Date.UTC(2020,4,24,12,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,12,15,0)),
+        starts: zonedTimeToUtc('2020-04-24 09:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 09:15:00', 'America/Argentina/Buenos_Aires'),
         type: 'Bienvenida',
         icons: [],
         schedule: []
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,12,15,0)),
-        ends: new Date(Date.UTC(2020,4,24,13,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 09:15:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 10:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: [],
         hashtags:[
@@ -47,8 +50,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,13,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,14,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 10:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 11:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: ['d'],
         hashtags:[
@@ -81,8 +84,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,14,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,15,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 11:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 12:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: ['l'],
         hashtags:[
@@ -133,8 +136,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,15,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,16,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 12:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 13:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Charlas Relámpagos',
         icons: ['g','p','l','c'],
         hashtags:[
@@ -240,8 +243,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,16,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,17,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 13:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 14:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: ['p'],
         hashtags:[
@@ -292,8 +295,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,17,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,18,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 14:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 15:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: ['c'],
         hashtags:[
@@ -335,8 +338,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,18,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,19,30,0)),
+        starts: zonedTimeToUtc('2020-04-24 15:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 16:30:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dos talleres en simultáneo',
         icons: ['p','d'],
         hashtags:['#ciudadescomunes'],
@@ -414,8 +417,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,19,30,0)),
-        ends: new Date(Date.UTC(2020,4,24,21,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 16:30:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 18:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dos talleres en simultaneo',
         icons: ['g'],
         hashtags:['#ciudadescomunes'],
@@ -475,8 +478,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,21,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,22,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 18:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 19:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: ['h'],
         hashtags:[
@@ -528,8 +531,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,22,0,0)),
-        ends: new Date(Date.UTC(2020,4,24,23,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 19:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 20:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: ['g'],
         hashtags:[
@@ -562,8 +565,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,24,23,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,0,0,0)),
+        starts: zonedTimeToUtc('2020-04-24 20:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-24 22:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Espacio Común',
         icons: [],
         hashtags:[
@@ -575,18 +578,18 @@ export default [
   },
   {
     title: 'sábado 25/4',
-    starts: new Date(Date.UTC(2020,4,25,12,0,0)),
+    starts: zonedTimeToUtc('2020-04-25 09:00:00', 'America/Argentina/Buenos_Aires'),
     agenda: [
        {
-        starts: new Date(Date.UTC(2020,4,25,12,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,12,15,0)),
+        starts: zonedTimeToUtc('2020-04-25 09:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 09:15:00', 'America/Argentina/Buenos_Aires'),
         type: 'Bienvenida',
         icons: [],
         schedule: []
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,12,15,0)),
-        ends: new Date(Date.UTC(2020,4,25,13,15,0)),
+        starts: zonedTimeToUtc('2020-04-25 09:15:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 10:15:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: [],
         hashtags:[
@@ -647,8 +650,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,13,15,0)),
-        ends: new Date(Date.UTC(2020,4,25,14,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 10:15:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 11:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: [],
         hashtags:[
@@ -681,8 +684,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,14,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,15,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 11:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 12:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: ['c'],
         hashtags:[
@@ -751,8 +754,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,15,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,16,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 12:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 13:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: ['p'],
         hashtags:[
@@ -785,8 +788,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,16,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,17,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 13:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 14:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: ['l'],
         hashtags:[
@@ -820,8 +823,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,17,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,18,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 14:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 15:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: ['d'],
         hashtags:[
@@ -863,8 +866,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,18,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,19,30,0)),
+        starts: zonedTimeToUtc('2020-04-25 15:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 16:30:00', 'America/Argentina/Buenos_Aires'),
         type: 'Tres talleres en simultaneo',
         icons: ['h','c'],
         hashtags:['#ciudadescomunes'],
@@ -995,8 +998,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,19,30,0)),
-        ends: new Date(Date.UTC(2020,4,25,21,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 16:30:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 18:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dos talleres en simultaneo',
         icons: ['l','c'],
         hashtags:['#ciudadescomunes'],
@@ -1092,8 +1095,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,21,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,22,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 18:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 19:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Panel',
         icons: ['g'],
         hashtags:[
@@ -1144,8 +1147,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,22,0,0)),
-        ends: new Date(Date.UTC(2020,4,25,23,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 19:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 20:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Conferencia Keynote',
         icons: ['h'],
         hashtags:[
@@ -1178,8 +1181,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,4,25,23,0,0)),
-        ends: new Date(Date.UTC(2020,4,26,0,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 20:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 21:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Espacio común',
         icons: [],
         hashtags:[
@@ -1188,8 +1191,8 @@ export default [
         schedule: []
       },
       {
-        starts: new Date(Date.UTC(2020,4,26,0,0,0)),
-        ends: new Date(Date.UTC(2020,4,26,1,0,0)),
+        starts: zonedTimeToUtc('2020-04-25 21:00:00', 'America/Argentina/Buenos_Aires'),
+        ends: zonedTimeToUtc('2020-04-25 22:00:00', 'America/Argentina/Buenos_Aires'),
         type: 'Dentrofuera',
         icons: [],
         hashtags:[
@@ -1212,6 +1215,29 @@ export default [
           }
         ]
       },
+    //  {
+    //     starts: zonedTimeToUtc('2020-04-24 11:00:00', 'America/Argentina/Buenos_Aires'),
+    //     ends: zonedTimeToUtc('2020-04-24 12:00:00', 'America/Argentina/Buenos_Aires'),
+    //     type: '',
+    //     icons: [],
+    //     hashtags:[],
+    //     schedule: [
+    //       {
+    //         title: '',
+    //         with:[
+                // {
+                //   name: '',
+                //   type: '',
+                //   org: '',
+                //   instagram: null,
+                //   twitter: null,
+                //   facebook: null,
+                //   mod: false 
+                // },
+    //         ]
+    //       }
+    //     ]
+    //   },
     ]
   }
 ]

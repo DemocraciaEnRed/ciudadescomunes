@@ -24,6 +24,11 @@
           </div>
           <div class="column is-4">
             <ComingNext />
+            <br>
+            <div class="buttons">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Clic para inscribirte <i class="fas fa-external-link-alt fa-fw"></i></a>
+              <a href="https://ciudadescomunes.slack.com" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Únite a nuestro <i class="fab fa-slack fa-fw"></i> Slack</a>
+            </div>
           </div>
         </div>
       </div>
@@ -32,7 +37,7 @@
 </template>
 
 <script>
-const { zonedTimeToUtc } = require('date-fns-tz')
+// const { zonedTimeToUtc } = require('date-fns-tz')
 // import calendar from "@/data/calendar";
 
 import ComingNext from "./ComingNext.vue"
@@ -40,11 +45,10 @@ export default {
   data() {
     return {
       now: new Date(),
-      // now: zonedTimeToUtc('2020-04-24 03:00:00', 'America/Argentina/Buenos_Aires'),
-      fridayStarts: zonedTimeToUtc('2020-04-24 00:00:00', 'America/Argentina/Buenos_Aires'),
-      fridayEnds: zonedTimeToUtc('2020-04-24 23:59:00', 'America/Argentina/Buenos_Aires'),
-      saturdayStarts: zonedTimeToUtc('2020-04-25 00:00:00', 'America/Argentina/Buenos_Aires'),
-      saturdayEnds: zonedTimeToUtc('2020-04-25 23:59:00', 'America/Argentina/Buenos_Aires'),
+      fridayStarts: new Date(Date.UTC(2020,4,24,3,0,0)),
+      fridayEnds: new Date(Date.UTC(2020,4,25,2,59,59)),
+      saturdayStarts: new Date(Date.UTC(2020,4,25,3,0,0)),
+      saturdayEnds: new Date(Date.UTC(2020,4,26,2,59,59)),
       intervalId: null,
     }
   },
