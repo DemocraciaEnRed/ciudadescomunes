@@ -77,9 +77,9 @@ export default {
     },
     getStreamId: function() {
       if(this.now < this.saturdayStarts){
-        return 'UKNaXLOkn9M'
+        return 'eAnDFgyt7Zs'
       } else {
-        return 'UNC61MNTwgM'
+        return 'GOJHd0CI1p4'
       }
     }
   }
