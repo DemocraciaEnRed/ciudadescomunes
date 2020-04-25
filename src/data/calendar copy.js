@@ -125,7 +125,7 @@ export default [
               {
                 name: 'Mariana Salgado',
                 type: 'Moderadora',
-                org: 'Marcos',
+                org: 'Diseño y Diáspara',
                 instagram: 'mariansalgado',
                 twitter: 'Salgado',
                 facebook: 'mariana.salgado',

@@ -16,14 +16,14 @@
             <b-navbar-item tag="router-link" :to="{ name: 'Agenda' }">
                 Agenda
             </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ name: 'Exponen' }">
+                Exponen
+            </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'QuienesSomos' }">
                 Quienes somos
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'DentroFuera' }">
                 DentroFuera
-            </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ name: 'Talleres' }">
-                Talleres
             </b-navbar-item>
             <b-navbar-item href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank">
                 Inscribite

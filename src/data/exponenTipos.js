@@ -72,16 +72,16 @@ export default {
       "facebook": "",
       "bio": "Politóloga especializada en relaciones internacionales, gestión ambiental y desarrollo regenerativo.\nOradora en TEDx Rio de la Plata.\nCo-fundadora de Rebelión o Extinción Argentina.\nDocente de ecología política y desarollo regenerativo."
     },
-    {
-      "type": "des",
-      "name": "Maristella Svampa",
-      "picture": "maristellasvampa.jpg",
-      "org": "Socióloga, escritora, investigadora anfibia",
-      "instagram": "maristellasvampa",
-      "twitter": "SvampaM",
-      "facebook": "maristella.svampa",
-      "bio": "Es Licenciada en Filosofía por la Universidad Nacional de Córdoba y Doctora en Sociología por la Escuela de Altos Estudios en Ciencias Sociales (EHESS) de París. Actualmente vive en Buenos Aires y es investigadora Superior del Conicet y Profesora Titular de la Universidad Nacional de La Plata. Ha recibido varios premios y reconocimientos, entre los cuales se destacan el Premio Kónex de platino en Sociología (2016) y el Premio Nacional de Ensayo Sociológico por su libro “Debates latinoamericanos. Indianismo, Desarrollo, Dependencia y Populismo” (2018).\n\nEs coordinadora del Grupo de Estudios Críticos e interdisciplinarios sobre la Problemática Energética (www.gecipe.org), y desde 2011, miembro del Grupo Permanente de Alternativas al Desarrollo.\n\nSe autodefine como una intelectual anfibia y una patagónica sempiterna que piensa en clave latinoamericana. Sus investigaciones abordan la crisis socioecológica, los movimientos sociales y la acción colectiva, así como problemáticas ligadas al pensamiento crítico y la teoría social latinoamericana.Tiene una veintena de libros publicados, entre ensayos, investigaciones y novelas. Sus últimos libros son Chacra 51. Regreso a la Patagonia en los tiempos del fracking (2018) y Las fronteras del neoextractivismo en América Latina (2018, el cual ha sido publicado en español, inglés y portugués)."
-    },
+    // {
+    //   "type": "des",
+    //   "name": "Maristella Svampa",
+    //   "picture": "maristellasvampa.jpg",
+    //   "org": "Socióloga, escritora, investigadora anfibia",
+    //   "instagram": "maristellasvampa",
+    //   "twitter": "SvampaM",
+    //   "facebook": "maristella.svampa",
+    //   "bio": "Es Licenciada en Filosofía por la Universidad Nacional de Córdoba y Doctora en Sociología por la Escuela de Altos Estudios en Ciencias Sociales (EHESS) de París. Actualmente vive en Buenos Aires y es investigadora Superior del Conicet y Profesora Titular de la Universidad Nacional de La Plata. Ha recibido varios premios y reconocimientos, entre los cuales se destacan el Premio Kónex de platino en Sociología (2016) y el Premio Nacional de Ensayo Sociológico por su libro “Debates latinoamericanos. Indianismo, Desarrollo, Dependencia y Populismo” (2018).\n\nEs coordinadora del Grupo de Estudios Críticos e interdisciplinarios sobre la Problemática Energética (www.gecipe.org), y desde 2011, miembro del Grupo Permanente de Alternativas al Desarrollo.\n\nSe autodefine como una intelectual anfibia y una patagónica sempiterna que piensa en clave latinoamericana. Sus investigaciones abordan la crisis socioecológica, los movimientos sociales y la acción colectiva, así como problemáticas ligadas al pensamiento crítico y la teoría social latinoamericana.Tiene una veintena de libros publicados, entre ensayos, investigaciones y novelas. Sus últimos libros son Chacra 51. Regreso a la Patagonia en los tiempos del fracking (2018) y Las fronteras del neoextractivismo en América Latina (2018, el cual ha sido publicado en español, inglés y portugués)."
+    // },
     {
       "type": "des",
       "name": "Eduard Muller",

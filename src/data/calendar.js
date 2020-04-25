@@ -122,7 +122,7 @@ export default [
               {
                 name: 'Mariana Salgado',
                 type: 'Moderadora',
-                org: 'Marcos',
+                org: 'Diseño y Diáspara',
                 instagram: 'mariansalgado',
                 twitter: 'Salgado',
                 facebook: 'mariana.salgado',
@@ -1153,7 +1153,7 @@ export default [
         ],
         schedule: [
           {
-            title: 'Desigualdades urbanas: el impacto diferencial de la epidemia en los sectores segregados de la ciudad',
+            title: 'Azotes globales, crisis, miedos y ciudad',
             with: [
               {
                   name: 'Margarita Gutman',

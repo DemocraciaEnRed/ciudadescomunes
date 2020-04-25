@@ -7,14 +7,7 @@
         <div class="columns">
           <div class="column">
             <div class="videoWrapper">
-              <iframe
-                width="100%"
-                height="auto"
-                :src="`https://www.youtube.com/embed/${getStreamId}`"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/eAnDFgyt7Zs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <br>
             <br>
@@ -93,7 +86,6 @@ export default {
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
   height: 0;
 }
 .videoWrapper iframe {
