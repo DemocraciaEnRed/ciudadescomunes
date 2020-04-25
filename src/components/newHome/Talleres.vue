@@ -9,8 +9,8 @@
           <div class="column is-5">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${primerBloque[0].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -24,8 +24,8 @@
           <div class="column is-5 is-offset-2">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${primerBloque[1].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -41,8 +41,8 @@
           <div class="column is-5">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${segundoBloque[0].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -56,8 +56,8 @@
           <div class="column is-5 is-offset-2">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${segundoBloque[1].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -73,8 +73,8 @@
           <div class="column is-5">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${tercerBloque[0].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -88,8 +88,8 @@
           <div class="column is-5 is-offset-2">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${tercerBloque[1].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -105,8 +105,8 @@
           <div class="column is-5">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${cuartoBloque[0].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -120,8 +120,8 @@
           <div class="column is-5 is-offset-2">
             <div class="videoWrapper">
               <iframe
-                width="100%"
-                height="auto"
+                width="560"
+                height="315"
                 :src="`https://www.youtube.com/embed/${cuartoBloque[1].videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -264,7 +264,6 @@ export default {
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
   height: 0;
 }
 .videoWrapper iframe {
