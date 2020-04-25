@@ -207,8 +207,8 @@ export default {
       return false
     },
     showEnded: function(){
-      let desde = new Date(Date.UTC(2020,3,26,2,0,0))
-      if(desde < this.now) return true
+      let desde = new Date(Date.UTC(2020,3,26,1,0,0))
+      if(desde <= this.now) return true
       return false
     }
   }

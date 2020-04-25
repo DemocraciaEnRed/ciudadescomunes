@@ -7,7 +7,7 @@
         <div class="columns">
           <div class="column">
             <div class="videoWrapper">
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/eAnDFgyt7Zs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${getStreamId}`" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <br>
             <br>
@@ -19,7 +19,7 @@
             <ComingNext />
             <br>
             <div class="buttons">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Clic para inscribirte <i class="fas fa-external-link-alt fa-fw"></i></a>
+              <a v-if="!showEnded" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Clic para inscribirte <i class="fas fa-external-link-alt fa-fw"></i></a>
               <a href="https://join.slack.com/t/ciudadescomunes/shared_invite/zt-dtwxeqmt-xU1Mwiq7WimmA7mVrv~IQ" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Únite a nuestro <i class="fab fa-slack fa-fw"></i> Slack</a>
             </div>
           </div>
@@ -74,6 +74,11 @@ export default {
       } else {
         return 'GOJHd0CI1p4'
       }
+    },
+    showEnded: function(){
+      let desde = new Date(Date.UTC(2020,3,26,1,0,0))
+      if(desde <= this.now) return true
+      return false
     }
   }
 }
