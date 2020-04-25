@@ -20,7 +20,7 @@
             <br>
             <div class="buttons">
               <a v-if="!showEnded" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Clic para inscribirte <i class="fas fa-external-link-alt fa-fw"></i></a>
-              <a href="https://join.slack.com/t/ciudadescomunes/shared_invite/zt-dtwxeqmt-xU1Mwiq7WimmA7mVrv~IQ" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Únite a nuestro <i class="fab fa-slack fa-fw"></i> Slack</a>
+              <a href="https://join.slack.com/t/ciudadescomunes/shared_invite/zt-dtwxeqmt-xU1Mwiq7WimmA7mVrv~IQw" target="_blank" class="button is-black is-outlined is-medium is-fullwidth">Únite a nuestro <i class="fab fa-slack fa-fw"></i> Slack</a>
             </div>
           </div>
         </div>
