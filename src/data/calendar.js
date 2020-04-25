@@ -586,7 +586,7 @@ export default [
       },
       {
         starts: new Date(Date.UTC(2020,3,25,12,15,0)),
-        ends: new Date(Date.UTC(2020,3,25,13,15,0)),
+        ends: new Date(Date.UTC(2020,3,25,14,0,0)),
         type: 'Panel',
         icons: [],
         hashtags:[
@@ -647,8 +647,8 @@ export default [
         ]
       },
       {
-        starts: new Date(Date.UTC(2020,3,25,13,15,0)),
-        ends: new Date(Date.UTC(2020,3,25,14,0,0)),
+        starts: new Date(Date.UTC(2020,3,25,14,0,0)),
+        ends: new Date(Date.UTC(2020,3,25,15,0,0)),
         type: 'Conferencia Keynote',
         icons: [],
         hashtags:[
@@ -676,76 +676,6 @@ export default [
                   facebook: null,
                   mod: true 
                 },
-            ]
-          }
-        ]
-      },
-      {
-        starts: new Date(Date.UTC(2020,3,25,14,0,0)),
-        ends: new Date(Date.UTC(2020,3,25,15,0,0)),
-        type: 'Panel',
-        icons: ['c'],
-        hashtags:[
-          '#ciudadinclusiva'
-        ],
-        schedule: [
-          {
-            title: 'Resignificar los espacios de encuentro',
-            with: [
-              {
-                name: 'Mariana Alegre',
-                type: 'Panelista',
-                org: 'Ocupa tu Calle',
-                instagram: 'maralegre',
-                twitter: 'maralegre',
-                facebook: 'marianaalegre',
-                mod: false 
-              },
-              {
-                name: 'Antonella Milano',
-                type: 'Panelista',
-                org: 'Ecosistema Urbano',
-                instagram: 'ecosistemaurbano',
-                twitter: 'ecosistema',
-                facebook: 'ecosistemaurbano',
-                mod: false 
-              },
-              {
-                name: 'Gustavo Dieguez',
-                type: 'Panelista',
-                org: 'A77',
-                instagram: 'crisanaz',
-                twitter: 'crisanaz',
-                facebook: 'gustavo.dieguez.9',
-                mod: false 
-              },
-              {
-                name: 'Alejandro Echeverri',
-                type: 'Panelista',
-                org: 'Urbam',
-                instagram: 'cachoecheverri',
-                twitter: null,
-                facebook: null,
-                mod: false 
-              },
-              {
-                name: 'María Tomé',
-                type: 'Moderadora',
-                org: 'Oficina de Innovación Cívica',
-                instagram: '_mariatome',
-                twitter: '_MariaTome',
-                facebook: null,
-                mod: true 
-              },
-              {
-                name: 'Analía Hanono',
-                type: 'Moderadora',
-                org: 'Urbanismo Vivo',
-                instagram: 'analiahanono',
-                twitter: null,
-                facebook: null,
-                mod: true 
-              },
             ]
           }
         ]
@@ -865,10 +795,72 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,25,18,0,0)),
         ends: new Date(Date.UTC(2020,3,25,19,30,0)),
-        type: 'Tres talleres en simultaneo',
+        type: 'Panel y Tres talleres en simultaneo',
         icons: ['h','c'],
         hashtags:['#ciudadescomunes'],
         schedule: [
+          {
+            title: 'Panel: Resignificar los espacios de encuentro',
+            with: [
+              {
+                name: 'Mariana Alegre',
+                type: 'Panelista',
+                org: 'Ocupa tu Calle',
+                instagram: 'maralegre',
+                twitter: 'maralegre',
+                facebook: 'marianaalegre',
+                mod: false 
+              },
+              {
+                name: 'Antonella Milano',
+                type: 'Panelista',
+                org: 'Ecosistema Urbano',
+                instagram: 'ecosistemaurbano',
+                twitter: 'ecosistema',
+                facebook: 'ecosistemaurbano',
+                mod: false 
+              },
+              {
+                name: 'Gustavo Dieguez',
+                type: 'Panelista',
+                org: 'A77',
+                instagram: 'crisanaz',
+                twitter: 'crisanaz',
+                facebook: 'gustavo.dieguez.9',
+                mod: false 
+              },
+              {
+                name: 'Alejandro Echeverri',
+                type: 'Panelista',
+                org: 'Urbam',
+                instagram: 'cachoecheverri',
+                twitter: null,
+                facebook: null,
+                mod: false 
+              },
+              {
+                name: 'María Tomé',
+                type: 'Moderadora',
+                org: 'Oficina de Innovación Cívica',
+                instagram: '_mariatome',
+                twitter: '_MariaTome',
+                facebook: null,
+                mod: true 
+              },
+              {
+                name: 'Analía Hanono',
+                type: 'Moderadora',
+                org: 'Urbanismo Vivo',
+                instagram: 'analiahanono',
+                twitter: null,
+                facebook: null,
+                mod: true 
+              },
+            ],
+            hashtags:[
+              '#ciudadinclusiva',
+            ],
+          },
           {
             title: 'Empoderamiento comunitario como herramienta para el cambio en barrios populares',
             with: [
