@@ -274,8 +274,8 @@ export default [
     "name": "Alejandro Echeverri",
     "picture": "alejandroecheverri.jpg",
     "org": "Urbam",
-    "instagram": "cachoecheverri",
-    "twitter": null,
+    "instagram": null,
+    "twitter": 'cachoecheverri',
     "facebook": null,
     "bio": "Arquitecto responsable en la transformación de Medellín. Especializado en Urbanismo Social. Centro de Estudios Urbanos y Ambientales de la Universidad @EAFIT Medellín."
   },

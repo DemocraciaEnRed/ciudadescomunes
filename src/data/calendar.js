@@ -780,6 +780,15 @@ export default [
                 mod: false 
               },
               {
+                name: 'Antonella Risso',
+                type: 'Panelista',
+                org: 'Salud sin daño',
+                instagram: null,
+                twitter: null,
+                facebook: null,
+                mod: false 
+              },
+              {
                 name: 'Marina Aizen',
                 type: 'Moderadora',
                 org: 'Periodistas por el Planeta',
@@ -833,8 +842,8 @@ export default [
                 name: 'Alejandro Echeverri',
                 type: 'Panelista',
                 org: 'Urbam',
-                instagram: 'cachoecheverri',
-                twitter: null,
+                instagram: null,
+                twitter: 'cachoecheverri',
                 facebook: null,
                 mod: false 
               },
