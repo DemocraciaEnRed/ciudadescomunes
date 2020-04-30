@@ -14,7 +14,7 @@
                 En vivo
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'Agenda' }">
-                Agenda
+                Programación
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'Exponen' }">
                 Exponen
@@ -26,7 +26,7 @@
                 DentroFuera
             </b-navbar-item>
             <b-navbar-item href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank">
-                Inscribite
+                Suscribite
             </b-navbar-item>
             <b-navbar-item href="https://facebook.com/ciudadescomunes" target="_blank">
                 <i class="fab fa-facebook fa-lg"></i><span class="is-hidden-desktop">&nbsp;Facebook</span>

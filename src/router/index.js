@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
-import NewHome from '../views/NewHome.vue'
+import Home from '../views/Home.vue'
+// import NewHome from '../views/NewHome.vue'
 import DentroFuera from '../views/DentroFuera.vue'
 import Nosotros from '../views/Nosotros.vue'
 import Agenda from '../views/Agenda.vue'
@@ -14,7 +14,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: NewHome
+    component: Home
   },
   {
     path: '/dentrofuera',
