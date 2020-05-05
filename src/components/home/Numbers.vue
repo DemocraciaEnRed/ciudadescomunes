@@ -9,7 +9,7 @@
             <br>
             <br>
             <h1 class="title custom-size is-800">24 hs</h1>
-            <h2 class="subtitle is-5 is-500 has-text-black">de ideas para repensar la co-const  rucción de las ciudades en época de crisis sanitaria global</h2>
+            <h2 class="subtitle is-5 is-500 has-text-black">de ideas para repensar la co-constucción de las ciudades en época de crisis sanitaria global</h2>
           </div>
           <div class="column is-4 is-offset-3 has-text-centered-touch">
             <br class="is-visible-">

@@ -398,5 +398,122 @@ export default [
     "twitter": "Sumando_arg",
     "facebook": "Sumando.arg",
     "bio": "Licenciada en Ciencia Política especializada en educación y cooperación para el desarrollo. Sol fue parte del equipo de jóvenes que co-creó Ágora, educando para la democracia en 2001, el primer proyecto educativo de lo que luego sería SUMANDO Argentina. Es directora ejecutiva desde 2012, luego de haber realizado un recorrido profesional dentro de otras organizaciones en Argentina y Brasil. Participó en el desarrollo y definición de políticas públicas de infancia y juventud. Confía en el trabajo colaborativo, la diversidad de voces y la participación de los múltiples actores involucrados en la vida política para la transformación social."
-  }
+  },
+  {
+    "type": "staff",
+    "name": "Carolina Huffman",
+    "org": "Urbanismo Vivo",
+    "picture": "carolinahuffman.jpg",
+    "instagram": "carohuffmann",
+    "twitter": "CaroHuffmann",
+    "facebook": null,
+    "bio": ""
+  },
+  {
+    "type": "staff",
+    "name": "Cecilia Cianco",
+    "org": "Urbanismo Vivo",
+    "picture": "ceciliacianco.jpg",
+    "instagram": "ceciciancio",
+    "twitter": "ceci_ciancio",
+    "facebook": null,
+  },
+  {
+    "type": "staff",
+    "name": "Doménico Di Siena",
+    "org": "CivicWise",
+    "picture": "domenicodisiena.jpg",
+    "instagram": "urbanohumano",
+    "twitter": "urbanohumano",
+    "facebook": "DiSienaDomenico",
+    "bio": ""
+  },
+  {
+    "type": "staff",
+    "name": "Rosario Fassina",
+    "org": "ACIJ",
+    "picture": "rosariofassina.jpg",
+    "instagram": "rofassina",
+    "twitter": "rosario_f",
+    "facebook": null,
+    "bio": "Socia en Urbanismo Vivo. Arquitecta. Parte de CivicWise y Civic Innovation School.  Dedicada al diseño de procesos de  construcción y co-construcción."
+  },
+  {
+    "type": "staff",
+    "name": "Victor Franco López",
+    "org": "Colectiva Habitaria",
+    "picture": "victorfranco.jpg",
+    "instagram": "victorfrancolopez",
+    "twitter": "_victor_franco",
+    "facebook": "victor.francolopez.90",
+    "bio": ""
+  },
+  {
+    "type": "staff",
+    "name": "Analia Hanono",
+    "org": "Urbanismo Vivo",
+    "picture": "analiahanono.jpg",
+    "instagram": "analiahanono",
+    "twitter": null,
+    "facebook": null,
+    "bio": "Consultor Internacional e Investigador en procesos de Inteligencia Colectiva e Innovación Cïvica. Parte de CivicWise, Civic innovation School y Fairbnb.coop"
+  },
+  {
+    "type": "staff",
+    "name": "Melina Scioli",
+    "org": "Artículo 41",
+    "picture": "melinascioli.jpg",
+    "instagram": "meliscioli",
+    "twitter": "melinda_sc",
+    "facebook": null,
+    "bio": "Socia en Urbanismo Vivo.Arquitecta. Parte de CivicWise y Civic Innovation School. Dedicada al diseño de procesos de construcción y co-construcción."
+  },
+  {
+    "type": "staff",
+    "name": "Agustin Frizzera",
+    "org": "Democracia en Red",
+    "picture": "agustinfrizzera.jpg",
+    "instagram": "agustinfrizzera",
+    "twitter": "agustinfrizzera",
+    "facebook": null,
+    "bio": ""
+  },
+  {
+    "type": "staff",
+    "name": "Matias Lastra",
+    "picture": "matiaslastra.jpg",
+    "instagram": null,
+    "twitter": null,
+    "facebook": null,
+    "bio": ""
+  },
+  {
+    "type": "staff",
+    "name": "Ana Bovino",
+    "picture": "anabovino.jpg",
+    "instagram": null,
+    "twitter": null,
+    "facebook": null,
+    "bio": "Politóloga y cineasta, actualmente realizando un Máster en Documental de Creación en Barcelona. Siempre en el cruce entre el cine y la política, se ha desempeñado como productora e investigadora de archivo en documentales y ha realizado videos para proyectos y organizaciones sociales. Fue curadora en una galería de arte y Coordinadora de la Gerencia de Formación Artística del Complejo Teatral de Buenos Aires."
+  },
+  {
+    "type": "staff",
+    "name": "Guillermo Croppi",
+    "org": "Democracia en Red",
+    "picture": "guillermocroppi.jpg",
+    "instagram": "guillermocroppi",
+    "twitter": "guillermocroppi",
+    "facebook": null,
+    "bio": ""
+  },
+  {
+    "type": "staff",
+    "name": "Marina Pla",
+    "org": "Artículo 41",
+    "picture": "marinapla.jpg",
+    "instagram": "marinaplastudio",
+    "twitter": "marinapla",
+    "facebook": "marinaplastudio",
+    "bio": ""
+  },
 ]

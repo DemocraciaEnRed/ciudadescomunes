@@ -44,9 +44,7 @@ import exponen from "@/data/exponenArray";
 
 export default {
   data(){
-    return {
-      speakers: exponen
-    }
+
   },
   mounted: function(){
     setTimeout(() => this.scrollTo(this.$route.query.id), 500)
@@ -61,6 +59,13 @@ export default {
         behavior: 'smooth'
       })
     },
+  },
+  computed: {
+    speakers: function(){
+      return exponen.filter( x => {
+        return x.type != 'staff'
+      })
+    }
   }
 }
 </script>
