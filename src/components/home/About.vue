@@ -2,6 +2,9 @@
   <div class="hero is-primary is-medium">
     <div class="hero-body">
       <div class="container">
+        <h1 class="title is-1 is-size-2-touch has-text-centered is-700">nuestros ejes de trabajo</h1>
+        <br>
+        <br>
         <div class="columns is-multiline is-mobile">
           <div class="column is-6-touch is-4-desktop has-text-centered">
             <CiudadInclusivaSVG class="the-icon" />

@@ -41,9 +41,21 @@
         <br>
         <br>
         <div class="has-text-centered">
-         <router-link :to="{name:'Congreso2020'}">
-        <VerMas class="ver-mas animated pulse infinite slow" />
-        </router-link>
+        <StatsDesktop v-if="showDesktop" />
+        <StatsTouch v-if="showTouch" />
+        </div>
+        <br>
+        <br>
+        <div class="has-text-centered">
+          <router-link :to="{name:'Exponen'}">
+            <ConsultaOradores class="boton" />
+          </router-link>
+        </div>
+        <br>
+        <div class="has-text-centered">
+          <router-link :to="{name:'Agenda'}">
+            <ConsultaProgramacion class="boton" />
+          </router-link>
         </div>
       </div>
     </div>
@@ -51,12 +63,28 @@
 </template>
 
 <script>
-import VerMas from "@/assets/img/incubadora/ver-mas.svg";
+import VueScreenSize from "vue-screen-size";
+import StatsDesktop from "@/assets/img/congreso2020/stats-congreso-wide.svg";
+import StatsTouch from "@/assets/img/congreso2020/stats-congreso-mobile.svg";
+import ConsultaOradores from "@/assets/img/congreso2020/consulta-oradores.svg";
+import ConsultaProgramacion from "@/assets/img/congreso2020/consulta-programacion.svg";
 
 export default {
   components: {
-    VerMas
-  }
+    StatsDesktop,
+    StatsTouch,
+    ConsultaOradores,
+    ConsultaProgramacion
+  },
+  mixins: [VueScreenSize.VueScreenSizeMixin],
+  computed: {
+    showTouch: function () {
+      return this.$vssWidth > 0 && this.$vssWidth <= 1024;
+    },
+    showDesktop: function () {
+      return this.$vssWidth > 1024;
+    },
+  },
 };
 </script>
 
@@ -76,7 +104,7 @@ export default {
   width: 100%;
   height: 100%;
 }
-.ver-mas {
-  max-width: 160px;
+.boton {
+  max-height: 50px;
 }
 </style>

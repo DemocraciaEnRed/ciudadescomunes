@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <div class="container">
-    <h1 class="title is-1 is-size-2-touch is-700">exponen</h1>
+    <h1 class="title is-1 is-size-2-touch is-700">oradores</h1>
     <br>
     <br>
     <div class="columns is-multiline is-mobile is-centered">
@@ -44,7 +44,9 @@ import exponen from "@/data/exponenArray";
 
 export default {
   data(){
+    return {
 
+    }
   },
   mounted: function(){
     setTimeout(() => this.scrollTo(this.$route.query.id), 500)

@@ -2,7 +2,10 @@
   <div class="hero is-white is-medium">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title is-1 is-size-2-touch is-700">contexto COVID-19</h1>
+        <h1 class="title is-1 is-size-2-touch has-text-centered is-700">
+            contexto COVID-19
+          </h1>
+          <br>
         <div class="columns is-variable is-1-mobile is-8-tablet">
           <div class="column">
             <div class="content">

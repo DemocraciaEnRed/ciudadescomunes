@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="intro-header">
     <!-- <img src="@/assets/img/intro/mobile.svg" class="image intro-header" v-if="showMobile" alt="">
     <img src="@/assets/img/intro/wide-mobile.svg" class="image intro-header" v-if="showExtraMobile" alt="">
     <img src="@/assets/img/intro/touch.svg" class="image intro-header" v-if="showTouch" alt="">
@@ -53,7 +53,7 @@ export default {
 <style lang="scss" scoped>
 .intro-header{
   width:100%;
-  margin-bottom: 0;
+  margin-bottom: -1px;
 }
 section{
   line-height: 0;

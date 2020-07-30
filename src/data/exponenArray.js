@@ -421,7 +421,7 @@ export default [
   {
     "type": "staff",
     "name": "Doménico Di Siena",
-    "org": "CivicWise",
+    "org": "CivicWise", 
     "picture": "domenicodisiena.jpg",
     "instagram": "urbanohumano",
     "twitter": "urbanohumano",

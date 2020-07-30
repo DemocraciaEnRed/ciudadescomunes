@@ -11,19 +11,16 @@
 
         <template slot="end">
             <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
-                En vivo
+                Inicio
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ name: 'Agenda' }">
-                Programación
+            <b-navbar-item tag="router-link" :to="{ name: 'Incubadora' }">
+                Incubadora
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ name: 'Exponen' }">
-                Exponen
+            <b-navbar-item tag="router-link" :to="{ name: 'Congreso2020' }">
+                Congreso 2020
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ name: 'QuienesSomos' }">
                 Quienes somos
-            </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ name: 'DentroFuera' }">
-                DentroFuera
             </b-navbar-item>
             <b-navbar-item href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank">
                 Suscribite

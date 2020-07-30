@@ -1,11 +1,11 @@
 <template>
-  <section>
-    <Banner/> 
+  <section class="intro-header">
+    <Banner /> 
   </section>
 </template>
 
 <script>
-import Banner from '@/assets/img/agenda/mobile.svg'
+import Banner from '@/assets/img/incubadora/incubadora-banner.svg'
 
 export default {
   components:{
@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.intro-header{
+  width:100%;
+  margin-bottom: -1px;
+}
 section{
   line-height: 0;
 }

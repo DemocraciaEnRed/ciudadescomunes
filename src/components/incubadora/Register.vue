@@ -3,12 +3,12 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns">
-          <div class="column is-one-third has-text-centered-touch">
-            <h1 class="title is-2 larger animated pulse slower infinite"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank"><u>suscribite</u></a></h1>
-            <h1 class="title is-2 has-text-black">para enterarte de futuros eventos y actividades</h1>
+          <div class="column is-one-third is-4 has-text-centered-touch">
+            <h1 class="title is-4 has-text-black">¿Te interesa estar al tanto de todas las actividades abiertas relacionadas a la incubadora de proyectos de Ciudades Comunes?</h1>
           </div>
           <div class="column is-offset-1 has-text-centered-touch">
             <!-- <h1 class="title is-2 larger is-hidden-touch"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank"><u>inscribite</u></a></h1> -->
+            <h1 class="title is-3 larger"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank"><u>suscribite</u></a></h1>
             <h1 class="title is-2 larger has-text-black">Síguenos</h1>
             <div class="content is-large">
               <p><a href="https://twitter.com/ciudadescomunes" class="has-text-black"><i class="fab fa-twitter"></i> @ciudadescomunes</a></p>
