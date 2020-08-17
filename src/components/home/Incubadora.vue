@@ -24,7 +24,7 @@
               <div class="tile is-child is-4 event-container">
                 <h5 class="subtitle is-300">{{getTimeEvent(event.when)}} HS</h5>
                 <h5 class="title is-600">{{event.title}}</h5>
-                <p v-for="(p,i) in event.text" :key="`text${i}`" v-html="p"></p>
+                <div v-for="(p,i) in event.text" :key="`text${i}`" v-html="p"></div>
               </div>
             </div>
           </div>

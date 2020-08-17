@@ -12,9 +12,9 @@
             >Día 1 - 24 de abril 2020</h2>
             <div class="videoWrapper">
               <iframe
-                width="560"
-                height="315"
-                :src="`https://www.youtube.com/embed/eAnDFgyt7Zs`"
+                width="853"
+                height="480"
+                :src="`https://www.youtube.com/embed/videoseries?list=PLn0MNwA9csxDqr4_HQjf0iwJk5_57JJ7Z`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -28,9 +28,9 @@
             >Día 2 - 24 de abril 2020</h2>
             <div class="videoWrapper">
               <iframe
-                width="560"
-                height="315"
-                :src="`https://www.youtube.com/embed/GOJHd0CI1p4`"
+                width="853"
+                height="480"
+                :src="`https://www.youtube.com/embed//videoseries?list=PLn0MNwA9csxA10EVfhdsNKW1K4XAe-5E2`"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
