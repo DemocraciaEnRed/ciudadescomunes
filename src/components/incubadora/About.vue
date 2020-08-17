@@ -9,8 +9,12 @@
           </div>
           <div class="column">
             <br class="is-hidden-desktop">
-            <h1 class="title is-1 is-size-2-touch">20/08 - 16hs (Bs. As.)</h1>
-            <p class="is-size-4 is-500">¡Mirá la próxima sesión de la incubadora en vivo por streaming en nuestro sitio!</p>
+            <div class="box has-text-center" v-if="next">
+              <p class="is-size-5 is-500">¡Mirá la próxima sesión de la incubadora en vivo por streaming en nuestro sitio!</p>
+              <br>
+            <h3 class="title is-3 is-700 has-text-black">{{next.title}}</h3>
+            <h3 class="subtitle is-4 is-300 has-text-black">{{next.when.getDate()}}/{{next.when.getMonth()+1}}/{{next.when.getFullYear()}} a las {{getTimeEvent(next.when)}} HS</h3>
+            </div>
             <br>
             <LazoOne class="lazo"/>
           </div>
@@ -30,7 +34,9 @@
             <div class="content">
               <p>El día 10 de agosto se anunciarán los 3 tres proyectos seleccionados en el Ideatón organizado por La División de Vivienda y Desarrollo Urbano del BID, desde su LAB Ciudades, en alianza con Ciudades Comunes, sede Placemaking Latinoamérica 2020.</p>
               <p>Las tres propuestas ganadoras serán parte de un proceso de incubación colaborativo liderado por nuestro equipo, en el que adaptaremos las ideas para convertirlas en un prototipo que pueda ser implementado en ciudades de Latinoamérica y el Caribe.</p>
-              <ConoceMas class="conoce-mas"/>
+              <a href="https://www.iadb.org/es/desarrollo-urbano-y-vivienda/ideaton-volver-la-calle-soluciones-poscovid19-nuevo-comun-urbano" target="_blank">
+                <ConoceMas class="conoce-mas"/>
+              </a>
             </div>
           </div>
         </div>
@@ -41,7 +47,7 @@
         <br>
         <div class="columns is-multiline is-mobile is-centered">
           <div class="column is-6-mobile is-4-tablet is-one-fifth-desktop has-text-centered" v-for="(s,i) in staff" :key="`staff-${i}`">
-<img :src="`/img/exponen/${s.picture}`" class="image speaker-avatar is-centered" :alt="s.name">
+          <img :src="`/img/exponen/${s.picture}`" class="image speaker-avatar is-centered" :alt="s.name">
 
         <h1 class="title is-5 is-size-6-touch is-700">{{s.name}}</h1>
         <h1 class="subtitle is-6 is-size-7-touch">{{s.org || '-'}}</h1>
@@ -60,13 +66,39 @@
 import LazoOne from "@/assets/img/incubadora/lazo1.svg";
 import ConoceMas from "@/assets/img/incubadora/boton-conoce-mas-01.svg";
 import exponen from "@/data/exponenIncubadora";
+import calendar from "@/data/incubadoraCalendar";
 
 export default {
   components: {
       LazoOne,
       ConoceMas
   },
+  data() {
+    return {
+      now: new Date(),
+      // now: new Date(Date.UTC(2020,7,20,12,0,0)),
+      calendar: calendar,
+    };
+  },
+  methods: {
+    getTimeEvent: function(eventStarts) {
+      if (eventStarts.getMinutes() == "0") {
+        return eventStarts.getHours();
+      }
+      return `${eventStarts.getHours()}.${eventStarts.getMinutes()}`;
+    }
+  },
   computed: {
+     next: function() {
+      let event = this.calendar.find( (x,index,arr) => {
+        if(index == 0 && this.now <= x.ends ) return true
+        if(index > 0){
+          if(arr[index-1].ends <= this.now && this.now <= x.starts) return true
+        }
+        return false
+      })
+      return event
+     },
      staff: function(){
       return exponen.filter( x => {
         return x.type == 'staff'
