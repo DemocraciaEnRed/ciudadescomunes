@@ -4,7 +4,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-one-third has-text-centered-touch">
-            <h1 class="title is-2 larger animated pulse slower infinite"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank"><u>suscribite</u></a></h1>
+            <h1 class="title is-2 larger animated pulse slower infinite"><a class="has-text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSfjRwQXGxhviOwRA2ldSE6d3jidk7WBYfTtKSCjbygsB10aag/viewform" target="_blank"><u>suscribite</u></a></h1>
             <h1 class="title is-2 has-text-black">para enterarte de futuros eventos y actividades</h1>
           </div>
           <div class="column is-offset-1 has-text-centered-touch">

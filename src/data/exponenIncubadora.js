@@ -16,7 +16,7 @@ export default [
     "picture": "domenicodisiena.jpg",
     "instagram": "urbanohumano",
     "twitter": "urbanohumano",
-    "facebook": "DiSienaDomenico",
+    "facebook": "urbanohumano",
     "bio": ""
   },
     {
@@ -24,7 +24,7 @@ export default [
     "name": "Matias Lastra",
     "org": "Urbanismo Vivo",
     "picture": "matiaslastra.jpg",
-    "instagram": null,
+    "instagram": 'matilast',
     "twitter": null,
     "facebook": null,
     "bio": ""
