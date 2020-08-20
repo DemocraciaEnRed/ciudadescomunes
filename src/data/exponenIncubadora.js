@@ -1,7 +1,7 @@
 export default [
     {
     "type": "staff",
-    "name": "Carolina Huffman",
+    "name": "Carolina Huffmann",
     "org": "Urbanismo Vivo",
     "picture": "carolinahuffman.jpg",
     "instagram": "carohuffmann",
