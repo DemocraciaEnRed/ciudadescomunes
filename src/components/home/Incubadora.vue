@@ -4,6 +4,10 @@
       <div class="container">
         <section v-if="event">
           <div class="logo-container">
+            <LogoDesktop v-if="showDesktop" />
+            <LogoTouch v-if="showTouch" />
+            <br>
+            <br>
             <LogoDesktopTopStream v-if="showDesktop" />
             <LogoTouchTopStream v-if="showTouch" />
           </div>
@@ -119,12 +123,12 @@
 
 <script>
 import VueScreenSize from "vue-screen-size";
-import LogoDesktop from "@/assets/img/incubadora/volver_a_la_calle_logo_wide.svg";
-import LogoTouch from "@/assets/img/incubadora/volver_a_la_calle_logo_mobile.svg";
-import LogoDesktopTopStream from "@/assets/img/incubadora/volver_a_la_calle_logo_top_wide.svg";
-import LogoTouchTopStream from "@/assets/img/incubadora/volver_a_la_calle_logo_top_mobile.svg";
-import LogoDesktopBottomStream from "@/assets/img/incubadora/volver_a_la_calle_logo_bottom_wide.svg";
-import LogoTouchBottomStream from "@/assets/img/incubadora/volver_a_la_calle_logo_bottom_mobile.svg";
+import LogoDesktop from "@/assets/img/incubadora/incubadora-logo-wide.svg";
+import LogoTouch from "@/assets/img/incubadora/incubadora-logo-mobile.svg";
+import LogoDesktopTopStream from "@/assets/img/incubadora/pattern-top.svg";
+import LogoTouchTopStream from "@/assets/img/incubadora/pattern-top-mobile.svg";
+import LogoDesktopBottomStream from "@/assets/img/incubadora/pattern-bottom.svg";
+import LogoTouchBottomStream from "@/assets/img/incubadora/pattern-bottom-mobile.svg";
 import LazoOne from "@/assets/img/incubadora/lazo1.svg";
 import LazoTwo from "@/assets/img/incubadora/lazo2.svg";
 import Boton from "@/assets/img/incubadora/boton-conoce-mas-01.svg";
@@ -171,7 +175,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero.is-custom {
-  background-color: #006ed7;
+  background-color: #6e559e;
 }
 .logo-container {
   margin-bottom: 30px;

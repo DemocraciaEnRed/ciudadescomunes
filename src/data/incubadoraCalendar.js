@@ -19,11 +19,15 @@ export default [
     streamId: 'HSl17as2exg',
     title: 'Semana 2: Sesión con Alejandro Echeverri',
     text: [
+      '<p clas="is-700"><b>Cronograma - Montevideo/Buenos Aires/Sao Paolo (GMT -3)</b></p><br>',
       '<p clas="is-700">18h - Introducción</p>',
-      '<p clas="is-700">18.05h - Conferencia</p>',
+      '<p clas="is-700">18.05h - Saludos BID (Tamara Egger + Hallel Elnir)</p>',
+      '<p clas="is-700">18.15h - Conferencia (Alejandro Echeverri)</p>',
+      '<p clas="is-700">18.35h - Preguntas y comentarios</p>',
       '<p clas="is-700">18.45h - Intervalo </p>',
       '<p clas="is-700">18.55h - Revisión de Proyectos</p>',
       '<p clas="is-700">19.55h - Check-out y foto de cierre</p>',
+
     ],
   },
   {

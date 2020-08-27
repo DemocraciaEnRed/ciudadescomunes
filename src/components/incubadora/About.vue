@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import LazoOne from "@/assets/img/incubadora/lazo1.svg";
+import LazoOne from "@/assets/img/incubadora/pattern-bottom-mobile.svg";
 import ConoceMas from "@/assets/img/incubadora/boton-conoce-mas-01.svg";
 import exponen from "@/data/exponenIncubadora";
 import calendar from "@/data/incubadoraCalendar";
@@ -111,7 +111,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero.is-black{
-  background-color: #006ed7;
+  background-color: #6e559e;
 }
 .lazo{
   max-width: 500px
