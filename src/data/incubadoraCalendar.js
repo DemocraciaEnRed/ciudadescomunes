@@ -6,9 +6,9 @@ export default [
     streamId: '83sPnoZIUi4',
     title: 'Inaguración',
     text: [
-      '<p clas="is-700">18 hs - Introducción</p>',
-      '<p clas="is-700">18.10 hs - Presentación de proyectos</p>',
-      '<p clas="is-700">18.55 hs - Cierre y foto</p>',
+      '<p>18 hs - Introducción</p>',
+      '<p>18.10 hs - Presentación de proyectos</p>',
+      '<p>18.55 hs - Cierre y foto</p>',
 
     ]
   },
@@ -19,14 +19,14 @@ export default [
     streamId: 'HSl17as2exg',
     title: 'Semana 2: Sesión con Alejandro Echeverri',
     text: [
-      '<p clas="is-700"><b>Cronograma - Montevideo/Buenos Aires/Sao Paolo (GMT -3)</b></p><br>',
-      '<p clas="is-700">18h - Introducción</p>',
-      '<p clas="is-700">18.05h - Saludos BID (Tamara Egger + Hallel Elnir)</p>',
-      '<p clas="is-700">18.15h - Conferencia (Alejandro Echeverri)</p>',
-      '<p clas="is-700">18.35h - Preguntas y comentarios</p>',
-      '<p clas="is-700">18.45h - Intervalo </p>',
-      '<p clas="is-700">18.55h - Revisión de Proyectos</p>',
-      '<p clas="is-700">19.55h - Check-out y foto de cierre</p>',
+      '<p><b>Cronograma - Montevideo/Buenos Aires/Sao Paolo (GMT -3)</b></p><br>',
+      '<p>18h - Introducción</p>',
+      '<p>18.05h - Saludos BID (Tamara Egger + Hallel Elnir)</p>',
+      '<p>18.15h - Conferencia (Alejandro Echeverri)</p>',
+      '<p>18.35h - Preguntas y comentarios</p>',
+      '<p>18.45h - Intervalo </p>',
+      '<p>18.55h - Revisión de Proyectos</p>',
+      '<p>19.55h - Check-out y foto de cierre</p>',
 
     ],
   },
@@ -34,28 +34,14 @@ export default [
     starts: new Date(Date.UTC(2020,8,3,3,0,0)),
     ends: new Date(Date.UTC(2020,8,4,3,0,0)),
     when: new Date(Date.UTC(2020,8,3,21,0,0)),
-    streamId: '83sPnoZIUi4',
-    title: 'Sesión con invitade 2',
+    streamId: 'AzISejeYbN8',
+    title: 'Semana 3: Sesión con Andrés G Blanco',
     text: [
-      '<p clas="is-700">18 hs - Introducción</p>',
-      '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
-      '<p clas="is-700">19 hs - Revision de proyectos</p>',
-      '<p clas="is-700">19.55 hs - Cierre y foto</p>',
-    ],
-  },
-  {
-    starts: new Date(Date.UTC(2020,8,5,3,0,0)),
-    ends: new Date(Date.UTC(2020,8,6,3,0,0)),
-    when: new Date(Date.UTC(2020,8,5,19,0,0)),
-    streamId: '83sPnoZIUi4',
-    title: 'Maratón',
-    text: [
-      '<p clas="is-700">16 hs - Introducción</p>',
-      '<p clas="is-700">16.10 hs - Conferencia Invitade</p>',
-      '<p clas="is-700">17 hs - Revision de proyectos - Parte 1</p>',
-      '<p clas="is-700">18 hs - Revision de proyectos - Parte 2</p>',
-      '<p clas="is-700">19 hs - Workshop coordinado por Invitades Ciudades Comunes</p>',
-      '<p clas="is-700">19.55 hs - Cierre y foto</p>'
+      '<p><b>Cronograma - Montevideo/Buenos Aires/Sao Paolo (GMT -3)</b></p><br>',
+      '<p>18h - Introducción</p>',
+      '<p>18.05h - Conferencia</p>',
+      '<p>18.45h - Sesión de preguntas </p>',
+      '<p>18.55h - Check-out y foto de cierre</p>',
     ],
   },
   {
@@ -65,10 +51,10 @@ export default [
     streamId: '83sPnoZIUi4',
     title: 'Sesión con invitade 3',
     text: [
-      '<p clas="is-700">18 hs - Introducción</p>',
-      '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
-      '<p clas="is-700">19 hs - Revision de proyectos</p>',
-      '<p clas="is-700">19.55 hs - Cierre y foto</p>',
+      '<p>18 hs - Introducción</p>',
+      '<p>18.10 hs - Conferencia Invitade</p>',
+      '<p>19 hs - Revision de proyectos</p>',
+      '<p>19.55 hs - Cierre y foto</p>',
     ],
   },
   {
@@ -78,10 +64,10 @@ export default [
     streamId: '83sPnoZIUi4',
     title: 'Sesión con invitade 4',
     text: [
-      '<p clas="is-700">18 hs - Introducción</p>',
-      '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
-      '<p clas="is-700">19 hs - Revision de proyectos</p>',
-      '<p clas="is-700">19.55 hs - Cierre y foto</p>',
+      '<p>18 hs - Introducción</p>',
+      '<p>18.10 hs - Conferencia Invitade</p>',
+      '<p>19 hs - Revision de proyectos</p>',
+      '<p>19.55 hs - Cierre y foto</p>',
     ],
   },
   {
@@ -91,12 +77,12 @@ export default [
     streamId: '83sPnoZIUi4',
     title: 'Maratón',
     text: [
-      '<p clas="is-700">16 hs - Introducción</p>',
-      '<p clas="is-700">16.10 hs - Conferencia Invitade</p>',
-      '<p clas="is-700">17 hs - Revision de proyectos - Parte 1</p>',
-      '<p clas="is-700">18 hs - Revision de proyectos - Parte 2</p>',
-      '<p clas="is-700">19 hs - Workshop coordinado por Invitades Ciudades Comunes</p>',
-      '<p clas="is-700">19.55 hs - Cierre y foto</p>'
+      '<p>16 hs - Introducción</p>',
+      '<p>16.10 hs - Conferencia Invitade</p>',
+      '<p>17 hs - Revision de proyectos - Parte 1</p>',
+      '<p>18 hs - Revision de proyectos - Parte 2</p>',
+      '<p>19 hs - Workshop coordinado por Invitades Ciudades Comunes</p>',
+      '<p>19.55 hs - Cierre y foto</p>'
     ],
   },
   {
