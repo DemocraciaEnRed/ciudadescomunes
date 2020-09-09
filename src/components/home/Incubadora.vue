@@ -76,6 +76,10 @@
           <div class="logo-container">
             <LogoDesktop v-if="showDesktop" />
             <LogoTouch v-if="showTouch" />
+            <br>
+            <br>
+            <LogoDesktopTopStream v-if="showDesktop" />
+            <LogoTouchTopStream v-if="showTouch" />
           </div>
           <div class="has-text-centered" v-if="next">
           <br>

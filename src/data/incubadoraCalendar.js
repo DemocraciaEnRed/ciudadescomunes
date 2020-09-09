@@ -48,13 +48,16 @@ export default [
     starts: new Date(Date.UTC(2020,8,10,3,0,0)),
     ends: new Date(Date.UTC(2020,8,11,3,0,0)),
     when: new Date(Date.UTC(2020,8,10,21,0,0)),
-    streamId: '83sPnoZIUi4',
-    title: 'Sesión con invitade 3',
+    streamId: 'bmO5jzCaOqk',
+    title: 'Semana 3: Sesión con Agustín Frizzera',
     text: [
-      '<p>18 hs - Introducción</p>',
-      '<p>18.10 hs - Conferencia Invitade</p>',
-      '<p>19 hs - Revision de proyectos</p>',
-      '<p>19.55 hs - Cierre y foto</p>',
+      '<p><b>Cronograma - Montevideo/Buenos Aires/Sao Paolo (GMT -3)</b></p><br>',
+      '<p>18h - Introducción</p>',
+      '<p>18.05h - Resumen Maratón</p>',
+      '<p>18.30h - Conferencia</p>',
+      '<p>19.00h - Dialogo y preguntas</p>',
+      '<p>19.25h - Check-out y foto de cierre</p>',
+     
     ],
   },
   {
