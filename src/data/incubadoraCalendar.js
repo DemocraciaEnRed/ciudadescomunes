@@ -49,7 +49,7 @@ export default [
     ends: new Date(Date.UTC(2020,8,11,3,0,0)),
     when: new Date(Date.UTC(2020,8,10,21,0,0)),
     streamId: 'bmO5jzCaOqk',
-    title: 'Semana 3: Sesión con Agustín Frizzera',
+    title: 'Semana 4: Sesión con Agustín Frizzera',
     text: [
       '<p><b>Cronograma - Montevideo/Buenos Aires/Sao Paolo (GMT -3)</b></p><br>',
       '<p>18h - Introducción</p>',
@@ -64,13 +64,13 @@ export default [
     starts: new Date(Date.UTC(2020,8,17,3,0,0)),
     ends: new Date(Date.UTC(2020,8,18,3,0,0)),
     when: new Date(Date.UTC(2020,8,17,21,0,0)),
-    streamId: '83sPnoZIUi4',
-    title: 'Sesión con invitade 4',
+    streamId: 'pC4OSGVWx9k',
+    title: 'Semana 5: Sesión con Agustín Frizzera',
     text: [
-      '<p>18 hs - Introducción</p>',
-      '<p>18.10 hs - Conferencia Invitade</p>',
-      '<p>19 hs - Revision de proyectos</p>',
-      '<p>19.55 hs - Cierre y foto</p>',
+      '<p>18h - Introducción</p>',
+      '<p>18.15h - Conferencia</p>',
+      '<p>18.45h - Dialogo y preguntas</p>',
+      '<p>19.15h - Check-out y foto de cierre</p>',
     ],
   },
   {
