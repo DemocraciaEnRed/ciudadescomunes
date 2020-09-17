@@ -65,7 +65,7 @@ export default [
     ends: new Date(Date.UTC(2020,8,18,3,0,0)),
     when: new Date(Date.UTC(2020,8,17,21,0,0)),
     streamId: 'pC4OSGVWx9k',
-    title: 'Semana 5: Sesión con Agustín Frizzera',
+    title: 'Semana 5: Sesión con Renata Laurentino',
     text: [
       '<p>18h - Introducción</p>',
       '<p>18.15h - Conferencia</p>',
