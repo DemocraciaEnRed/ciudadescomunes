@@ -57,7 +57,6 @@ export default [
       '<p>18.30h - Conferencia</p>',
       '<p>19.00h - Dialogo y preguntas</p>',
       '<p>19.25h - Check-out y foto de cierre</p>',
-     
     ],
   },
   {
@@ -74,26 +73,25 @@ export default [
     ],
   },
   {
-    starts: new Date(Date.UTC(2020,8,19,3,0,0)),
-    ends: new Date(Date.UTC(2020,8,20,3,0,0)),
-    when: new Date(Date.UTC(2020,8,19,19,0,0)),
-    streamId: '83sPnoZIUi4',
-    title: 'Maratón',
-    text: [
-      '<p>16 hs - Introducción</p>',
-      '<p>16.10 hs - Conferencia Invitade</p>',
-      '<p>17 hs - Revision de proyectos - Parte 1</p>',
-      '<p>18 hs - Revision de proyectos - Parte 2</p>',
-      '<p>19 hs - Workshop coordinado por Invitades Ciudades Comunes</p>',
-      '<p>19.55 hs - Cierre y foto</p>'
-    ],
-  },
-  {
     starts: new Date(Date.UTC(2020,8,24,3,0,0)),
     ends: new Date(Date.UTC(2020,8,25,3,0,0)),
     when: new Date(Date.UTC(2020,8,24,21,0,0)),
+    streamId: '03vdiRqHtNo',
+    title: 'Semana 6: Sesión con Marialuisa Borja | Colectivo Al Borde',
+    text: [
+      '<p>18h - Introducción</p>',
+      '<p>18.05h - Resumen Maratón</p>',
+      '<p>18.30h - Conferencia</p>',
+      '<p>19.00h - Dialogo y preguntas</p>',
+      '<p>19.25h - Check-out y foto de cierre</p>',
+    ],
+  },
+  {
+    starts: new Date(Date.UTC(2020,9,1,3,0,0)),
+    ends: new Date(Date.UTC(2020,9,2,3,0,0)),
+    when: new Date(Date.UTC(2020,9,1,21,0,0)),
     streamId: '83sPnoZIUi4',
-    title: 'Sesión con invitade 5',
+    title: 'Semana 7',
     text: [
       '<p clas="is-700">18 hs - Introducción</p>',
       '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
@@ -102,11 +100,37 @@ export default [
     ],
   },
   {
-    starts: new Date(Date.UTC(2020,9,1,3,0,0)),
-    ends: new Date(Date.UTC(2020,9,2,3,0,0)),
-    when: new Date(Date.UTC(2020,9,1,21,0,0)),
+    starts: new Date(Date.UTC(2020,9,8,3,0,0)),
+    ends: new Date(Date.UTC(2020,9,10,3,0,0)),
+    when: new Date(Date.UTC(2020,9,8,21,0,0)),
     streamId: '83sPnoZIUi4',
-    title: 'Sesión con invitade 6',
+    title: 'Semana 8',
+    text: [
+      '<p clas="is-700">18 hs - Introducción</p>',
+      '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
+      '<p clas="is-700">19 hs - Revision de proyectos</p>',
+      '<p clas="is-700">19.55 hs - Cierre y foto</p>',
+    ],
+  },
+  {
+    starts: new Date(Date.UTC(2020,9,15,3,0,0)),
+    ends: new Date(Date.UTC(2020,9,16,3,0,0)),
+    when: new Date(Date.UTC(2020,9,15,21,0,0)),
+    streamId: '83sPnoZIUi4',
+    title: 'Semana 9',
+    text: [
+      '<p clas="is-700">18 hs - Introducción</p>',
+      '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
+      '<p clas="is-700">19 hs - Revision de proyectos</p>',
+      '<p clas="is-700">19.55 hs - Cierre y foto</p>',
+    ],
+  },
+  {
+    starts: new Date(Date.UTC(2020,9,22,3,0,0)),
+    ends: new Date(Date.UTC(2020,9,23,3,0,0)),
+    when: new Date(Date.UTC(2020,9,22,21,0,0)),
+    streamId: '83sPnoZIUi4',
+    title: 'Semana 10',
     text: [
       '<p clas="is-700">18 hs - Introducción</p>',
       '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
