@@ -80,10 +80,9 @@ export default [
     title: 'Semana 6: Sesión con Marialuisa Borja | Colectivo Al Borde',
     text: [
       '<p>18h - Introducción</p>',
-      '<p>18.05h - Resumen Maratón</p>',
-      '<p>18.30h - Conferencia</p>',
-      '<p>19.00h - Dialogo y preguntas</p>',
-      '<p>19.25h - Check-out y foto de cierre</p>',
+      '<p>18.05h - Conferencia</p>',
+      '<p>18.45h - Dialogo y preguntas</p>',
+      '<p>19.15h - Check-out y foto de cierre</p>',
     ],
   },
   {
