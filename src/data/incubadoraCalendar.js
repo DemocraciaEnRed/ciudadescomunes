@@ -100,15 +100,15 @@ export default [
   },
   {
     starts: new Date(Date.UTC(2020,9,8,3,0,0)),
-    ends: new Date(Date.UTC(2020,9,10,3,0,0)),
+    ends: new Date(Date.UTC(2020,9,9,3,0,0)),
     when: new Date(Date.UTC(2020,9,8,21,0,0)),
-    streamId: '83sPnoZIUi4',
-    title: 'Semana 8',
+    streamId: 'v5oca7-0kTY',
+    title: 'Semana 8: Sesión especial',
     text: [
-      '<p clas="is-700">18 hs - Introducción</p>',
-      '<p clas="is-700">18.10 hs - Conferencia Invitade</p>',
-      '<p clas="is-700">19 hs - Revision de proyectos</p>',
-      '<p clas="is-700">19.55 hs - Cierre y foto</p>',
+      '<p>18h - Introducción</p>',
+      '<p>18.05h - Saludo equipo Ciudades Comunes</p>',
+      '<p>18.15h - Sesión de preguntas y conversación</p>',
+      '<p>19.15h - Check-out y foto de cierre</p>',
     ],
   },
   {
