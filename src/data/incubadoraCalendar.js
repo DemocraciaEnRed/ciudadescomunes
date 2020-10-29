@@ -138,14 +138,14 @@ export default [
     ],
   },
   {
-    starts: new Date(Date.UTC(2020,9,29,3,0,0)),
-    ends: new Date(Date.UTC(2020,9,30,3,0,0)),
-    when: new Date(Date.UTC(2020,9,29,21,0,0)),
+    starts: new Date(Date.UTC(2020,11,12,3,0,0)),
+    ends: new Date(Date.UTC(2020,11,13,3,0,0)),
+    when: new Date(Date.UTC(2020,11,12,21,0,0)),
     streamId: '83sPnoZIUi4',
-    title: 'Presentacion pública y lanzamiento',
+    title: 'Semana 11 - Presentacion pública y lanzamiento',
     text: [
       '<p clas="is-700">18 hs - Introducción</p>',
-      '<p clas="is-700">18.10 hs - Conferencia</p>',
+      '<p clas="is-700">19.55h - Check-out y foto de cierre</p>',
     ],
   },
 ]
