@@ -138,9 +138,9 @@ export default [
     ],
   },
   {
-    starts: new Date(Date.UTC(2020,11,19,3,0,0)),
-    ends: new Date(Date.UTC(2020,11,20,3,0,0)),
-    when: new Date(Date.UTC(2020,11,19,21,0,0)),
+    starts: new Date(Date.UTC(2020,10,19,3,0,0)),
+    ends: new Date(Date.UTC(2020,10,20,3,0,0)),
+    when: new Date(Date.UTC(2020,10,19,21,0,0)),
     streamId: 'iOT1hoeeyEw',
     title: 'Semana 11 - Presentacion pública y lanzamiento',
     text: [
