@@ -2,16 +2,17 @@
   <div class="home">
     <!-- <p class="is-inline is-600 is-size-5" style="position: fixed; bottom: 0; left: 0;background-color: blue; color: white; padding: 5px 15px;">Hora: {{this.now}}</p> -->
     <intro v-if="!showtime" />
-    <incubadora :event="showtime" :next="comingNext" />
     <sobre-ciudades-comunes />
+    <about />
+    <topic-mosaic/>
     <!-- <numbers /> -->
     <videos />
+    <cien-ideas />
+    <incubadora :event="showtime" :next="comingNext" />
     <!-- <what-is /> -->
     <!-- <contents /> -->
     <!-- <context /> -->
     <!-- <questions /> -->
-    <about />
-    <topic-mosaic/>
     <who-are-we />
     <register />
   </div>
@@ -25,6 +26,7 @@ import Incubadora from '@/components/home/Incubadora.vue'
 import SobreCiudadesComunes from '@/components/home/SobreCiudadesComunes.vue'
 // import Contents from '@/components/home/Contents.vue'
 import About from '@/components/home/About.vue'
+import CienIdeas from '@/components/home/CienIdeas.vue'
 import Register from '@/components/home/Register.vue'
 // import Questions from '@/components/home/Questions.vue'
 // import Context from '@/components/home/Context.vue'
@@ -50,7 +52,7 @@ export default {
     SobreCiudadesComunes,
     // Numbers,
     Videos,
-    // Contents,
+    CienIdeas,
     About,
     Register,
     // Questions,
