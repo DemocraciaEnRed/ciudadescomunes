@@ -10,11 +10,11 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 296.33334 84.666664"
+   viewBox="0 0 461.44922 84.720055"
    version="1.1"
    id="svg2257"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="header-touch.svg">
+   sodipodi:docname="header-wide.svg">
   <defs
      id="defs2251">
     <clipPath
@@ -43,9 +43,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="164.28571"
-     inkscape:cy="-11.428571"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="244.74932"
+     inkscape:cy="-34.950217"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -75,7 +75,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(69.547623,-61.142856)">
+     transform="translate(154.22726,-61.142856)">
+    <rect
+       style="fill:#ffde17;stroke-width:0.26458332"
+       x="-111.88097"
+       y="61.142857"
+       width="42.333332"
+       height="42.333332"
+       id="rect22" />
     <rect
        style="fill:#f26522;stroke-width:0.26458332"
        x="-69.547623"
@@ -130,6 +137,20 @@
        height="42.333332"
        id="rect38" />
     <rect
+       style="fill:#29abe2;stroke-width:0.26458332"
+       x="226.78571"
+       y="61.142857"
+       width="42.333332"
+       height="42.333332"
+       id="rect40" />
+    <rect
+       style="fill:#ffde17;stroke-width:0.26458332"
+       x="-111.88097"
+       y="103.47618"
+       width="42.333332"
+       height="42.333332"
+       id="rect42" />
+    <rect
        style="fill:#f26522;stroke-width:0.26458332"
        x="-69.547623"
        y="103.47618"
@@ -178,6 +199,13 @@
        width="42.333332"
        height="42.333332"
        id="rect56" />
+    <rect
+       style="fill:#f7adcb;stroke-width:0.26458332"
+       x="226.78571"
+       y="103.47618"
+       width="42.333332"
+       height="42.333332"
+       id="rect58" />
     <g
        transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
        id="g328">
@@ -683,6 +711,28 @@
     </g>
     <g
        transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
+       id="g556">
+      <circle
+         style="fill:#8cc63f"
+         cx="1360"
+         cy="442.74899"
+         r="21.341999"
+         id="circle550" />
+      <circle
+         style="fill:#ffde17"
+         cx="1360"
+         cy="400.065"
+         r="21.341999"
+         id="circle552" />
+      <circle
+         style="fill:#f26522"
+         cx="1360"
+         cy="357.38101"
+         r="21.341999"
+         id="circle554" />
+    </g>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
        id="g588">
       <path
          style="fill:#f26522"
@@ -709,6 +759,16 @@
          d="m 160,400.065 c 0,-44.183 35.817,-80 80,-80 44.183,0 80,35.817 80,80"
          id="path592" />
     </g>
+    <polygon
+       transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
+       style="fill:#f7adcb"
+       points="0,320.065 80,160.065 160,320.065 "
+       id="polygon596" />
+    <polygon
+       transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
+       style="fill:#f26522"
+       points="1280,160.065 1440,240.065 1280,320.065 "
+       id="polygon598" />
     <g
        transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
        id="g626">
@@ -720,6 +780,69 @@
          style="fill:#f26522"
          points="800,160.065 720,240.065 640,160.065 "
          id="polygon624" />
+    </g>
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
+       id="g648">
+      <rect
+         style="fill:#ffde17"
+         x="0"
+         y="320.065"
+         width="160"
+         height="160"
+         id="rect628" />
+      <g
+         id="g646">
+        <defs
+           id="defs631">
+          <rect
+             id="rect3160"
+             x="0"
+             y="320.065"
+             width="160"
+             height="160" />
+        </defs>
+        <clipPath
+           id="clipPath2224">
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="overflow:visible"
+             xlink:href="#SVGID_1_"
+             overflow="visible"
+             id="use2222" />
+        </clipPath>
+        <g
+           clip-path="url(#SVGID_2_)"
+           id="g644">
+          <circle
+             style="fill:#29abe2"
+             cx="159.47301"
+             cy="320.59201"
+             r="79.473"
+             id="circle636" />
+          <circle
+             style="fill:#29abe2"
+             cx="159.47301"
+             cy="479.53799"
+             r="79.473"
+             id="circle638" />
+          <circle
+             style="fill:#29abe2"
+             cx="0.52700001"
+             cy="320.59201"
+             r="79.473"
+             id="circle640" />
+          <circle
+             style="fill:#29abe2"
+             cx="0.52700001"
+             cy="479.53799"
+             r="79.473"
+             id="circle642" />
+        </g>
+      </g>
     </g>
     <g
        transform="matrix(0.26458333,0,0,0.26458333,-111.88095,18.792325)"
@@ -828,6 +951,131 @@
          width="128.052"
          height="17.752001"
          id="rect830" />
+    </g>
+    <rect
+       style="fill:#6e559e;stroke-width:0.26455557"
+       x="264.89307"
+       y="61.145073"
+       width="42.328892"
+       height="42.328892"
+       id="rect966" />
+    <rect
+       style="fill:#f26522;stroke-width:0.26455557"
+       x="264.89307"
+       y="103.47396"
+       width="42.328892"
+       height="42.328892"
+       id="rect968" />
+    <g
+       transform="matrix(0.26455557,0,0,0.26455557,-158.39588,61.145077)"
+       id="g978">
+      <circle
+         style="fill:#ffde17"
+         cx="1680"
+         cy="193.364"
+         r="33.137001"
+         id="circle970" />
+      <circle
+         style="fill:#ffde17"
+         cx="1726.863"
+         cy="240.22701"
+         r="33.137001"
+         id="circle972" />
+      <circle
+         style="fill:#ffde17"
+         cx="1633.137"
+         cy="240.22701"
+         r="33.137001"
+         id="circle974" />
+      <circle
+         style="fill:#ffde17"
+         cx="1680"
+         cy="287.09"
+         r="33.137001"
+         id="circle976" />
+    </g>
+    <g
+       transform="matrix(0.26455557,0,0,0.26455557,-158.39588,61.145077)"
+       id="g984">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         d="m 1744.026,80 c 0,0 -28.665,38.214 -64.026,38.214 -35.361,0 -64.026,-38.214 -64.026,-38.214 0,0 28.665,-38.214 64.026,-38.214 35.361,0 64.026,38.214 64.026,38.214 z"
+         id="path980" />
+      <circle
+         style="fill:#29abe2"
+         cx="1680"
+         cy="80"
+         r="27.891001"
+         id="circle982" />
+    </g>
+    <rect
+       style="fill:#6e559e;stroke-width:0.26466435"
+       x="-154.22726"
+       y="61.142857"
+       width="42.346291"
+       height="42.346291"
+       id="rect1042" />
+    <g
+       transform="matrix(0.26466434,0,0,0.26466434,-154.22728,18.766385)"
+       id="g1052">
+      <rect
+         style="fill:#ffffff"
+         x="71.056999"
+         y="226.601"
+         width="5.4439998"
+         height="32.367001"
+         id="rect1044" />
+      <rect
+         style="fill:#ffffff"
+         x="71.056999"
+         y="275.98401"
+         width="5.4439998"
+         height="32.367001"
+         id="rect1046" />
+      <rect
+         style="fill:#ffffff"
+         x="71.056999"
+         y="175.033"
+         width="5.4439998"
+         height="32.367001"
+         id="rect1048" />
+      <rect
+         style="fill:#ffde17"
+         x="83.499001"
+         y="163.123"
+         width="5.4439998"
+         height="153.981"
+         id="rect1050" />
+    </g>
+    <rect
+       style="fill:#f7adcb;stroke-width:0.26466435"
+       x="-154.22726"
+       y="103.48914"
+       width="42.346291"
+       height="42.346291"
+       id="rect1054" />
+    <g
+       transform="matrix(0.26466434,0,0,0.26466434,-154.22728,18.766385)"
+       id="g1062">
+      <circle
+         style="fill:#8cc63f"
+         cx="80"
+         cy="442.798"
+         r="21.341999"
+         id="circle1056" />
+      <circle
+         style="fill:#ffde17"
+         cx="80"
+         cy="400.11401"
+         r="21.341999"
+         id="circle1058" />
+      <circle
+         style="fill:#f26522"
+         cx="80"
+         cy="357.42999"
+         r="21.341999"
+         id="circle1060" />
     </g>
   </g>
 </svg>

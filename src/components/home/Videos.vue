@@ -17,49 +17,10 @@
               <p><span class="is-600">¡Reviví el evento viendo los streams!</span></p>
             </div>
             <router-link :to="{name:'Congreso2020'}" class="button is-primary is-medium is-radiusless animated pulse infinite slow">
-        <!-- <VerMas class="ver-mas animated pulse infinite slow" /> -->
               VER MÁS
             </router-link>
           </div>
         </div>
-        <!-- 
-        <br />
-        <div class="columns is-variable is-1-mobile is-8-tablet">
-          <div class="column is-6">
-            <h2
-              class="title is-5 has-text-black"
-              style="margin-bottom:15px;"
-            >Día 1 - 24 de abril 2020</h2>
-            <div class="videoWrapper">
-              <iframe
-                width="853"
-                height="480"
-                :src="`https://www.youtube.com/embed/videoseries?list=PLn0MNwA9csxDqr4_HQjf0iwJk5_57JJ7Z`"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-          <div class="column is-6">
-            <h2
-              class="title is-5 has-text-black"
-              style="margin-bottom:15px;"
-            >Día 2 - 24 de abril 2020</h2>
-            <div class="videoWrapper">
-              <iframe
-                width="853"
-                height="480"
-                :src="`https://www.youtube.com/embed//videoseries?list=PLn0MNwA9csxA10EVfhdsNKW1K4XAe-5E2`"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br> -->
       </div>
     </div>
   </div>

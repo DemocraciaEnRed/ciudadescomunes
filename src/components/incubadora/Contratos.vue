@@ -1,23 +1,22 @@
 <template>
-  <section class="hero is-medium is-black">
-    <!-- <Banner />  -->
+  <section class="hero is-black is-medium">
     <div class="hero-body">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-10">
+          <div class="column is-8">
               <LogoDesktop v-if="showDesktop" />
               <LogoTouch v-if="showTouch" />
-              <br>
-              <br>
-              <LogoDesktopTopStream v-if="showDesktop" />
-              <LogoTouchTopStream v-if="showTouch" />
               <br>
               <br>
           </div>
         </div>
         <div class="columns is-centered">
           <div class="column is-6">
-              <p class="is-size-5 has-text-centered is-500">Una experiencia transdisciplinar para la activación de proyectos de Innovación Cívica desde la práctica del co-diseño y en un contexto de co-aprendizaje.</p>
+              <p class="is-size-5 has-text-centered is-500">Si esta interesado en la experiencia y quiere aplicarlo en su entorno, Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi.</p>
+              <br>
+              <div class="buttons is-centered">
+                <a href="https://google.com" class="button is-primary is-uppercase is-large animated pulse infinite slow">CONTACTE CON NOSOTRXS</a>
+              </div>
           </div>
         </div>
       </div>
@@ -38,9 +37,9 @@ export default {
 <style lang="scss" scoped>
 .hero.is-black{
   background: rgb(110,85,158);
-  background: -moz-linear-gradient(0deg, rgba(110,85,158,1) 16%, rgba(86,68,121,1) 67%);
-  background: -webkit-linear-gradient(0deg, rgba(110,85,158,1) 16%, rgba(86,68,121,1) 67%);
-  background: linear-gradient(0deg, rgba(110,85,158,1) 16%, rgba(86,68,121,1) 67%);
+  background: -moz-linear-gradient(180deg, rgba(110,85,158,1) 16%, rgba(86,68,121,1) 67%);
+  background: -webkit-linear-gradient(180deg, rgba(110,85,158,1) 16%, rgba(86,68,121,1) 67%);
+  background: linear-gradient(180deg, rgba(110,85,158,1) 16%, rgba(86,68,121,1) 67%);
 }
 </style>
 
