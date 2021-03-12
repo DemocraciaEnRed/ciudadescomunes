@@ -8,10 +8,13 @@
           </div>
           <div class="column is-6 has-text-centered">
             <h1 class="subtitle has-text-black title is-4 is-size-6-touch">23 y 24 de abril <span class="is-700">2020</span></h1>
-            <h1 class="title is-2 is-size-3-touch is-300"><span class="is-700">congreso</span> | ciudades comunes</h1>
+            <LogoDesktop v-if="showDesktop" />
+            <LogoTouch v-if="showTouch" />
+            <br>
+            <br>
             <div class="content">
               <p>Un encuentro online gratuito de 2 días, para repensar la co-construcción de la ciudad en época de crisis sanitaria global</p>
-              <p><span class="is-600">¡Reviví el evento viendo el stream!</span></p>
+              <p><span class="is-600">¡Reviví el evento viendo los streams!</span></p>
             </div>
             <router-link :to="{name:'Congreso2020'}" class="button is-primary is-medium is-radiusless animated pulse infinite slow">
         <!-- <VerMas class="ver-mas animated pulse infinite slow" /> -->
@@ -64,10 +67,23 @@
 
 <script>
 // import VerMas from "@/assets/img/incubadora/ver-mas.svg";
+import VueScreenSize from "vue-screen-size";
+import LogoDesktop from "@/assets/img/congreso2020/congreso-logo-wide-black.svg";
+import LogoTouch from "@/assets/img/congreso2020/congreso-logo-mobile-black.svg";
 
 export default {
+  mixins: [VueScreenSize.VueScreenSizeMixin],
   components: {
-    // VerMas
+    LogoDesktop,
+    LogoTouch
+  },
+  computed: {
+    showTouch: function () {
+      return this.$vssWidth > 0 && this.$vssWidth <= 1024;
+    },
+    showDesktop: function () {
+      return this.$vssWidth > 1024;
+    },
   }
 };
 </script>
