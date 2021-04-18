@@ -7,7 +7,7 @@
             <img src="@/assets/img/congreso2020/logo-cc-2020.png" class="image is-centered" width="250" alt=""/>
           </div>
           <div class="column is-6 has-text-centered">
-            <h1 class="subtitle has-text-black title is-4 is-size-6-touch">23 y 24 de abril <span class="is-700">2020</span></h1>
+            <h1 class="subtitle has-text-black title is-4 is-size-6-touch">24 y 25 de abril <span class="is-700">2020</span></h1>
             <LogoDesktop v-if="showDesktop" />
             <LogoTouch v-if="showTouch" />
             <br>

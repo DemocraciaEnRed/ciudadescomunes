@@ -2,12 +2,8 @@
   <div class="hero is-medium is-white">
     <div class="hero-body">
       <div class="container">
-        <h1 class="subtitle is-4 is-size-5-touch has-text-centered has-text-black">acerca de</h1>
         <h1 class="title is-1 is-size-2-touch has-text-centered is-700">estructura y contenidos</h1>
         <br />
-        <div class="content has-text-centered">
-          <p>El programa se estructura en 4 etapas:</p>
-        </div>
         <br>
         <div class="columns">          
           <div class="column">

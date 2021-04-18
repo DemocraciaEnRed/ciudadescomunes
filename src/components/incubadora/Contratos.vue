@@ -12,7 +12,7 @@
         </div>
         <div class="columns is-centered">
           <div class="column is-6">
-              <p class="is-size-5 has-text-centered is-500">Si esta interesado en la experiencia y quiere aplicarlo en su entorno, Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi.</p>
+              <p class="is-size-5 has-text-centered is-500">Si te interesa impulsar un proceso de incubación de proyectos cívicos en tu localidad</p>
               <br>
               <div class="buttons is-centered">
                 <a href="https://google.com" class="button is-primary is-uppercase is-large animated pulse infinite slow">CONTACTE CON NOSOTRXS</a>

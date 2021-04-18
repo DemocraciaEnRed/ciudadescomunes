@@ -9,6 +9,7 @@ import Exponen from '../views/Exponen.vue'
 // import Talleres from '../views/Talleres.vue'
 import Incubadora from '../views/Incubadora.vue'
 import Congreso2020 from '../views/Congreso2020.vue'
+import Incubadora2020 from '../views/Incubadora2020.vue'
 
 Vue.use(VueRouter)
 
@@ -46,7 +47,12 @@ const routes = [
   {
     path: '/incubadora',
     name: 'Incubadora',
-    component: Incubadora
+    component: Incubadora,
+  },
+  {
+    path: '/incubadora/2020',
+    name: 'Incubadora2020',
+    component: Incubadora2020,
   },
   {
     path: '/congreso2020',

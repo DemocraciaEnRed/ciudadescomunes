@@ -3,7 +3,7 @@
     <Header />
     <Videos />
     <Contents />
-    <Context />
+    <!-- <Context /> -->
     <img src="@/assets/img/congreso2020/bannertwo.png" class="image"/>
     <DentroFueraContent />
     <Support />
@@ -15,7 +15,7 @@
 import Header from '@/components/congreso2020/Header.vue'
 import Videos from '@/components/congreso2020/Videos.vue'
 import Contents from '@/components/congreso2020/Contents.vue'
-import Context from '@/components/congreso2020/Context.vue'
+// import Context from '@/components/congreso2020/Context.vue'
 import DentroFueraContent from '@/components/congreso2020/DentroFueraContent.vue'
 import Support from '@/components/congreso2020/Support.vue'
 
@@ -25,7 +25,7 @@ export default {
     Header,
     Videos,
     Contents,
-    Context,
+    // Context,
     DentroFueraContent,
     Support
   }

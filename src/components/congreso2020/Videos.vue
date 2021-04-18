@@ -25,7 +25,7 @@
             <h2
               class="title is-5 has-text-black"
               style="margin-bottom:15px;"
-            >Día 2 - 24 de abril 2020</h2>
+            >Día 2 - 25 de abril 2020</h2>
             <div class="videoWrapper">
               <iframe
                 width="853"

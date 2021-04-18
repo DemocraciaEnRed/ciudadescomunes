@@ -1,33 +1,36 @@
 <template>
   <section class="hero is-primary">
+    <RouterLink to="/incubadora/2020">
     <div class="hero-body">
       <div class="container">
               <h1 class="title is-1 is-size-2-touch has-text-centered is-700">Año 2020</h1>
-            <hr class="has-background-black" style="max-width: 700px; margin: 40px auto;">
+            <br>
+            <!-- <hr class="has-background-black" style="max-width: 700px; margin: 40px auto;"> -->
         <div class="columns is-centered is-vcentered">
-          <div class="column is-3">
-            <VolverACalle/>
-          </div>
-          <div class="column is-narrow">
-            &nbsp;&nbsp;<i class="fas fa-plus fa-3x fa-fw"></i>&nbsp;&nbsp;
-          </div>
-          <div class="column is-4">
-            <LogoTouch/>
+          <div class="column is-6">
+            <AllInOne/>
           </div>
         </div>
-            <hr class="has-background-black" style="max-width: 700px; margin: 40px auto;">
+            <br>
+            <!-- <hr class="has-background-black" style="max-width: 700px; margin: 40px auto;"> -->
         <div class="columns is-centered">
-          <div class="column is-5">
+          <div class="column is-8 content">
 
-              <p class=" is-size-5 has-text-centered is-300">Si esta interesado en la experiencia y quiere aplicarlo en su entorno, Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quasi.</p>
+              <!-- <p class=" is-size-6 has-text-centered">
+                Desde el Laboratorio de Ciudades del BID, junto con el equipo de Ciudades Comunes y Placemaking Latinoamérica, se realizó una convocatoria a principios de julio de 2020 buscando ideas de la sociedad civil para reactivar los espacios públicos con distanciamiento físico y recuperar la confianza pública en la vida urbana. 
+              </p>
+              <p class=" is-size-6 has-text-centered">
+              Las ideas ganadoras, además de recibir un premio monetario, fueron parte de un proceso de incubación colaborativo digital a cargo de Ciudades Comunes para adaptar la idea a un prototipo que se pueda implementar en la ciudad de los equipos ganadores. 
+              </p> -->
               <br>
               <div class="buttons is-centered">
-                <a href="https://google.com" class="button is-white is-uppercase is-large animated pulse infinite slow">VER MÁS</a>
+                <RouterLink to="/incubadora/2020" class="button is-white is-uppercase is-large animated pulse infinite slow">CONOCÉ MÁS</RouterLink>
               </div>
           </div>
         </div>
       </div>
     </div>
+    </RouterLink>
   </section>
 </template>
 
@@ -52,18 +55,10 @@ export default {
 
 <script>
 import VueScreenSize from "vue-screen-size";
-import LogoDesktop from "@/assets/img/incubadora/incubadora-logo-wide-black.svg";
-import LogoTouch from "@/assets/img/incubadora/incubadora-logo-mobile-black.svg";
-import VolverACalle from "@/assets/img/incubadora/volver_a_la_calle_logo_mobile-5-black.svg";
-import LogoDesktopTopStream from "@/assets/img/incubadora/pattern-top.svg";
-import LogoTouchTopStream from "@/assets/img/incubadora/pattern-top-mobile.svg";
+import AllInOne from "@/assets/img/incubadora2020/cc-incubadora-same.svg";
 export default {
   components: {
-    LogoDesktop,
-    LogoTouch,
-    LogoDesktopTopStream,
-    LogoTouchTopStream,
-    VolverACalle
+    AllInOne,
   },
   mixins: [VueScreenSize.VueScreenSizeMixin],
   computed: {

@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="columns is-centered">
-          <div class="column is-6">
+          <div class="column is-10">
               <p class="is-size-5 has-text-centered is-500">Una experiencia transdisciplinar para la activación de proyectos de Innovación Cívica desde la práctica del co-diseño y en un contexto de co-aprendizaje.</p>
           </div>
         </div>

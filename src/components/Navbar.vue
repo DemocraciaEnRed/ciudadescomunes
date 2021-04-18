@@ -10,9 +10,9 @@
         </template>
 
         <template slot="end">
-            <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
+            <!-- <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
                 Inicio
-            </b-navbar-item>
+            </b-navbar-item> -->
             <b-navbar-item tag="router-link" :to="{ name: 'Incubadora' }">
                 Incubadora
             </b-navbar-item>
