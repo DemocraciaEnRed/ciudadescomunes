@@ -4,6 +4,7 @@
       <div class="container">
         <div class="columns is-variable is-1-mobile is-8-tablet">
           <div class="column">
+        <h1 class="subtitle is-3 is-size-4-touch is-300">Ciudades Comunes 2020</h1>
         <h1 class="title is-1 is-size-2-touch is-700">programación</h1>
         <p class="is-size-7">* El horario se muestra en tú zona horaria</p>
           </div>

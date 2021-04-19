@@ -39,6 +39,11 @@
                 <h2 class="type-text is-size-6-touch is-size-5-desktop mt-0">{{event.type}}</h2>
                 <div v-for="(subEvent,j) in event.schedule" class="subevent" :key="`event-${i}-schedule-${j}`">
                 <p class="title is-4 is-700" v-html="subEvent.title"></p>
+                  <div class="display-pictures">
+
+                  <img :src="`/img/exponen/${who.picture}`" class="image small-speaker"  v-for="(who,k) in filterDisplayPicture(subEvent.with)"
+                    :key="`event-${i}-schedule-${j}-who-image-${k}`" :alt="who.name">
+                  </div>
                 <p
                     v-for="(who,k) in subEvent.with"
                     class="who-text"
@@ -75,12 +80,12 @@
                     <span v-if="who.mod">
                     <i>Modera</i>:
                     </span>
-                    <img
+                    <!-- <img
                         :src="`https://avatars.io/twitter/${who.twitter}`"
                         class="icon-twitter"
                         v-if="who.twitter"
                         alt
-                    />
+                    /> -->
                     <span v-html="who.name"></span>
                     <span v-if="who.instagram" class="is-size-7">&nbsp;<a :href="`https://instagram.com/${who.instagram}`" target="_blank" class="has-text-dark" ><i class="fab fa-instagram fa-fw"></i></a>&nbsp;</span>
                     <span v-if="who.twitter" class="is-size-7">&nbsp;<a :href="`https://twitter.com/${who.twitter}`" target="_blank" class="has-text-dark" ><i class="fab fa-twitter fa-fw"></i></a>&nbsp;</span>
@@ -90,7 +95,7 @@
                 </div>
                 <p
                 v-for="(hashtag,h) in event.hashtags"
-                class="hashtag-text"
+                class="hashtag-text has-text-link"
                 :key="`event-${i}-hashtag-${h}`"
                 ><i>{{hashtag}}</i></p>
             </div>
@@ -111,6 +116,9 @@ export default {
         return eventStarts.getHours();
       }
       return `${eventStarts.getHours()}.${eventStarts.getMinutes()}`;
+    },
+    filterDisplayPicture: function(arr){
+      return  arr.filter(w => w.picture)
     }
   }
 };
@@ -166,7 +174,25 @@ export default {
       display: none;
     }
 }
-
+.display-pictures{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  .small-speaker{
+    width: 85px;
+    display: inline-block;
+    border-radius: 100px;
+    border: 3px solid #F26522;
+    margin: 5px 5px;
+    // &:first-child{
+    //   margin-left: 0;
+    // }
+    // &:last-child{
+    //   margin-right: 0;
+    // }
+  }  
+}
 // .title-text {
 //   font-weight: 600;
 //   font-size: 1.2rem;

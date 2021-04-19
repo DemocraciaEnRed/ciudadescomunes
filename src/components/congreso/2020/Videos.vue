@@ -3,7 +3,7 @@
 <div class="hero is-rosa">
     <div class="hero-body">
         <div class="container">
-            <h1 class="title is-1 is-size-2-touch is-700 has-text-centered mb-6">streams completos</h1>
+            <h1 class="title is-1 is-size-2-touch is-700 has-text-centered mb-6">playlist de los streams</h1>
 
   <div class="columns is-centered mb-0">
     <div class="column">
@@ -19,6 +19,7 @@
           allowfullscreen
         ></iframe>
         </div>
+      <a href="https://www.youtube.com/playlist?list=PLn0MNwA9csxDqr4_HQjf0iwJk5_57JJ7Z" target="_blank">
       <div class="p-5">
           <h2
             class="subtitle is-4 has-text-black is-300"
@@ -27,6 +28,7 @@
             class="title is-4 has-text-black is-700"
         >Día 1 - 24 de abril 2020</h2>
       </div>
+      </a>
       </div>
     </div>
     <div class="column">
@@ -42,6 +44,7 @@
           allowfullscreen
         ></iframe>
         </div>
+      <a href="https://www.youtube.com/playlist?list=PLn0MNwA9csxA10EVfhdsNKW1K4XAe-5E2" target="_blank">
       <div class="p-5">
         <h2
             class="subtitle is-4 has-text-black is-300"
@@ -50,8 +53,15 @@
             class="title is-4 has-text-black is-700"
         >Día 2 - 25 de abril 2020</h2>
       </div>
+      </a>
       </div>
     </div>
+  </div>
+  <br>
+  <div class="buttons is-centered">
+    <router-link :to="{name:'Agenda2020'}" class="button is-primary is-medium is-uppercase animated pulse infinite">
+      Ver cronograma completo
+    </router-link>
   </div>
         </div>
     </div>

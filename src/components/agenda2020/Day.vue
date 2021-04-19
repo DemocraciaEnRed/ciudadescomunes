@@ -25,11 +25,17 @@
               <i>Modera</i>:
             </span>
               <img
+                :src="`/img/exponen/${who.picture}`"
+                class="icon-twitter"
+                v-if="who.picture"
+                alt
+              />
+              <!-- <img
                 :src="`https://avatars.io/twitter/${who.twitter}`"
                 class="icon-twitter"
                 v-if="who.twitter"
                 alt
-              />
+              /> -->
             <span v-html="who.name"></span>
             <span v-if="who.instagram" class="is-size-7">&nbsp;<a :href="`https://instagram.com/${who.instagram}`" target="_blank" class="has-text-dark" ><i class="fab fa-instagram fa-fw"></i></a>&nbsp;</span>
             <span v-if="who.twitter" class="is-size-7">&nbsp;<a :href="`https://twitter.com/${who.twitter}`" target="_blank" class="has-text-dark" ><i class="fab fa-twitter fa-fw"></i></a>&nbsp;</span>
@@ -53,9 +59,9 @@
               <i>Modera</i>:
             </span>
               <img
-                :src="`https://avatars.io/twitter/${who.twitter}`"
+                :src="`/img/exponen/${who.picture}`"
                 class="icon-twitter"
-                v-if="who.twitter"
+                v-if="who.picture"
                 alt
               />
             <span v-html="who.name"></span>

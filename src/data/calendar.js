@@ -29,6 +29,7 @@ export default [
               {
                 name: 'Saskia Sassen',
                 type: 'Conferencista',
+                "picture": "saskiasassen.jpg",
                 org: null,
                 instagram: null,
                 twitter: 'SaskiaSassen',
@@ -38,6 +39,7 @@ export default [
               {
                 name: 'Rosario Fassina',
                 type: 'Moderadora',
+                "picture": "rosariofassina.jpg",
                 org: 'Ciudades Comunes',
                 instagram: 'rofassina',
                 twitter: 'rosario_f',
@@ -64,6 +66,7 @@ export default [
               {
                 name: 'Flavia Broffoni',
                 type: 'Conferencista',
+                "picture": "flaviabroffoni.jpg",
                 org: 'Activista',
                 instagram: 'flaviabroffoni',
                 twitter: 'FlaBroffoni',
@@ -73,6 +76,7 @@ export default [
               {
                 name: 'Melina Scioli',
                 type: 'Moderadora',
+                "picture": "melinascioli.jpg",
                 org: 'Artículo 41',
                 instagram: 'meliscioli',
                 twitter: 'melinda_sc',
@@ -99,6 +103,7 @@ export default [
               {
                 name: 'Lorena Ruiz',
                 type: 'Panelista',
+               "picture": "lorenaruiz.jpg",
                 org: 'Investigadora',
                 instagram: null,
                 twitter: null,
@@ -108,6 +113,7 @@ export default [
               {
                 name: 'Christian Parra',
                 type: 'Panelista',
+                "picture": "christianparra.jpg",
                 org: 'PNUD Paraguay',
                 instagram: 'cdparra',
                 twitter: 'cdparra',
@@ -117,6 +123,7 @@ export default [
               {
                 name: 'Javier Arteaga',
                 type: 'Panelista',
+                "picture": "javierarteaga.jpg",
                 org: 'Feeling',
                 instagram: 'bienpensado',
                 twitter: 'bienpensado',
@@ -126,6 +133,7 @@ export default [
               {
                 name: 'Mariana Salgado',
                 type: 'Moderadora',
+                "picture": "marianasalgado.jpg",
                 org: 'Diseño y Diáspara',
                 instagram: 'mariansalgado',
                 twitter: 'Salgado',
@@ -152,6 +160,7 @@ export default [
               {
                 name: 'Sol González Sañudo',
                 type: 'Expositora Charla Relámpago',
+                "picture": "solgonzalezsanudo.jpg",
                 org: 'Sumando',
                 instagram: 'sumando_arg',
                 twitter: 'Sumando_arg',
@@ -169,6 +178,7 @@ export default [
               {
                 name: 'Luciano Intile',
                 type: 'Expositor Charla Relámpago',
+                "picture": "lucianointile.jpg",
                 org: 'iR arquitectura',
                 instagram: 'ir.arquitectura',
                 twitter: 'IRarquitectura',
@@ -186,6 +196,7 @@ export default [
               {
                 name: 'Alexander Correa',
                 type: 'Expositor Charla Relámpago',
+                "picture": "alexandercorrea.jpg",
                 org: 'Platohedro',
                 instagram: 'platohedro',
                 twitter: 'platohedro',
@@ -203,6 +214,7 @@ export default [
               {
                 name: 'Paola Pollmeier',
                 type: 'Expositora Charla Relámpago',
+                "picture": "paolapollmeier.jpg",
                 org: 'Sumando',
                 instagram: 'platossinfronteras',
                 twitter: 'paolapollmeier',
@@ -220,6 +232,7 @@ export default [
               {
                 name: 'Luciana Renner',
                 type: 'Expositora Charla Relámpago',
+                "picture": "lucianarenner.jpg",
                 org: 'Sumando',
                 instagram: 'placemakingmx',
                 twitter: null,
@@ -260,6 +273,7 @@ export default [
               {
                 name: 'Ana Falú',
                 type: 'Panelista',
+                "picture": "anafalu.jpg",
                 org: 'CISCSA / UNC / RED MUJER Y HABITAT -HIC',
                 instagram: 'ana.falu',
                 twitter: null,
@@ -269,6 +283,7 @@ export default [
               {
                 name: 'Javier Fernández Castro',
                 type: 'Panelista',
+                "picture": "javierfernandezcastro.jpg",
                 org: 'Secretario Nacional de Hábitat / IEH FADU-UBA',
                 instagram: 'javierfernandezcastro7',
                 twitter: null,
@@ -278,6 +293,7 @@ export default [
               {
                 name: 'Zaida Muxí',
                 type: 'Panelista',
+                "picture": "zaidamuxi.jpg",
                 org: 'ETSAB-UPC',
                 instagram: 'zaidamux',
                 twitter: 'zaidamuxim',
@@ -287,6 +303,7 @@ export default [
               {
                 name: 'Víctor Franco López',
                 type: 'Moderador',
+                "picture": "victorfranco.jpg",
                 org: 'Colectiva Habitaria',
                 instagram: 'victorfrancolopez',
                 twitter: '_victor_franco',
@@ -313,6 +330,7 @@ export default [
               {
                 name: 'Adriana Ciocoletto',
                 type: 'Conferencista',
+                "picture": "adrianaciocoletto.jpg",
                 org: 'Col·lectiu Punt 6',
                 instagram: 'collectiupunt6',
                 twitter: 'CollectiuPunt6',
@@ -322,6 +340,7 @@ export default [
               {
                 name: 'Cecilia Ciancio',
                 type: 'Moderadora',
+               "picture": "ceciliacianco.jpg",
                 org: 'Urbanismo Vivo',
                 instagram: 'ceciciancio',
                 twitter: 'ceci_ciancio',
@@ -331,6 +350,7 @@ export default [
               {
                 name: 'Carolina Huffmann',
                 type: 'Moderadora',
+                "picture": "carolinahuffman.jpg",
                 org: 'Urbanismo Vivo',
                 instagram: 'carohuffmann',
                 twitter: 'CaroHuffmann',
@@ -519,6 +539,7 @@ export default [
               {
                 name: 'Eduardo Resse',
                 type: 'Panelista',
+                "picture": "eduardoreese.jpg",
                 org: 'CELS',
                 instagram: null,
                 twitter: null,
@@ -528,6 +549,7 @@ export default [
               {
                 name: 'Martin Motta',
                 type: 'Panelista',
+                "picture": "martinmotta.jpg",
                 org: 'IVC',
                 instagram: null,
                 twitter: null,
@@ -537,6 +559,7 @@ export default [
               {
                 name: 'Paola Siclari',
                 type: 'Panelista',
+                "picture": "paolasiclari.jpg",
                 org: null,
                 instagram: null,
                 twitter: null,
@@ -545,6 +568,7 @@ export default [
               },
               {
                 name: 'Rosario Fassina',
+                "picture": "rosariofassina.jpg",
                 type: 'Moderadora',
                 org: 'Ciudades Comunes',
                 instagram: 'rofassina',
@@ -573,6 +597,7 @@ export default [
               {
                 name: 'Maria Buhigas',
                 type: 'Conferencista',
+                "picture": "mariabuhigas.jpg",
                 org: 'Regidora del Ayuntamiento de Barcelona',
                 instagram: null,
                 twitter: 'mariabuhigas',
@@ -582,6 +607,7 @@ export default [
               {
                 name: 'Agustin Frizzera',
                 type: 'Moderador',
+                "picture": "agustinfrizzera.jpg",
                 org: '',
                 instagram: 'agustinfrizzera',
                 twitter: 'agustinfrizzera',
@@ -633,6 +659,7 @@ export default [
               {
                 name: 'Clara Muzzio',
                 type: 'Panelista',
+                "picture": "claramuzzio.jpg",
                 org: 'Ministra de Espacio Público e Higiene Urbana- GCBA',
                 instagram: 'clara.muzzio',
                 twitter: 'claramuzzio',
@@ -642,6 +669,7 @@ export default [
               {
                 name: 'Marcela Mondino',
                 type: 'Panelista',
+                "picture": "marcelamondino.jpg",
                 org: 'Responsable América Latina Programa Ciudades Sustentables, Fundación Avina',
                 instagram: 'fundacionavina',
                 twitter: 'fundacionAVINA',
@@ -651,6 +679,7 @@ export default [
               {
                 name: 'Tamara Egger',
                 type: 'Panelista',
+                "picture": "tamaraegger.jpg",
                 org: 'BID Cities Lab',
                 instagram: 'bid_ciudades',
                 twitter: 'BID_Ciudades',
@@ -660,6 +689,7 @@ export default [
               {
                 name: 'José Chong',
                 type: 'Panelista',
+                "picture": "josechong.jpg",
                 org: 'ONUHabitat',
                 instagram: 'onuhabitatlc',
                 twitter: 'onuhabitat',
@@ -669,6 +699,7 @@ export default [
               {
                 name: 'Agustin Frizzera',
                 type: 'Moderador',
+                "picture": "agustinfrizzera.jpg",
                 org: 'Ciudades Comunes',
                 instagram: 'agustinfrizzera',
                 twitter: 'agustinfrizzera',
@@ -696,6 +727,7 @@ export default [
               {
                 name: 'Guillermo Peñalosa',
                 type: 'Conferencista',
+                "picture": "guillermopenalosa.jpg",
                 org: '8 80 cities',
                 instagram: 'penalosagmo',
                 twitter: null,
@@ -705,6 +737,7 @@ export default [
               {
                 name: 'Domenico Di Siena',
                 type: 'Moderador',
+                "picture": "domenicodisiena.jpg",
                 org: '',
                 instagram: 'urbanohumano',
                 twitter: 'urbanohumano',
@@ -731,6 +764,7 @@ export default [
               {
                 name: 'Uriel Fogué Herreros',
                 type: 'Conferencista',
+                "picture": "urielfogue.jpg",
                 org: 'elii [oficina de arquitectura] / GCFP (Gabinete de Crisis de Ficciones Políticas)',
                 instagram: 'elii_architecture',
                 twitter: 'elii_info',
@@ -740,6 +774,7 @@ export default [
               {
                 name: 'Víctor Franco López',
                 type: 'Moderador',
+               "picture": "victorfranco.jpg",
                 org: 'Colectiva Habitaria',
                 instagram: 'victorfrancolopez',
                 twitter: '_victor_franco',
@@ -766,6 +801,7 @@ export default [
               {
                 name: 'Ernesto L. Figueroa',
                 type: 'Conferencista',
+                "picture": "ernestolfigueroa.jpg",
                 org: 'NQN-Lab',
                 instagram: 'ernestol.figueroa',
                 twitter: 'negrofigueroa13',
@@ -774,6 +810,7 @@ export default [
               },
               {
                 name: 'Domenico Di Siena',
+                "picture": "domenicodisiena.jpg",
                 type: 'Moderador',
                 org: 'CivicWise',
                 instagram: 'urbanohumano',
@@ -802,6 +839,7 @@ export default [
               {
                 name: 'Eduard Muller',
                 type: 'Panelista',
+               "picture": "eduardmuller.jpg",
                 org: 'Rector de la Universidad para la Cooperación Internacional',
                 instagram: 'EduardMuller',
                 twitter: 'EduardMullerC',
@@ -811,6 +849,7 @@ export default [
               {
                 name: 'Christopher Anderson',
                 type: 'Panelista',
+                "picture": "christopheranderson.jpg",
                 org: 'IPBES',
                 instagram: 'dr.c.b.anderson',
                 twitter: null,
@@ -828,6 +867,7 @@ export default [
               },
               {
                 name: 'Marina Aizen',
+                "picture": "marinaaizen.jpg",
                 type: 'Moderadora',
                 org: 'Periodistas por el Planeta',
                 instagram: 'marinaaizen1',
@@ -853,6 +893,7 @@ export default [
               {
                 name: 'Mariana Alegre',
                 type: 'Panelista',
+                "picture": "marianaalegreescorza.jpg",
                 org: 'Ocupa tu Calle',
                 instagram: 'maralegre',
                 twitter: 'maralegre',
@@ -862,6 +903,7 @@ export default [
               {
                 name: 'Antonella Milano',
                 type: 'Panelista',
+                "picture": "antonellamilano.jpg",
                 org: 'Ecosistema Urbano',
                 instagram: 'ecosistemaurbano',
                 twitter: 'ecosistema',
@@ -871,6 +913,7 @@ export default [
               {
                 name: 'Gustavo Dieguez',
                 type: 'Panelista',
+                "picture": "gustavodieguez.jpg",
                 org: 'A77',
                 instagram: 'crisanaz',
                 twitter: 'crisanaz',
@@ -880,6 +923,7 @@ export default [
               {
                 name: 'Alejandro Echeverri',
                 type: 'Panelista',
+                "picture": "alejandroecheverri.jpg",
                 org: 'Urbam',
                 instagram: null,
                 twitter: 'cachoecheverri',
@@ -889,6 +933,7 @@ export default [
               {
                 name: 'María Tomé',
                 type: 'Moderadora',
+               "picture": "mariatome.jpg",
                 org: 'Oficina de Innovación Cívica',
                 instagram: '_mariatome',
                 twitter: '_MariaTome',
@@ -898,6 +943,7 @@ export default [
               {
                 name: 'Analía Hanono',
                 type: 'Moderadora',
+                "picture": "analiahanono.jpg",
                 org: 'Urbanismo Vivo',
                 instagram: 'analiahanono',
                 twitter: null,
@@ -1125,6 +1171,7 @@ export default [
               {
                 name: 'Fabio Quetglas',
                 type: 'Panelista',
+               "picture": "fabioquetglas.jpg",
                 org: 'Diputado Nacional Argentino',
                 instagram: 'fabioquetglas',
                 twitter: 'fabiojquetglas',
@@ -1134,6 +1181,7 @@ export default [
               {
                 name: 'Donka Atanassova',
                 type: 'Panelista',
+                "picture": "donkaatanassova.jpg",
                 org: 'Alcaldía de Bogotá',
                 instagram: 'donka_at',
                 twitter: 'DonkaAt',
@@ -1143,6 +1191,7 @@ export default [
               {
                 name: 'Lucía Abelenda',
                 type: 'Panelista',
+                "picture": "luciaabelenda.jpg",
                 org: 'AVINA',
                 instagram: 'comluac',
                 twitter: 'comluac',
@@ -1152,6 +1201,7 @@ export default [
               {
                 name: 'Agustin Frizzera',
                 type: 'Panelista',
+               "picture": "agustinfrizzera.jpg",
                 org: 'Democracia en Red',
                 instagram: 'agustinfrizzera',
                 twitter: 'agustinfrizzera',
@@ -1178,6 +1228,7 @@ export default [
               {
                 name: 'Margarita Gutman',
                 type: 'Conferencista',
+                "picture": "margaritagutman.jpg",
                 org: '',
                 instagram: null,
                 twitter: null,
@@ -1187,6 +1238,7 @@ export default [
               {
                 name: 'Pablo Vitale',
                 type: 'Moderador',
+                "picture": "pablovitale.jpg",
                 org: 'ACIJ',
                 instagram: null,
                 twitter: 'pablovitale_',

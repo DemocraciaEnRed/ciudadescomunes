@@ -4,8 +4,8 @@ import Home from '../views/Home.vue'
 // import NewHome from '../views/NewHome.vue'
 // import DentroFuera from '../views/DentroFuera.vue'
 import Nosotros from '../views/Nosotros.vue'
-import Agenda from '../views/Agenda.vue'
-import Exponen from '../views/Exponen.vue'
+import Agenda from '../views/Agenda2020.vue'
+// import Exponen from '../views/Exponen.vue'
 // import Talleres from '../views/Talleres.vue'
 import Congreso2020 from '../views/congreso/2020.vue'
 import Incubadora from '../views/incubadora/Acerca.vue'
@@ -30,15 +30,15 @@ const routes = [
     component: Nosotros
   },
   {
-    path: '/agenda',
-    name: 'Agenda',
+    path: '/agenda2020',
+    name: 'Agenda2020',
     component: Agenda
   },
-  {
-    path: '/exponen',
-    name: 'Exponen',
-    component: Exponen
-  },
+  // {
+  //   path: '/exponen',
+  //   name: 'Exponen',
+  //   component: Exponen
+  // },
   // {
   //   path: '/talleres',
   //   name: 'Talleres',
