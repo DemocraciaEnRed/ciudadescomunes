@@ -1,12 +1,12 @@
 <template>
   <div class="congreso2020">
-    <Header />
-    <Videos />
-    <Contents />
+    <!-- <Header /> -->
+    <!-- <Videos /> -->
+    <!-- <Contents /> -->
     <!-- <Context /> -->
-    <img src="@/assets/img/congreso2020/bannertwo.png" class="image"/>
-    <DentroFueraContent />
-    <Support />
+    <!-- <img src="@/assets/img/congreso2020/bannertwo.png" class="image"/> -->
+    <!-- <DentroFueraContent />
+    <Support /> -->
   </div>
 </template>
 

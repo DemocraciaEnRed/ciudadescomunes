@@ -7,9 +7,9 @@ import Nosotros from '../views/Nosotros.vue'
 import Agenda from '../views/Agenda.vue'
 import Exponen from '../views/Exponen.vue'
 // import Talleres from '../views/Talleres.vue'
-import Incubadora from '../views/Incubadora.vue'
-import Congreso2020 from '../views/Congreso2020.vue'
-import Incubadora2020 from '../views/Incubadora2020.vue'
+import Congreso2020 from '../views/congreso/2020.vue'
+import Incubadora from '../views/incubadora/Acerca.vue'
+import Incubadora2020 from '../views/incubadora/2020.vue'
 
 Vue.use(VueRouter)
 
@@ -55,7 +55,7 @@ const routes = [
     component: Incubadora2020,
   },
   {
-    path: '/congreso2020',
+    path: '/congreso/2020',
     name: 'Congreso2020',
     component: Congreso2020
   }

@@ -17,7 +17,6 @@ export default [
         starts: new Date(Date.UTC(2020,3,24,12,15,0)),
         ends: new Date(Date.UTC(2020,3,24,13,0,0)),
         type: 'Conferencia Keynote',
-        videoId: 'g4D5FPxWqwc',
         icons: [],
         hashtags:[
           '#ciudadescomunes'
@@ -25,6 +24,7 @@ export default [
         schedule: [
           {
             title: 'Conferencia inaugural Saskia Sassen',
+            videoId: 'g4D5FPxWqwc',
             with:[
               {
                 name: 'Saskia Sassen',
@@ -344,13 +344,13 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,24,18,0,0)),
         ends: new Date(Date.UTC(2020,3,24,19,30,0)),
-        videoId: 'iTNiccZiF4E',
-        type: 'Taller',
-        icons: ['p'],
+        type: 'Dos talleres en simultáneo',
+        icons: ['p','d'],
         hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'Exploraciones para escenarios posdomésticos',
+            videoId: 'iTNiccZiF4E',
             with:[
               {
                 name: 'Víctor Franco López',
@@ -392,19 +392,10 @@ export default [
              hashtags:[
              '#postdomesticidades',
             ],
-          }
-        ]
-      },
-      {
-        starts: new Date(Date.UTC(2020,3,24,18,0,0)),
-        ends: new Date(Date.UTC(2020,3,24,19,30,0)),
-        type: 'Taller',
-        videoId: 'mPBF_IgT5Fs',
-        icons: ['d'],
-        hashtags:['#ciudadescomunes'],
-        schedule: [
+          },
           {
             title: 'El lugar como sistema vivo',
+            videoId: 'mPBF_IgT5Fs',
             with:[
               {
                 name: 'Rodrigo Castro Volpe',
@@ -434,13 +425,13 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,24,19,30,0)),
         ends: new Date(Date.UTC(2020,3,24,21,0,0)),
-        type: 'Taller',
-        videoId: 'OKp6x7_2w8k',
+        type: 'Dos talleres en simultaneo',
         icons: ['g'],
         hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'Herramientas digitales para gobierno abierto',
+            videoId: 'OKp6x7_2w8k',
             with:[
               {
                 name: 'Florencia Caffarone',
@@ -464,19 +455,10 @@ export default [
             hashtags:[
               '#gobiernoabierto'
             ],
-          }
-        ]
-      },
-      {
-        starts: new Date(Date.UTC(2020,3,24,19,30,0)),
-        ends: new Date(Date.UTC(2020,3,24,21,0,0)),
-        type: 'Taller',
-        videoId: 'AFOM45jVt0o',
-        icons: ['g'],
-        hashtags:['#ciudadescomunes'],
-        schedule: [
+          },
           {
             title: 'Fairbnb.coop: Cómo activar la economía circular en tiempos de corona virus',
+            videoId: 'AFOM45jVt0o',
             with:[
               {
                 name: 'Domenico Di Siena',
@@ -842,13 +824,13 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,25,18,0,0)),
         ends: new Date(Date.UTC(2020,3,25,19,30,0)),
-        videoId: '_MhdE4L39f4',
-        type: 'Panel',
-        icons: ['h'],
+        videoId: 'sscgncL3074',
+        type: 'Panel y Tres talleres en simultaneo',
+        icons: ['h','c'],
         hashtags:['#ciudadescomunes'],
         schedule: [
           {
-            title: 'Resignificar los espacios de encuentro',
+            title: 'Panel: Resignificar los espacios de encuentro',
             with: [
               {
                 name: 'Mariana Alegre',
@@ -908,17 +890,7 @@ export default [
             hashtags:[
               '#ciudadinclusiva',
             ],
-          }
-        ]
-      },
-      {
-        starts: new Date(Date.UTC(2020,3,25,18,0,0)),
-        ends: new Date(Date.UTC(2020,3,25,19,30,0)),
-        videoId: 'EvLAi8h2wpI',
-        type: 'Taller',
-        icons: ['c'],
-        hashtags:['#ciudadescomunes'],
-        schedule: [
+          },
           {
             title: 'Empoderamiento comunitario como herramienta para el cambio en barrios populares',
             with: [
@@ -954,49 +926,92 @@ export default [
               '#habitatyjusticiasocial',
             ],
           },
-        ]
-      },
-      {
-        starts: new Date(Date.UTC(2020,3,25,18,0,0)),
-        ends: new Date(Date.UTC(2020,3,25,19,30,0)),
-        videoId: 'ecvkLoTWMF0',
-        type: 'Taller',
-        icons: ['h','c'],
-        hashtags:['#ciudadescomunes'],
-        schedule: [
           {
             title: 'Red(d)Red(s)',
             with: [
               {
-                name: 'Beto Infante',
-                type: 'Tallerista',
-                org: 'Tejeredes',
-                instagram: 'tejeredes',
-                twitter: 'tejeRedes',
-                facebook: null,
-                mod: false 
-              },
-              {
-                name: 'Guillermo Bernal',
-                type: 'Tallerista',
-                org: 'Placemaking X',
-                instagram: 'placemakingx',
-                twitter: 'PlacemakingX',
-                facebook: null,
-                mod: false 
-              },
-              {
-                name: 'Cecilia Ciancio',
-                type: 'Tallerista',
-                org: 'Urbanismo Vivo',
-                instagram: 'urbanismo_vivo',
-                twitter: 'UrbanismoVivo',
-                facebook: 'urbanismovivo.buenosaires',
-                mod: false 
-              },
+                  name: 'Beto Infante',
+                  type: 'Tallerista',
+                  org: 'Tejeredes',
+                  instagram: 'tejeredes',
+                  twitter: 'tejeRedes',
+                  facebook: null,
+                  mod: false 
+                },
+                {
+                  name: 'Guillermo Bernal',
+                  type: 'Tallerista',
+                  org: 'Placemaking X',
+                  instagram: 'placemakingx',
+                  twitter: 'PlacemakingX',
+                  facebook: null,
+                  mod: false 
+                },
+                {
+                  name: 'Cecilia Ciancio',
+                  type: 'Tallerista',
+                  org: 'Urbanismo Vivo',
+                  instagram: 'urbanismo_vivo',
+                  twitter: 'UrbanismoVivo',
+                  facebook: 'urbanismovivo.buenosaires',
+                  mod: false 
+                },
             ],
             hashtags:[
               '#placemakinglat'
+            ],
+          },
+          {
+            title: 'Reimaginando Ciudades Comunes. Taller para niñes.',
+            with: [
+              {
+                  name: 'Carolina Huffmann',
+                  type: 'Tallerista',
+                  org: 'Urbanismo Vivo',
+                  instagram: 'urbanismo_vivo',
+                  twitter: 'UrbanismoVivo',
+                  facebook: 'urbanismovivo.buenosaires',
+                  mod: false 
+                },
+                {
+                  name: 'Milagros Hurtig',
+                  type: 'Tallerista',
+                  org: 'Urbanismo Vivo',
+                  instagram: 'urbanismo_vivo',
+                  twitter: 'UrbanismoVivo',
+                  facebook: 'urbanismovivo.buenosaires',
+                  mod: false 
+                },
+                {
+                  name: 'Marina Comojo',
+                  type: 'Tallerista',
+                  org: 'Urban Femina',
+                  instagram: 'marucomojo',
+                  twitter: null,
+                  facebook: null,
+                  mod: false 
+                },
+                {
+                  name: 'Belen Iturralde',
+                  type: 'Tallerista',
+                  org: 'Urban Femina',
+                  instagram: 'belitu',
+                  twitter: null,
+                  facebook: null,
+                  mod: false 
+                },
+                {
+                  name: 'Veronica Mansilla',
+                  type: 'Tallerista',
+                  org: '1319',
+                  instagram: 'veritomansilla',
+                  twitter: null,
+                  facebook: null,
+                  mod: false 
+                },
+            ],
+            hashtags:[
+              '#ciudadinclusiva'
             ],
           },
         ]
@@ -1004,104 +1019,93 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,25,19,30,0)),
         ends: new Date(Date.UTC(2020,3,25,21,0,0)),
-        videoId: 'lq6VMWvIyfU',
-        type: 'Taller',
-        icons: ['l'],
+        type: 'Dos talleres en simultaneo',
+        icons: ['l','c'],
         hashtags:['#ciudadescomunes'],
         schedule: [
           {
             title: 'CO.VIDA: Metodologías Digitales para la Cocreación de nuestra vida social urbana',
             with: [
-              {
-                name: 'Domenico Di Siena',
-                type: 'Tallerista',
-                org: 'CivicWise',
-                instagram: 'urbanohumano',
-                twitter: 'urbanohumano',
-                facebook: 'DiSienaDomenico',
-                mod: false 
-              },
-              {
-                name: 'Carolina Carrasco',
-                type: 'Tallerista',
-                org: 'Espacio Lúdico ',
-                instagram: 'espacioludico',
-                twitter: 'espacioludico',
-                facebook: 'ongespacioludico',
-                mod: false 
-              },
-              {
-                name: 'Jose Miguel Lopez',
-                type: 'Tallerista',
-                org: 'Espacio Lúdico ',
-                instagram: 'espacioludico',
-                twitter: 'espacioludico',
-                facebook: 'ongespacioludico',
-                mod: false 
-              },
+               {
+                  name: 'Domenico Di Siena',
+                  type: 'Tallerista',
+                  org: 'CivicWise',
+                  instagram: 'urbanohumano',
+                  twitter: 'urbanohumano',
+                  facebook: 'DiSienaDomenico',
+                  mod: false 
+                },
+                 {
+                  name: 'Carolina Carrasco',
+                  type: 'Tallerista',
+                  org: 'Espacio Lúdico ',
+                  instagram: 'espacioludico',
+                  twitter: 'espacioludico',
+                  facebook: 'ongespacioludico',
+                  mod: false 
+                },
+                 {
+                  name: 'Jose Miguel Lopez',
+                  type: 'Tallerista',
+                  org: 'Espacio Lúdico ',
+                  instagram: 'espacioludico',
+                  twitter: 'espacioludico',
+                  facebook: 'ongespacioludico',
+                  mod: false 
+                },
             ],
             hashtags:[
               '#laboratorioscívicos'
             ],
-          }
-        ]
-      },
-      {
-        starts: new Date(Date.UTC(2020,3,25,19,30,0)),
-        ends: new Date(Date.UTC(2020,3,25,21,0,0)),
-        videoId: 'FcNCuYrKaOg',
-        type: 'Taller',
-        icons: ['c'],
-        hashtags:['#ciudadescomunes'],
-        schedule: [
+          },
           {
             title: 'Rebeldía Urbana',
             with: [
-              {
-                name: 'Analía Hanono',
-                type: 'Tallerista',
-                org: 'Urbanismo Vivo',
-                instagram: 'urbanismo_vivo',
-                twitter: 'UrbanismoVivo',
-                facebook: 'urbanismovivo.buenosaires',
-                mod: false 
-              },
-              {
-                name: 'Matías Lastra',
-                type: 'Tallerista',
-                org: 'Urbanismo Vivo',
-                instagram: 'urbanismo_vivo',
-                twitter: 'UrbanismoVivo',
-                facebook: 'urbanismovivo.buenosaires',
-                mod: false 
-              },
-              {
-                name: 'Leonardo Brawl Márquez',
-                type: 'Tallerista',
-                org: 'Translab.urb',
-                instagram: 'translab.urb',
-                twitter: 'TransLabUrb',
-                facebook: 'TransLAB.URB',
-                mod: false 
-              },
-              {
-                name: 'Fausto Bugatti ',
-                type: 'Tallerista',
-                org: 'Translab.urb',
-                instagram: 'translab.urb',
-                twitter: 'TransLabUrb',
-                facebook: 'TransLAB.URB',
-                mod: false 
-              },
-              {
-                name: 'Mario Galvão Prati',
-                type: 'Tallerista',
-                org: 'Translab.urb',
-                instagram: 'translab.urb',
-                twitter: 'TransLabUrb',
-                facebook: 'TransLAB.URB',
-                mod: false 
-              },
+               {
+                  name: 'Analía Hanono',
+                  type: 'Tallerista',
+                  org: 'Urbanismo Vivo',
+                  instagram: 'urbanismo_vivo',
+                  twitter: 'UrbanismoVivo',
+                  facebook: 'urbanismovivo.buenosaires',
+                  mod: false 
+                },
+                 {
+                  name: 'Matías Lastra',
+                  type: 'Tallerista',
+                  org: 'Urbanismo Vivo',
+                  instagram: 'urbanismo_vivo',
+                  twitter: 'UrbanismoVivo',
+                  facebook: 'urbanismovivo.buenosaires',
+                  mod: false 
+                },
+                 {
+                  name: 'Leonardo Brawl Márquez',
+                  type: 'Tallerista',
+                  org: 'Translab.urb',
+                  instagram: 'translab.urb',
+                  twitter: 'TransLabUrb',
+                  facebook: 'TransLAB.URB',
+                  mod: false 
+                },
+                 {
+                  name: 'Fausto Bugatti ',
+                  type: 'Tallerista',
+                  org: 'Translab.urb',
+                  instagram: 'translab.urb',
+                  twitter: 'TransLabUrb',
+                  facebook: 'TransLAB.URB',
+                  mod: false 
+                },
+                 {
+                  name: 'Mario Galvão Prati',
+                  type: 'Tallerista',
+                  org: 'Translab.urb',
+                  instagram: 'translab.urb',
+                  twitter: 'TransLabUrb',
+                  facebook: 'TransLAB.URB',
+                  mod: false 
+                },
             ],
             hashtags:[
               '#ciudadinclusiva'
@@ -1112,7 +1116,6 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,25,21,0,0)),
         ends: new Date(Date.UTC(2020,3,25,22,0,0)),
-        videoId: '5beGeuQElZw',
         type: 'Panel',
         icons: ['g'],
         hashtags:[
@@ -1123,41 +1126,41 @@ export default [
             title: '¿Cambia la forma de gobernar?',
             with: [
               {
-                name: 'Fabio Quetglas',
-                type: 'Panelista',
-                org: 'Diputado Nacional Argentino',
-                instagram: 'fabioquetglas',
-                twitter: 'fabiojquetglas',
-                facebook: 'DiputadoFabioQuetglas',
-                mod: false 
-              },
-              {
-                name: 'Donka Atanassova',
-                type: 'Panelista',
-                org: 'Alcaldía de Bogotá',
-                instagram: 'donka_at',
-                twitter: 'DonkaAt',
-                facebook: 'DonkaAtanassova',
-                mod: false 
-              },
-              {
-                name: 'Lucía Abelenda',
-                type: 'Panelista',
-                org: 'AVINA',
-                instagram: 'comluac',
-                twitter: 'comluac',
-                facebook: null,
-                mod: false 
-              },
-              {
-                name: 'Agustin Frizzera',
-                type: 'Panelista',
-                org: 'Democracia en Red',
-                instagram: 'agustinfrizzera',
-                twitter: 'agustinfrizzera',
-                facebook: 'agustin.frizzera',
-                mod: true 
-              },
+                  name: 'Fabio Quetglas',
+                  type: 'Panelista',
+                  org: 'Diputado Nacional Argentino',
+                  instagram: 'fabioquetglas',
+                  twitter: 'fabiojquetglas',
+                  facebook: 'DiputadoFabioQuetglas',
+                  mod: false 
+                },
+                {
+                  name: 'Donka Atanassova',
+                  type: 'Panelista',
+                  org: 'Alcaldía de Bogotá',
+                  instagram: 'donka_at',
+                  twitter: 'DonkaAt',
+                  facebook: 'DonkaAtanassova',
+                  mod: false 
+                },
+                {
+                  name: 'Lucía Abelenda',
+                  type: 'Panelista',
+                  org: 'AVINA',
+                  instagram: 'comluac',
+                  twitter: 'comluac',
+                  facebook: null,
+                  mod: false 
+                },
+                {
+                  name: 'Agustin Frizzera',
+                  type: 'Panelista',
+                  org: 'Democracia en Red',
+                  instagram: 'agustinfrizzera',
+                  twitter: 'agustinfrizzera',
+                  facebook: 'agustin.frizzera',
+                  mod: true 
+                },
             ]
           }
         ]
@@ -1165,7 +1168,6 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,25,22,0,0)),
         ends: new Date(Date.UTC(2020,3,25,23,0,0)),
-        videoId: 'NVqIxroiA7w',
         type: 'Conferencia Keynote',
         icons: ['h'],
         hashtags:[
@@ -1176,23 +1178,23 @@ export default [
             title: 'Azotes globales, crisis, miedos y ciudad',
             with: [
               {
-                name: 'Margarita Gutman',
-                type: 'Conferencista',
-                org: '',
-                instagram: null,
-                twitter: null,
-                facebook: 'margarita.gutman.5',
-                mod: false 
-              },
-              {
-                name: 'Pablo Vitale',
-                type: 'Moderador',
-                org: 'ACIJ',
-                instagram: null,
-                twitter: 'pablovitale_',
-                facebook: null,
-                mod: true 
-              },
+                  name: 'Margarita Gutman',
+                  type: 'Conferencista',
+                  org: '',
+                  instagram: null,
+                  twitter: null,
+                  facebook: 'margarita.gutman.5',
+                  mod: false 
+                },
+                {
+                  name: 'Pablo Vitale',
+                  type: 'Moderador',
+                  org: 'ACIJ',
+                  instagram: null,
+                  twitter: 'pablovitale_',
+                  facebook: null,
+                  mod: true 
+                },
             ]
           }
         ]
@@ -1200,7 +1202,6 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,25,23,0,0)),
         ends: new Date(Date.UTC(2020,3,26,0,0,0)),
-        videoId: null,
         type: 'Espacio común',
         icons: [],
         hashtags:[
@@ -1211,7 +1212,6 @@ export default [
       {
         starts: new Date(Date.UTC(2020,3,26,0,0,0)),
         ends: new Date(Date.UTC(2020,3,26,1,0,0)),
-        videoId: null,
         type: 'Dentrofuera',
         icons: [],
         hashtags:[

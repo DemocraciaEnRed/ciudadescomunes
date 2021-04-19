@@ -20,7 +20,7 @@
    enable-background="new 0 0 1440 960.065"
    xml:space="preserve"
    sodipodi:docname="desktop.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
    id="metadata971"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -42,15 +42,15 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="3840"
-   inkscape:window-height="2042"
+   inkscape:window-width="1920"
+   inkscape:window-height="1052"
    id="namedview967"
    showgrid="false"
    inkscape:zoom="1.3435029"
-   inkscape:cx="650.52022"
-   inkscape:cy="508.72711"
+   inkscape:cx="784.12618"
+   inkscape:cy="511.7044"
    inkscape:window-x="0"
-   inkscape:window-y="27"
+   inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1"
    fit-margin-top="0"
@@ -453,7 +453,12 @@
 <g
    id="text1152"
    style="font-style:normal;font-weight:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:2.75px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-   aria-label="UN PROYECTO DE  COLABORACIÓN PARA LA CO-CONSTRUCCIÓN DE CIUDADES MÁS JUSTAS, EQUITATIVAS, SOLIDARIAS Y PARTICIPATIVAS"><path
+   aria-label="UN PROYECTO DE 
+COLABORACIÓN PARA LA
+CO-CONSTRUCCIÓN DE
+CIUDADES MÁS JUSTAS,
+EQUITATIVAS, SOLIDARIAS
+Y PARTICIPATIVAS"><path
      inkscape:connector-curvature="0"
      id="path5363"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.66666698px;line-height:1.5;font-family:Poppins;-inkscape-font-specification:'Poppins Medium';letter-spacing:2.75px"
@@ -1863,4 +1868,32 @@
    width="67.515999"
    y="314.28699"
    x="378.76801" />
-		</g></g></svg>
+		</g></g><rect
+   x="480"
+   y="160.065"
+   width="160"
+   height="160"
+   id="rect72-1"
+   style="fill:#f26522" /><g
+   transform="translate(480,-479.99997)"
+   id="g566-4"><circle
+     cx="80"
+     cy="673.42902"
+     r="33.137001"
+     id="circle558-6"
+     style="fill:#ffde17" /><circle
+     cx="126.863"
+     cy="720.29199"
+     r="33.137001"
+     id="circle560-9"
+     style="fill:#ffde17" /><circle
+     cx="33.137001"
+     cy="720.29199"
+     r="33.137001"
+     id="circle562-4"
+     style="fill:#ffde17" /><circle
+     cx="80"
+     cy="767.15503"
+     r="33.137001"
+     id="circle564-2"
+     style="fill:#ffde17" /></g></svg>

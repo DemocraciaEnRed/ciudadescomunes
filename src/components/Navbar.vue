@@ -13,9 +13,17 @@
             <!-- <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
                 Inicio
             </b-navbar-item> -->
-            <b-navbar-item tag="router-link" :to="{ name: 'Incubadora' }">
+            <!-- <b-navbar-item tag="router-link" :to="{ name: 'Incubadora' }">
                 Incubadora
-            </b-navbar-item>
+            </b-navbar-item> -->
+            <b-navbar-dropdown label="Incubadora">
+                <b-navbar-item tag="router-link" :to="{ name: 'Incubadora' }">
+                    Acerca de
+                </b-navbar-item>
+                <b-navbar-item tag="router-link" :to="{ name: 'Incubadora2020' }">
+                    Edición 2020
+                </b-navbar-item>
+            </b-navbar-dropdown>
             <b-navbar-item tag="router-link" :to="{ name: 'Congreso2020' }">
                 Congreso 2020
             </b-navbar-item>

@@ -2,6 +2,26 @@
   <div class="hero is-white is-medium">
     <div class="hero-body">
       <div class="container">
+        <div class="columns is-centered is-vcentered">
+						<div class="column is-4">
+							(Portada)
+						</div>
+						<div class="column is-6 has-text-centered">
+								<h1 class="title is-1">Descargá nuestra publicación</h1>
+								<div class="content">
+
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos? Quibusdam, laborum eos. Assumenda tempore rem quas maxime magnam dolores, rerum minima sit. Iste odit quo nobis velit sint quod.</p>
+								</div>
+								<div class="buttons is-centered">
+									<a href="#" class="button is-primary animated pulse infinite is-medium"><i class="fas fa-download fa-fw"></i>&nbsp;&nbsp;DESCARGAR</a>
+								</div>
+						</div>
+					</div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
     <div class="columns is-multiline is-mobile">
       <div class="column is-6-touch is-4-desktop has-text-centered">
         <ConferenciasSVG class="the-icon"/>

@@ -16,6 +16,13 @@ $primary: #FFDE17;
 $primary-invert: $black;
 $danger: rgb(223, 18, 18);
 
+$rosa: #f7adcb;
+$rosa-invert: findColorInvert($rosa);
+$verde: #8cc63f;
+$verde-invert: findColorInvert($verde);
+$azul: #29abe2;
+$azul-invert: findColorInvert($azul);
+
 $colors: ("white": ($white, $black),
 "black": ($black, $white),
 "light": ($light, $light-invert),
@@ -25,13 +32,18 @@ $colors: ("white": ($white, $black),
 "success": ($success, $success-invert),
 "warning": ($warning, $warning-invert),
 "link": ($link, $link-invert),
-"danger": ($danger, $danger-invert));
+"danger": ($danger, $danger-invert),
+"rosa": ($rosa, $rosa-invert),
+"verde": ($verde, $verde-invert),
+"azul": ($azul, $azul-invert)
+);
 
 
 // Navbar
 
 $navbar-item-color: $black;
-
+$navbar-dropdown-background-color: $primary;
+$navbar-dropdown-border-top: $dark;
 // Columns
 
 // $column-gap: 2rem;
