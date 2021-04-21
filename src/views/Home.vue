@@ -3,8 +3,8 @@
     <!-- <p class="is-inline is-600 is-size-5" style="position: fixed; bottom: 0; left: 0;background-color: blue; color: white; padding: 5px 15px;">Hora: {{this.now}}</p> -->
     <intro v-if="!showtime" />
     <sobre-ciudades-comunes />
-    <que-hacemos />
-    <objetivos />
+    <!-- <que-hacemos /> -->
+    <!-- <objetivos /> -->
     <about />
     <topic-mosaic/>
     <!-- <numbers /> -->
@@ -26,8 +26,8 @@ import calendar from "@/data/incubadoraCalendar";
 import Intro from '@/components/home/Intro.vue'
 import Incubadora from '@/components/home/Incubadora.vue'
 import SobreCiudadesComunes from '@/components/home/SobreCiudadesComunes.vue'
-import QueHacemos from '@/components/home/QueHacemos.vue'
-import Objetivos from '@/components/home/Objetivos.vue'
+// import QueHacemos from '@/components/home/QueHacemos.vue'
+// import Objetivos from '@/components/home/Objetivos.vue'
 // import Contents from '@/components/home/Contents.vue'
 import About from '@/components/home/About.vue'
 import CienIdeas from '@/components/home/CienIdeas.vue'
@@ -54,8 +54,8 @@ export default {
     Intro,
     Incubadora,
     SobreCiudadesComunes,
-    QueHacemos,
-    Objetivos,
+    // QueHacemos,
+    // Objetivos,
     // Numbers,
     Videos,
     CienIdeas,
