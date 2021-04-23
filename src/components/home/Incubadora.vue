@@ -14,7 +14,7 @@
         <div class="columns is-centered is-variable is-1-mobile is-8-tablet">
           <div class="column has-text-white">
             <div class="content has-text-centered">
-              <p>
+              <!-- <p>
                 Buscamos ideas replicables, de alto impacto, bajo costo y rápida
                 ejecución para reactivar los espacios públicos pos–COVID–19 y
                 contribuir a un nuevo común urbano más sostenible, inclusivo y
@@ -25,7 +25,14 @@
                 incubación colaborativo liderado por nuestro equipo, en el que
                 adaptaremos la idea a un prototipo a ser implementado en
                 ciudades de Latinoamérica y el Caribe.
-              </p>
+              </p> -->
+
+              <p>Una incubadora es un ámbito diseñado para acelerar el crecimiento y asegurar el éxito de ideas y proyectos, a través de una variedad de recursos y herramientas. Está pensada para generar sinergia entre investigadores, profesionales, activistas y funcionarios de la administración pública.</p>
+
+              <p>Si te interesa impulsar un proceso de incubación de proyectos cívicos en tu localidad, contactanos.</p>
+
+              <p>Conocé la experiencia 2020 realizada desde Ciudades Comunes junto con el Laboratorio de Ciudades del BID y Placemaking Latinoamérica.</p>
+
             </div>
           </div>
         </div>

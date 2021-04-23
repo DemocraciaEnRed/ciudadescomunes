@@ -15,7 +15,7 @@
               <p class="is-size-5 has-text-centered is-500">Si te interesa impulsar un proceso de incubación de proyectos cívicos en tu localidad</p>
               <br>
               <div class="buttons is-centered">
-                <a href="https://google.com" class="button is-primary is-uppercase is-large animated pulse infinite slow">CONTACTE CON NOSOTRXS</a>
+                <a href="https://google.com" class="button is-primary is-uppercase is-large animated pulse infinite slow">CONTACTANOS</a>
               </div>
           </div>
         </div>

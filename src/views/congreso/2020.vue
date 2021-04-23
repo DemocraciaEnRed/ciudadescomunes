@@ -27,7 +27,7 @@
         </div>
     </div>
     <Exponen />
-    <Videos />
+    <!-- <Videos /> -->
     <DayOne :day="calendar[0]"/>
     <DayOne class="pt-0" :day="calendar[1]"/>
     <DentroFueraContent />
@@ -42,7 +42,7 @@ import DentroFueraContent from '@/components/congreso/2020/DentroFueraContent.vu
 import Support from '@/components/congreso/2020/Support.vue'
 import Contents from '@/components/congreso/2020/Contents.vue'
 import Exponen from '@/components/congreso/2020/Exponen.vue'
-import Videos from '@/components/congreso/2020/Videos.vue'
+// import Videos from '@/components/congreso/2020/Videos.vue'
 import DayOne from '@/components/congreso/2020/DayOne.vue'
 // import DayTwo from '@/components/congreso/2020/DayTwo.vue'
 import calendar from "@/data/calendar";
@@ -61,7 +61,7 @@ export default {
     Support,
     Contents,
     Exponen,
-    Videos,
+    // Videos,
     DayOne,
     // DayTwo
   }

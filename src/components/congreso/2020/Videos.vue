@@ -57,12 +57,6 @@
       </div>
     </div>
   </div>
-  <br>
-  <div class="buttons is-centered">
-    <router-link :to="{name:'Agenda2020'}" class="button is-primary is-medium is-uppercase animated pulse infinite">
-      Ver cronograma completo
-    </router-link>
-  </div>
         </div>
     </div>
 </div>

@@ -7,8 +7,8 @@
         <div class="columns is-vcentered">
           <div class="column">
             <div class="content">
-              <p>Una incubadora es un ámbito diseñado para acelerar el crecimiento y asegurar el éxito de ideas y proyectos, a través de una variedad de recursos y herramientas. Está pensada para generar sinergia entre investigadores, profesionales, activistas y funcionarios de la administración pública.</p>
-              <p>El éxito de un proyecto de intervención en el espacio público depende de su capacidad de articulación con la mayor cantidad y diversidad de personas posibles. Por este motivo, se plantean como un proceso iterativo de análisis, propuesta, diseño y gestión entre quienes tienen los conocimientos técnicos y las personas que van a vivir el espacio. La apuesta es por la generación de procesos abiertos y dinámicos capaces de ofrecer espacios de intercambio y participación activa por parte de toda la comunidad. </p>
+              <p>Una incubadora es un ámbito diseñado para acelerar el crecimiento y asegurar el éxito de ideas y proyectos. Está pensada para generar sinergia entre investigadores, profesionales, activistas y funcionarios de la administración pública.</p>
+              <p>El éxito de un proyecto de intervención en el espacio público depende de su capacidad de articulación con la mayor cantidad y diversidad de personas posibles. Por este motivo, la incubadora propone espacios de intercambio y participación activa por parte de toda la comunidad. </p>
             </div>
           </div>
           <div class="column is-6 has-text-centered">

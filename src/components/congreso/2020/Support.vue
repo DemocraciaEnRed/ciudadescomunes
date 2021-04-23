@@ -13,7 +13,7 @@
         </div>
         </div>
       <br>
-      <p class="has-text-centered">Ciudades Comunes es posible gracias al apoyo de</p>
+      <p class="has-text-centered">Ciudades Comunes fue posible gracias al apoyo de</p>
       <br>
       <div class="columns is-centered">
         <div class="column is-4">

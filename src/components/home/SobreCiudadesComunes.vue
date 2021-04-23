@@ -5,7 +5,7 @@
         <br />
         <div class="columns is-centered is-variable is-1-mobile is-8-tablet">
           <div class="column is-7">
-            <h1 class="subtitle is-1 is-size-2-touch has-text-centered is-300">¿que es <span class="is-700">ciudades comunes</span>?</h1>
+            <h1 class="subtitle is-1 is-size-2-touch has-text-centered is-300">¿qué es <span class="is-700">ciudades comunes</span>?</h1>
             <div class="content has-text-centered">
                 <p><b>Ciudades Comunes</b> es un proyecto de colaboración entre personas de diferentes organizaciones para repensar la co-construcción de la ciudad. </p>
                 <p>Tiene por objetivo hacer ciudades más equitativas, solidarias y participativas a través de la empatía, la escucha y la experimentación con herramientas fisico-digitales. </p>

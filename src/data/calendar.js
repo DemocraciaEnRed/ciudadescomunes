@@ -151,12 +151,14 @@ export default [
         videoId: 'rDo4HLtxJys',
         icons: ['g','p','l','c'],
         hashtags:[
-          '#ciudadescomunes'
+          '#gobiernoabierto',
+          '#posdomesticidades',
+          '#laboratorioscívicos'
         ],
         schedule: [
           {
-            title: 'Sumando',
-            with:[
+            title: 'Charlas relámpago',
+            with: [
               {
                 name: 'Sol González Sañudo',
                 type: 'Expositora Charla Relámpago',
@@ -167,14 +169,6 @@ export default [
                 facebook: 'Sumando_arg',
                 mod: false 
               },
-            ],
-            hashtags:[
-              '#gobiernoabierto'
-            ],
-          },
-          {
-            title: 'Microcomunidades',
-            with:[
               {
                 name: 'Luciano Intile',
                 type: 'Expositor Charla Relámpago',
@@ -185,14 +179,6 @@ export default [
                 facebook: 'IRarquitectura',
                 mod: false 
               },
-            ],
-            hashtags:[
-              '#posdomesticidades'
-            ],
-          },
-          {
-            title: 'Platohedro',
-            with:[
               {
                 name: 'Alexander Correa',
                 type: 'Expositor Charla Relámpago',
@@ -203,14 +189,6 @@ export default [
                 facebook: 'platohedro',
                 mod: false 
               },
-            ],
-            hashtags:[
-              '#laboratorioscívicos'
-            ],
-          },
-          {
-            title: 'Platos sin Fronteras',
-            with:[
               {
                 name: 'Paola Pollmeier',
                 type: 'Expositora Charla Relámpago',
@@ -221,14 +199,6 @@ export default [
                 facebook: 'PlatosSinFronteras.Colombia',
                 mod: false 
               },
-            ],
-            hashtags:[
-              '#laboratorioscívicos'
-            ],
-          },
-          {
-            title: 'Fundación Placemaking México',
-            with:[
               {
                 name: 'Luciana Renner',
                 type: 'Expositora Charla Relámpago',
@@ -239,12 +209,101 @@ export default [
                 facebook: null,
                 mod: false 
               },
-            ],
-            hashtags:[
-              '#gobiernoabierto'
-            ],
-          },
+            ]
+          }
         ],
+        // schedule: [
+        //   {
+        //     title: 'Sumando',
+        //     with:[
+        //       {
+        //         name: 'Sol González Sañudo',
+        //         type: 'Expositora Charla Relámpago',
+        //         "picture": "solgonzalezsanudo.jpg",
+        //         org: 'Sumando',
+        //         instagram: 'sumando_arg',
+        //         twitter: 'Sumando_arg',
+        //         facebook: 'Sumando_arg',
+        //         mod: false 
+        //       },
+        //     ],
+        //     hashtags:[
+        //       '#gobiernoabierto'
+        //     ],
+        //   },
+        //   {
+        //     title: 'Microcomunidades',
+        //     with:[
+        //       {
+        //         name: 'Luciano Intile',
+        //         type: 'Expositor Charla Relámpago',
+        //         "picture": "lucianointile.jpg",
+        //         org: 'iR arquitectura',
+        //         instagram: 'ir.arquitectura',
+        //         twitter: 'IRarquitectura',
+        //         facebook: 'IRarquitectura',
+        //         mod: false 
+        //       },
+        //     ],
+        //     hashtags:[
+        //       '#posdomesticidades'
+        //     ],
+        //   },
+        //   {
+        //     title: 'Platohedro',
+        //     with:[
+        //       {
+        //         name: 'Alexander Correa',
+        //         type: 'Expositor Charla Relámpago',
+        //         "picture": "alexandercorrea.jpg",
+        //         org: 'Platohedro',
+        //         instagram: 'platohedro',
+        //         twitter: 'platohedro',
+        //         facebook: 'platohedro',
+        //         mod: false 
+        //       },
+        //     ],
+        //     hashtags:[
+        //       '#laboratorioscívicos'
+        //     ],
+        //   },
+        //   {
+        //     title: 'Platos sin Fronteras',
+        //     with:[
+        //       {
+        //         name: 'Paola Pollmeier',
+        //         type: 'Expositora Charla Relámpago',
+        //         "picture": "paolapollmeier.jpg",
+        //         org: 'Sumando',
+        //         instagram: 'platossinfronteras',
+        //         twitter: 'paolapollmeier',
+        //         facebook: 'PlatosSinFronteras.Colombia',
+        //         mod: false 
+        //       },
+        //     ],
+        //     hashtags:[
+        //       '#laboratorioscívicos'
+        //     ],
+        //   },
+        //   {
+        //     title: 'Fundación Placemaking México',
+        //     with:[
+        //       {
+        //         name: 'Luciana Renner',
+        //         type: 'Expositora Charla Relámpago',
+        //         "picture": "lucianarenner.jpg",
+        //         org: 'Sumando',
+        //         instagram: 'placemakingmx',
+        //         twitter: null,
+        //         facebook: null,
+        //         mod: false 
+        //       },
+        //     ],
+        //     hashtags:[
+        //       '#gobiernoabierto'
+        //     ],
+        //   },
+        // ],
         moderators:[
           {
             name: 'Juan López Aranguren',

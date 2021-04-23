@@ -16,7 +16,7 @@
               <p>Compartimos las 100 ideas mejor puntuadas por la votación del jurado para Volver a la Calle, de toda América Latina y el Caribe. Este catálogo permite identificar las ideas según país, temática, tipo de intervención y contactar directamente a sus autores. Te invitamos a explorar el enorme potencial de estas propuestas para la creación colaborativa de espacios urbanos más inclusivos, resilientes y a escala humana.</p>
             </div>
             <div class="buttons is-centered" style="margin: 30px 0;">
-              <a href="https://volveralacalle.com/ideas" target="_blank" class="button is-white is-radiusless has-text-link is-600">Ver más</a>
+              <a href="https://volveralacalle.com/ideas" target="_blank" class="button is-white is-radiusless has-text-link is-600">100 ideas para volver a la calle</a>
               <a href="https://volveralacalle.com/ideaton" target="_blank" class="button is-white is-radiusless has-text-link is-600">Acerca de la convocatoria</a>
             </div>
             <div class="logos-bottom">

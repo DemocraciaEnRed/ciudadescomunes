@@ -28,7 +28,7 @@
         <div class="columns is-centered">
           <div class="column is-8 content">
             <p class=" is-size-6 has-text-centered is-300">
-              Desde el Laboratorio de Ciudades del BID, junto con el equipo de Ciudades Comunes y Placemaking Latinoamérica, se realizó una convocatoria a principios de julio de 2020 buscando ideas de la sociedad civil para reactivar los espacios públicos con distanciamiento físico y recuperar la confianza pública en la vida urbana. 
+              Desde Ciudades Comunes, junto con el Laboratorio de Ciudades del BID y Placemaking Latinoamérica, se realizó una convocatoria a principios de julio de 2020 buscando ideas de la sociedad civil para reactivar los espacios públicos con distanciamiento físico y recuperar la confianza pública en la vida urbana. 
             </p>
             <p class=" is-size-6 has-text-centered is-300">
               Las ideas ganadoras, además de recibir un premio monetario, fueron parte de un proceso de incubación colaborativo digital a cargo de Ciudades Comunes para adaptar la idea a un prototipo que se pueda implementar en la ciudad de los equipos ganadores. 

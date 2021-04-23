@@ -1,8 +1,7 @@
 <template>
   <section class="hero is-white is-medium">
     <div class="hero-body">
-      <h1 class="subtitle is-4 is-size-5-touch has-text-centered has-text-black">conocenos</h1>
-      <h1 class="title is-1 is-size-2-touch has-text-centered is-700">quienes somos</h1>
+      <h1 class="title is-1 is-size-2-touch has-text-centered is-700">quiénes somos</h1>
       <br />
       <div class="columns is-centered">
         <div class="column is-2">
