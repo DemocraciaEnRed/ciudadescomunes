@@ -2,7 +2,7 @@
   <div class="hero is-primary is-medium is-bold">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title is-1 is-size-2-touch is-300 has-text-centered">presentacion de<br><span class="is-700">los proyectos seleccionados</span></h1>
+        <h1 class="title is-1 is-size-2-touch is-300 has-text-centered">presentación de los<br><span class="is-700">proyectos seleccionados</span></h1>
         <br>
         <br>
         <br>
