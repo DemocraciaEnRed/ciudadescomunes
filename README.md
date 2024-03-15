@@ -1,5 +1,12 @@
 # ciudades-comunes
 
+Node version used:
+
+```sh
+$ node -v # v16.20.1
+$ npm -v # 8.19.4
+```
+
 ## Project setup
 ```
 npm install
