@@ -27,5 +27,23 @@ npm run build
 npm run lint
 ```
 
+## Deployment
+
+This repository deploys to GitHub Pages with GitHub Actions.
+
+- Workflow: `.github/workflows/deploy-pages.yml`
+- Trigger: every push to `master` (and manual run with `workflow_dispatch`)
+- Build command: `npm run build`
+- Publish artifact: `dist/` (includes `public/CNAME` for `ciudadescomunes.org`)
+
+### GitHub repository setting required
+
+In the repository settings, set **Pages > Build and deployment > Source** to **GitHub Actions**.
+
+### What happens with `gh-pages`
+
+The `gh-pages` branch is no longer used for live publishing once the Pages source is set to GitHub Actions.
+It can be kept temporarily as rollback/history while the new workflow is validated.
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
